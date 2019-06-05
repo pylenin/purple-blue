@@ -2,7 +2,7 @@
 title: "A Step-by-Step guide to Python Logging"
 description: "A beginner's guide to understanding the advantages and usage of Python Logging module"
 date: 2019-06-05T13:23:24+02:00
-draft: true
+draft: false
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -392,4 +392,4 @@ The **name** attribute returns the actual file name from which the message was l
 
 I hope you enjoyed this blog about the Python Logging module. It does need a learning curve to get used to the norms and functionalities. But once you understand the concept, this will be one of the most useful libraries that you know about.
 
-If you have any questions, concerns, criticisms or opinions - **Tweet to me @pylenin**
+If you have any questions, concerns, criticisms or opinions - **tweet to me @pylenin**
