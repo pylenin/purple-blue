@@ -77,17 +77,17 @@ pygmentscodefencesguesssyntax = true
         languagename = "English"
 
         [[languages.en.menu.main]]
-        name = "About"
-        weight = 1
-        url = "/about/"
-
-        [[languages.en.menu.main]]
         name = "Blogs"
-        weight = 2
+        weight = 1
         url = "/blogs/"
 
         [[languages.en.menu.main]]
         name = "Youtube"
-        weight = 3
+        weight = 2
         url = "https://www.youtube.com/pylenin/"
+
+        [[languages.en.menu.main]]
+        name = "Join my Newsletter"
+        weight = 3
+        url = "http://eepurl.com/dNrCHA"
 
