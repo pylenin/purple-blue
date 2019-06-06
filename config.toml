@@ -1,4 +1,4 @@
-baseurl = "https://pylenin.github.io/"
+baseurl = "/"
 title = "Pylenin"
 
 theme = "hugo-coder"
