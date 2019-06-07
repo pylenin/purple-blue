@@ -8,6 +8,22 @@ draft: false
 
 Python Logging is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging. However if blogs are your thing, here is a step-by-step guide to understanding the **python logging module** and why they should be preferred over **print**.
 
+##### Sections covered
+1. [Introduction to Python Logging](#introduction-to-python-logging)
+2. [Can we not achieve the same with print statements?](#can-we-not-achieve-the-same-with-print-statements)
+3. [Why is Printing not sufficient for Logging?](#why-is-printing-not-sufficient-for-logging)
+4. [Advantages of using Python Logging module](#advantages-of-using-python-logging-module)
+5. [Levels of Logging](#levels-of-logging)
+6. [A simple example of Logging](#a-simple-example-of-logging)
+7. [Formatting our logs to have more information](#formatting-our-logs-to-have-more-information)
+8. [Logging to a file](#logging-to-a-file)
+9. [Logging from multiple modules](#logging-from-multiple-modules)
+10. [Root Logger](#root-logger)
+11. [Configuring a Main Logger](#configuring-a-main-logger)
+12. [Some logging scenarios](#some-logging-scenarios)
+13. [Advantages of configuring a Main Logger](#advantages-of-configuring-a-main-logger)
+
+##### Introduction to Python Logging
 In general, Logging is an important activity in any non-trivial software development application. It informs you about the flow of events in your entire application with other useful metadata like the time at which an event occurred, the severity of the event, the line no. on which the event was logged, the function or the module in which the event triggered and so on. You can easily control the type of information you decide to include in our log files and also the way it shows up.
 
 ##### Can we not achieve the same with print statements?
@@ -282,7 +298,7 @@ With the `basicConfig()` method, the level name, the logger name and the message
 
 **Handler** objects are repsonsible for sending your logging message to the right destination. You can find a list of different types of available handlers [here](https://docs.python.org/3/howto/logging.html#useful-handlers). **Formatter** objects configure the structure and format of your log messages.
 
-##### Some scenarios 
+##### Some logging scenarios 
 1. **Logging messages to file using FileHandler()**
 
     ```python
