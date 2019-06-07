@@ -1,12 +1,12 @@
 ---
 title: "A Step-by-Step guide to Python Logging"
-description: "A beginner's guide to understanding the advantages and usage of Python Logging module"
+description: "A beginner guide to understanding the advantages and usage of Python Logging module"
 date: 2019-06-05T13:23:24+02:00
 draft: false
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Python Logging is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging.
+Python Logging is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging. However if blogs are your thing, here is a step-by-step guide to understanding the **python logging module** and why they should be preferred over **print**.
 
 In general, Logging is an important activity in any non-trivial software development application. It informs you about the flow of events in your entire application with other useful metadata like the time at which an event occurred, the severity of the event, the line no. on which the event was logged, the function or the module in which the event triggered and so on. You can easily control the type of information you decide to include in our log files and also the way it shows up.
 
