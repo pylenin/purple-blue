@@ -6,6 +6,8 @@ draft: false
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+![python-datetime-image](/img/datetimeblog.png)
+
 ##### Sections covered
 1. [Introduction](#introduction)
 2. [Getting current datetime](#getting-current-datetime)
