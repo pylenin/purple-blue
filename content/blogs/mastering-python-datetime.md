@@ -1,6 +1,6 @@
 ---
 title: "Mastering Python Datetime (With Examples)"
-description: "A simple guide to working with datetime objects and timezones in Python"
+description: "A simple guide to working with python datetime objects and timezones in Python"
 date: 2019-06-06T12:47:00+02:00
 draft: false
 ---
