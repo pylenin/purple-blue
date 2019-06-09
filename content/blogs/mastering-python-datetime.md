@@ -8,6 +8,8 @@ draft: false
 
 ![python-datetime-image](/img/datetimeblog.png)
 
+Python Datetime module is the second and third topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/B4X1gidJzTs) to check out my youtube videos on Mastering Python datetime.
+
 ##### Sections covered
 1. [Introduction](#introduction)
 2. [Getting current datetime](#getting-current-datetime)
