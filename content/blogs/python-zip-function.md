@@ -3,6 +3,7 @@ title: "Power of zip() in Python"
 description: "A simple guide to understanding the applications of zip() in python"
 date: 2019-06-07T10:52:43+02:00
 draft: false
+image: img/zipmeta.png
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
