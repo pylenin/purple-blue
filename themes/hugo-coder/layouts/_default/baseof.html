@@ -7,7 +7,10 @@
 
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta property="og:site_name" content="{{ .Site.Title }}"/>
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta name="og:image" content="{{ .Params.image }}" />
+    <meta name="twitter:image" content="{{ .Params.image }}" />
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/google_analytics.html" . }}
