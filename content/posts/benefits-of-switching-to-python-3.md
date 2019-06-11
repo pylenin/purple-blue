@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2019-06-11T20:29:28+02:00
 title = "Have you switched to Python 3? If not, Do it now"
 slug = "benefits-of-switching-to-python-3" 
