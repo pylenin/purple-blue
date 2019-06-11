@@ -82,7 +82,7 @@ disqusShortname = "https-www-pylenin-com"
         [[languages.en.menu.main]]
         name = "Blogs"
         weight = 1
-        url = "/posts/"
+        url = "/blogs/"
 
         [[languages.en.menu.main]]
         name = "Youtube"

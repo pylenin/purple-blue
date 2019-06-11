@@ -1,5 +1,4 @@
 ---
 title: Blogs
-aliases:
-    - /blogs/
+url: /blogs/
 ---
