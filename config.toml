@@ -72,6 +72,8 @@ disqusShortname = "https-www-pylenin-com"
     weight = 4
     url = "https://www.facebook.com/pylenin/"
 
+[permalinks]
+  posts = "/blogs/:title"
 
 [languages]
     [languages.en]
