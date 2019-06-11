@@ -4,7 +4,7 @@ description: "A beginner guide to understanding the advantages and usage of Pyth
 date: 2019-06-05T13:23:24+02:00
 draft: false
 image: /img/loggingmeta.png
-aliases: "[/posts/python-logging-guide/]"
+aliases: [/posts/python-logging-guide/]
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
