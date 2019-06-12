@@ -1,5 +1,6 @@
 ---
 title: "5 practical reasons to learn Python"
+slug: "/5-practical-reasons-to-learn-python/"
 description: "Here are 5 Practical reasons to learn the Python programming language. Understand the advantages and diasdvantages of learning python before you make a decision."
 date: 2019-06-09T20:32:39+02:00
 draft: true

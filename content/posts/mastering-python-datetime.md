@@ -4,6 +4,7 @@ description: "A simple guide to working with python datetime objects and timezon
 date: 2019-06-06T12:47:00+02:00
 draft: false
 image: /img/datetimemeta.png
+aliases: [/blogs/mastering-python-datetime-with-examples/]
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
