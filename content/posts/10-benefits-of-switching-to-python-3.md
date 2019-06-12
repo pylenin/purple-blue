@@ -95,153 +95,153 @@ In this blog, I am going to demonstrate the 10 most important differences (In my
     
     So no need to switch between `range` and `xrange`. Just use **range**.
 
-5. **Extended Iterable Unpacking**
+5.  **Extended Iterable Unpacking**
 
-   With Python 3, we can perform advanced levels of iterable unpacking.
+    With Python 3, we can perform advanced levels of iterable unpacking.
    
-   For e.g.
-   ```python3
-   x, *y, z = range(5)
-   
-   print(x)
-   print(y)
-   print(z)
-   ```
-   When we run the above code in a Python 3 interpreter, we would get results like this.
-   ```bash
-   0
-   [1, 2, 3]
-   4
-   ```
-   This operation is not possible in Python 2. If you try to execute this with Python 2, you would receive a **SyntaxError**
-   ```bash
-   File <input_name>, line 1
+    For e.g.
+    ```python3
     x, *y, z = range(5)
-       ^
-   SyntaxError: invalid syntax
-   ```
    
-6. **Unicode support**
+    print(x)
+    print(y)
+    print(z)
+    ```
+    When we run the above code in a Python 3 interpreter, we would get results like this.
+    ```bash
+    0
+    [1, 2, 3]
+    4
+    ```
+    This operation is not possible in Python 2. If you try to execute this with Python 2, you would receive a **SyntaxError**
+    ```bash
+    File <input_name>, line 1
+     x, *y, z = range(5)
+        ^
+    SyntaxError: invalid syntax
+    ```
+   
+6.  **Unicode support**
 
-   In Python 2, we had 2 text types - `str` and `unicode`. The `str` type was mostly limited to the **ASCII characters**. It also had one byte type called `bytearray`. 
+    In Python 2, we had 2 text types - `str` and `unicode`. The `str` type was mostly limited to the **ASCII characters**. It also had one byte type called `bytearray`. 
+    
+    In Python 3, we only have one text type, which is equivalent to `unicode` type in Python 2. We also have 2 byte types - `bytes` and `bytearray`. 
    
-   In Python 3, we only have one text type, which is equivalent to `unicode` type in Python 2. We also have 2 byte types - `bytes` and `bytearray`. 
+    In Python 2, you had to prefix a string with `u` in order to make it unicode. For example,
+    ```python2
+    print type('Pylenin')
+    print type(u'Pylenin')
+    ``` 
+    will produce the following results.
+    ```bash
+    <type 'str'>
+    <type 'unicode'>
+    ```
+    However in Python 3, since `str` is the only text type, it handles unicode by default.
    
-   In Python 2, you had to prefix a string with `u` in order to make it unicode. For example,
-   ```python2
-   print type('Pylenin')
-   print type(u'Pylenin')
-   ``` 
-   will produce the following results.
-   ```bash
-   <type 'str'>
-   <type 'unicode'>
-   ```
-   However in Python 3, since `str` is the only text type, it handles unicode by default.
+    In Python 2, you can easily concatenate a `str` type and `byte` type. However, its not possible in Python 3.
+    ```python 
    
-   In Python 2, you can easily concatenate a `str` type and `byte` type. However, its not possible in Python 3.
-   ```python 
+    x = "Python 2"+b" will remain forever"
    
-   x = "Python 2"+b" will remain forever"
-   
-   # Python 2 
-   print x
-   print type(x)
-   # Python 3
-   print(x) 
-   print(type(x))
-   ```
-   The snippet for Python 2 will work and the overall type will be casted to `str`. However for Python 3, it will return a **TypeError**.
-   ```bash
-   # Python 2
-   Python 2 will remain forever 
-   <type 'str'>
+    # Python 2 
+    print x
+    print type(x)
+    # Python 3
+    print(x) 
+    print(type(x))
+    ```
+    The snippet for Python 2 will work and the overall type will be casted to `str`. However for Python 3, it will return a **TypeError**.
+    ```bash
+    # Python 2
+    Python 2 will remain forever 
+    <type 'str'>
 
     # Python 3
-   Traceback (most recent call last):
-   File <input_name>, line 1, in <module>
-     x = "Python 2"+b" will remain forever"
-   TypeError: must be str, not bytes
-   ```
+    Traceback (most recent call last):
+    File <input_name>, line 1, in <module>
+      x = "Python 2"+b" will remain forever"
+    TypeError: must be str, not bytes
+    ```
    
-7. **Fixed syntax for inequality operator**
+7.  **Fixed syntax for inequality operator**
 
-   In Python 2, both `!=` and `<>` used to work perfectly fine as inequality operators. 
-   ```python2
-   print 2!=3
-   print 2<>3
-   ```
-   However in python 3, the alternative of `<>` has been completely removed. Basically now there is only one way of doing it. By using the `!=` operator.
+    In Python 2, both `!=` and `<>` used to work perfectly fine as inequality operators. 
+    ```python2
+    print 2!=3
+    print 2<>3
+    ```
+    However in python 3, the alternative of `<>` has been completely removed. Basically now there is only one way of doing it. By using the `!=` operator.
    
-8. **raw_input() is gone! Just input()**
+8.  **raw_input() is gone! Just input()**
     
-   In Python 2, we had both `input()` and `raw_input()`. The difference was that, `input()` was able to read and store any data type and store it as the same type. In order to store every input as a string, you had to use `raw_input()`. Let's look at some examples.
-   ```python2
-   # Python 2
-   >>> my_input = input('Enter something: ')
+    In Python 2, we had both `input()` and `raw_input()`. The difference was that, `input()` was able to read and store any data type and store it as the same type. In order to store every input as a string, you had to use `raw_input()`. Let's look at some examples.
+    ```python2
+    # Python 2
+    >>> my_input = input('Enter something: ')
 
-   Enter something: 123
-   >>> type(my_input)
-   <type 'int'>
+    Enter something: 123
+    >>> type(my_input)
+    <type 'int'>
    
-   >>> my_input = input('Enter something: ')
+    >>> my_input = input('Enter something: ')
 
-   Enter something: "Pylenin"
-   >>> type(my_input)
-   <type 'str'>
+    Enter something: "Pylenin"
+    >>> type(my_input)
+    <type 'str'>
    
-   >>> my_input = input('Enter something: ')
+    >>> my_input = input('Enter something: ')
 
-   Enter something: Pylenin # Without quotation
-   Traceback (most recent call last):
-   Traceback (most recent call last):
-   File "<stdin>", line 1, in <module>
-   File "<string>", line 1, in <module>
-   NameError: name 'Pylenin' is not defined
-   ```
-   Watch how it throws an error when we pass `Pylenin` without any quotations. This is really dangerous as you could expect malicious behavior in a lot of situations.
-   In Python 3, the `raw_input()` has been removed. There is only the `input()` method and it parses the user input as string for every data type.
-   ```python3
-   # Python 3
-   >>> my_input = input('Enter something: ')
+    Enter something: Pylenin # Without quotation
+    Traceback (most recent call last):
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    File "<string>", line 1, in <module>
+    NameError: name 'Pylenin' is not defined
+    ```
+    Watch how it throws an error when we pass `Pylenin` without any quotations. This is really dangerous as you could expect malicious behavior in a lot of situations.
+    In Python 3, the `raw_input()` has been removed. There is only the `input()` method and it parses the user input as string for every data type.
+    ```python3
+    # Python 3
+    >>> my_input = input('Enter something: ')
 
-   Enter something: 123
-   >>> type(my_input)
-   <class 'str'>
+    Enter something: 123
+    >>> type(my_input)
+    <class 'str'>
    
-   >>> my_input = input('Enter something: ')
+    >>> my_input = input('Enter something: ')
 
-   Enter something: "Pylenin"
-   >>> type(my_input)
-   <class 'str'>
+    Enter something: "Pylenin"
+    >>> type(my_input)
+    <class 'str'>
    
-   >>> my_input = input('Enter something: ')
+    >>> my_input = input('Enter something: ')
 
-   Enter something: Pylenin # Without quotation
-   >>> type(my_input)
-   <class 'str'>
-   ```
+    Enter something: Pylenin # Without quotation
+    >>> type(my_input)
+    <class 'str'>
+    ```
    
-9. **Iterables instead of list**
+9.  **Iterables instead of list**
 
-   In Python 2, built-in functions like range, zip, map and filter used to return a list. However in Python 3, they return **iterables**. If it is important for you to convert it into list, use the `list()` method.
+    In Python 2, built-in functions like range, zip, map and filter used to return a list. However in Python 3, they return **iterables**. If it is important for you to convert it into list, use the `list()` method.
    
-   Now does it make sense? In some way, **Yes!** Usually we iterate only once over them. Hence, it is helpful in saving memory.
+    Now does it make sense? In some way, **Yes!** Usually we iterate only once over them. Hence, it is helpful in saving memory.
    
-   Also dictionary methods like `keys()`, `values()` and `items()` do not return lists anymore. They return views. 
-   ```python3
-   x = {"a":1,"b":2}
+    Also dictionary methods like `keys()`, `values()` and `items()` do not return lists anymore. They return views. 
+    ```python3
+    x = {"a":1,"b":2}
    
-   print(type(x.keys()))
-   print(type(x.values()))
-   print(type(x.items()))
-   ```
-   The above snippet will return the following result.
-   ```bash
-   <class 'dict_keys'>
-   <class 'dict_values'>
-   <class 'dict_items'>
-   ```
+    print(type(x.keys()))
+    print(type(x.values()))
+    print(type(x.items()))
+    ```
+    The above snippet will return the following result.
+    ```bash
+    <class 'dict_keys'>
+    <class 'dict_values'>
+    <class 'dict_items'>
+    ```
 
 10. **Raising and handling exceptions**
     
