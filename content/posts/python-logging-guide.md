@@ -411,4 +411,4 @@ The **name** attribute returns the actual file name from which the message was l
 
 I hope you enjoyed this blog about the Python Logging module. It does need a learning curve to get used to the norms and functionalities. But once you understand the concept, this will be one of the most useful libraries that you know about.
 
-If you have any questions, concerns, criticisms or opinions - **tweet to me @pylenin**
+If you have any questions, concerns, criticisms or opinions, make sure to put them as comments below.

@@ -367,8 +367,8 @@ print(readable_dt_India)
 ```
 When you execute the above snippet of code you can see the difference between your current datetime and the current datetime in India.
 
-This blog is very basic and to the point. But believe me when I say this, it is going to be very crucial. Using date and time objects efficiently in your application is of paramount importance and the above examples will get you through maximum (if not all) of the issues you might deal with using datetime objects in your application. I hope you enjoyed this blog. I don't have any comments section, so feel free to **tweet** your opinion, comments or criticism to my twitter handle **@pylenin**.
-
+This blog is very basic and to the point. But believe me when I say this, it is going to be very crucial. Using date and time objects efficiently in your application is of paramount importance and the above examples will get you through maximum (if not all) of the issues you might deal with using datetime objects in your application. 
+I hope you enjoyed this blog. If you have any questions or criticisms, do put them down in the comments section below.
 
 
 
