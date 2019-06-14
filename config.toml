@@ -14,7 +14,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 googleAnalytics = "UA-106768190-2"
 
-disqusShortname = "https-www-pylenin-com"
+#disqusShortname = "https-www-pylenin-com"
 
 [params]
     author = "Lenin Mishra"
