@@ -1,5 +1,5 @@
 ---
-title: "Haven't switched to Python 3? 10 benefits you are missing out"
+title: "10 benefits of using Python 3 over 2 "
 description: "This article provides an overview of the benefits of switching from Python 2 to Python 3. The various advantages have been explained with practical examples for your better understanding."
 date: 2019-06-11T20:29:28+02:00
 draft: false
