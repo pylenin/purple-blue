@@ -9,6 +9,8 @@ aliases: [/blogs/a-step-by-step-guide-to-python-logging/]
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+*By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
+
 Python Logging is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging. However if blogs are your thing, here is a step-by-step guide to understanding the **python logging module** and why they should be preferred over **print**.
 
 ##### Sections covered

@@ -9,6 +9,8 @@ aliases: [/blogs/power-of-zip-in-python/]
 ---
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+*By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
+
 Sections covered:
 
 1. [Why use zip?](#why-use-zip)

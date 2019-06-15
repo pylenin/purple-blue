@@ -1,15 +1,13 @@
 ---
 title: "5 practical reasons to learn Python"
-slug: "/5-practical-reasons-to-learn-python/"
 description: "Here are 5 Practical reasons to learn the Python programming language. Understand the advantages and diasdvantages of learning python before you make a decision."
 date: 2019-06-09T20:32:39+02:00
 draft: true
-author: "Lenin Mishra"
 ---
 
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-By [Lenin Mishra](https://www.google.com)
+*By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
 #### Why did I learn python?
 My first encounter with python happened because of a small lie. In order to get selected for an internship that required me to build the control system of robots using python, I had to lie to my recruiter about already having the knowledge of python. Thankfully he didn't ask me anything else and accepted me for the internship program. But since the day I have religiously practiced python in my everyday life. I did a lot of free courses on the internet, solved every problem I could find on any topic again and again. And then again! Initially, I only did it to not let my recruiter know that I had lied to him. I also wanted to do good on my thesis and build an efficient control system. But eventually, I fell in love with this simple language. So much so that I started applying for python programming jobs even while doing my M.Sc in Transportation Engineering and happily accepted it when I got one. 
