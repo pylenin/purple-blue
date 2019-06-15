@@ -73,7 +73,7 @@ It works similarly with strings.
 ```python3
 print('Savan' < 'savan')
 ``` 
-The above snippet will return us **True**. Its because the ASCII value of `S` is 83 and ASCII value of `s` is 115. Since all the letters are same after the first letter, the comparison ends at the first letter.
+The above snippet will return us **True**. Its because the ASCII value of `S` is 83 and ASCII value of `s` is 115. So the rest of the letters are not compared anymore and Python returns us True.
 
 ##### Equality operator (==)
 
