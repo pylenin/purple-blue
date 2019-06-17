@@ -3,7 +3,7 @@ title: "5 solid reasons to learn Python"
 description: "This blog provides 5 important reasons to learn python programming. You will learn about the various advantages, disadvantages and career opportunities in python."
 date: 2019-06-17T21:13:52+02:00
 draft: true
-image: /img/comparison-operators/comparison-operators.png
+image: /img/5-reasons-for-python/5-reasons-to-learn-python.png
 categories: ['python for beginners']
 ---
 
