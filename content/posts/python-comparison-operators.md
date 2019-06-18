@@ -16,7 +16,7 @@ Assume you are adding 2 numbers. The numbers are the operands and the `+` symbol
 
 Comparison operators in python are used to compare the values of its operands and return a **boolean** result. Not just numbers, you can also compare **strings**. Confused? The secret lies in **ASCII** values.
 
-ASCII is a character encoding standard and stands for **American Standard Code for Information Interchange**. It is basically used for converting binary computer text to human readable text and is used in all electronics devices. You can find a list of all ASCII codes [here](https://theasciicode.com.ar/). 
+ASCII is a character encoding standard and stands for **American Standard Code for Information Interchange**. It is used to encode the characters that we as humans are used to, into a binary format.. You can find a list of all ASCII codes [here](https://theasciicode.com.ar/). 
 
 Here are the various types of comparison operators in python.
 
