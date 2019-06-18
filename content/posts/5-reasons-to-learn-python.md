@@ -4,7 +4,6 @@ description: "This blog provides 5 important reasons to learn python programming
 date: 2019-06-17T21:13:52+02:00
 draft: false
 image: /img/5-reasons-for-python/5-reasons-to-learn-python.png
-categories: ['python for beginners']
 ---
 
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -4,7 +4,6 @@ description: "This article provides an overview of the benefits of switching fro
 date: 2019-06-11T20:29:28+02:00
 draft: false
 image: /img/byepython2.png
-categories: ['python 3 vs python 2']
 ---
 
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
