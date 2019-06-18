@@ -28,17 +28,23 @@ My first encounter with python happened because of a **small lie**.
 
 In order to get selected for an internship that required me to build the control system of robots using python, I had to lie to my recruiter about already possessing the knowledge of python. Thankfully he didn't ask me anything else and accepted me for the internship program. But since the day I have religiously practiced python in my daily life. 
 
-I did a lot of free courses on the internet, solved every problem I could find on any topic again and again. And then again! Initially, I only did it to do good on my thesis. But eventually, I fell in love with this simple language. So much so that I started applying for python programming jobs even while doing my M.Sc in Transportation Engineering and happily accepted the job offer when I got one. 
+I did a lot of free courses on the internet, solved every problem I could find on any topic again and again. **And then again!** Initially, I only did it to do excel at my thesis. But eventually, I fell in love with this simple language. 
+
+So much so that I started applying for python programming jobs even while doing my M.Sc in Transportation Engineering and happily accepted the job offer when I got one. 
 
 #### What can you expect here?
 If you are reading this, there is a good chance you already know what python is and why it is a popular choice in today's generation. 
 
-Maybe you are considering python as your first programming language over other languages. Maybe you are interested in making a career switch to some other field that needs certain expertise of the python programming language and you feel you lack it. Maybe you are just curious and missing a hobby in your present life. So you decide to embark upon a journey of learning a new language. And you are choosing python! 
+Maybe you are considering python as your first programming language over other languages. Maybe you are interested in making a career switch to some other field that needs certain expertise of the python programming language and you feel you lack it. Maybe you are just curious and missing a hobby in your present life. So you decide to embark upon a journey of learning a new language. **And you are choosing python!**
 
-No matter why you are here, I am going to provide you all the reasons, why choosing python is a great choice. I am going to layout the various advantages of working with python. But then I am not going to be a blind promoter. I am also going to explain to you, what you shouldn't expect from python and areas where python could let you down.
+No matter why you are here, I am going to provide you all the reasons, why choosing python is a great choice. I am going to layout the various advantages of working with python. 
+
+But then I am not going to be a blind promoter. I am also going to explain to you, what you shouldn't expect from python and areas where python could let you down.
 
 #### Why should you learn Python?
-Python is a high level, interpreted and a general-purpose programming language developed by Guido van Rossum in 1991. Over the years, Python has become famous for its versatility of being able to blend object-oriented, procedural and functional programming into itself very elegantly. There are a lot of reasons that make Python special. However, I am going to discuss 5 reasons that are the most important reasons according to me and should be sufficient for you to choose Python as your first or next programming language.
+Python is a high level, interpreted and a general-purpose programming language developed by **Guido van Rossum** in 1991. Over the years, Python has become famous for its versatility of being able to blend object-oriented, procedural and functional programming into itself very elegantly. There are a lot of reasons that make Python special. 
+
+In this blog, I am going to discuss 5 reasons that are the most important reasons according to me and should be sufficient for you to choose Python as your first or next programming language.
 
 ##### Simplicity and Readability
 ![Python is simple and readable](/img/5-reasons-for-python/python-simplicity.png)
@@ -63,7 +69,9 @@ With so many companies adopting Python into their stack around the world, there 
 ##### Huge online support community
 ![Huge online community](/img/5-reasons-for-python/python-online-community.png)
 
-**Stack Overflow, Facebook, Reddit, Youtube, Twitter**... you name it. There is a huge support community online to help you with understanding the nitty gritty details about this language. This is very helpful as you can easily clarify your doubts online and therefore your learning never really slows down. IMHO, this is one of the most important factors to consider while choosing a new programming language. Lack of a support community can become a real deal-breaker for you as you might be stuck with your problems and therefore never continue your learning in this field. 
+**Stack Overflow, Facebook, Reddit, Youtube, Twitter**... you name it. There is a huge support community online to help you with understanding the nitty gritty details about this language. This is very helpful as you can easily clarify your doubts online and therefore your learning never really slows down. 
+
+IMHO, this is one of the most important factors to consider while choosing a new programming language. Lack of a support community can become a real deal-breaker for you as you might be stuck with your problems and therefore never continue your learning in this field. 
 
 #### What can you do with Python
 
