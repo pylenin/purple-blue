@@ -24,3 +24,9 @@ My name is Savan Disawal. I have completed my Bachelors in Engineering with spec
 I am currently working with Infosys Technologies, Pune. Overall I have 12 years of experience in software testing field. I have conducted Manual Testing, ETL Testing as well as Automation Testing using Python, Shell script and VB script also. 
 
 My hobbies are travelling, reading and learning new technologies.
+
+##### Stefan Volz
+
+I am an Electrician for buildings and power services, state certified engineer/technician for electrical engineering specialized in IT, PLC-specialist - studying industrial mathematics starting 10.2019. 
+
+I mainly do Python and Rust - but like to try new languages all the time.

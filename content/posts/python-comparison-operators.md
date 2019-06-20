@@ -8,6 +8,7 @@ image: /img/comparison-operators/comparison-operators.png
 <a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 *By [Savan Disawal](https://www.pylenin.com/authors/#savan-disawal)*
+*Co-author [Stefan Volz](https://www.pylenin.com/authors/#stefan-volz)*
 
 If you prefer videos over text, check out our youtube video on [Comparison and Assignment Operators](https://youtu.be/mPrcM1WHmdA).
 
