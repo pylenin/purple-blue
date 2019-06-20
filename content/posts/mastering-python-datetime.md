@@ -371,5 +371,5 @@ When you execute the above snippet of code you can see the difference between yo
 This blog is very basic and to the point. But believe me when I say this, it is going to be very crucial. Using date and time objects efficiently in your application is of paramount importance and the above examples will get you through maximum (if not all) of the issues you might deal with using datetime objects in your application. 
 I hope you enjoyed this blog. If you have any questions or criticisms, do put them down in the comments section below.
 
-
+**Would you like to suggest changes to the article** - Check out our [github repo](https://github.com/pylenin/pylenin-blogs) and create a Pull Request.
 

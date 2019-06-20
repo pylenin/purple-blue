@@ -11,7 +11,7 @@ image: /img/comparison-operators/comparison-operators.png
 
 If you prefer videos over text, check out our youtube video on [Comparison and Assignment Operators](https://youtu.be/mPrcM1WHmdA).
 
-##### Introduction to comparison operators
+#### Introduction to comparison operators
 Assume you are adding 2 numbers. The numbers are the operands and the `+` symbol is the operator.
 
 Comparison operators in python are used to compare the values of its operands and return a **boolean** result. Not just numbers, you can also compare **strings**. Confused? The secret lies in **ASCII** values.
@@ -142,4 +142,45 @@ print('Savan' <= 'savan') # Returns True
 ```
 Since the ASCII value of `S` (83) is less than the ASCII value of `s` (115), the comparison will return us True.
 
-If you have any questions, concerns or criticisms - do put them down in the comments section.
+##### Hold on !!
+
+What are we talking about here? Isn't it true that Python 3 doesn't have ASCII anymore? Isn't everything **Unicode** in Python 3 (atleast the text type)? Then why do the explanations for comparison of strings using ASCII values make sense? 
+
+**Short explanation** - Unicode is backwards compatible.
+
+Confused? Let's understand it better.
+
+#### Enter: UTF-8
+
+Now Python doesn't actually use ASCII (at least since Python 3 came out - Python 2 *did* use ASCII), but rather another encoding called **UTF-8** where UTF stands for **UCS Transformation Format** and UCS stands for **Universal Coded Character Set**. 
+
+UTF-8 is what is called a **variable width encoding** and the de facto standard when it comes to **Unicode**. The beauty of UTF-8 is that it supports loads of special characters - but not at the price of making the regularly used characters (for the western world at least) need more memory. This is the *variable width* part mentioned earlier. 
+
+##### The gritty details
+
+If we take a look at the most common characters used, their memory representation looks like this:
+
+```rust
+'R' => 0b0101_0010 <U+0052>
+'s' => 0b0111_0011 <U+0073>
+```
+
+The part in angled brackets is called a **unicode code point**. It's usually written in hex - as it is here. If you compare these values to their ASCII pendant, you'll see that they're actually the same.
+
+```rust
+# ASCII counterparts for the above letters
+# hex codes
+
+'R' => 0x52
+'s' => 0x73
+```
+
+This is another great property of UTF-8 - **it's backwards compatible with ASCII** and also the reason, why the above explanation still holds true for the most part. 
+
+Hope you enjoyed this tutorial on Python Comparison Operators. If you have any opinions, suggestions or comments - Put them down in the comments section.
+
+**Would you like to suggest changes to the article** - Check out our [github repo](https://github.com/pylenin/pylenin-blogs) and create a Pull Request.
+
+
+
+

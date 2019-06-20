@@ -73,3 +73,5 @@ output_lst = [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 The function should take in the `input_lst` and return the `output_lst`.
 
 If you are able to solve it, make sure to comment below.
+
+**Would you like to suggest changes to the article** - Check out our [github repo](https://github.com/pylenin/pylenin-blogs) and create a Pull Request.

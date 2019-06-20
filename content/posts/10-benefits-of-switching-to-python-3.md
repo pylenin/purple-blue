@@ -303,5 +303,5 @@ Like I mentioned earlier, you are missing out on a lot of things if you haven't 
 
 So if you haven't switched yet, I recommend you to make the jump now. Before it is too late!
     
-
+**Would you like to suggest changes to the article** - Check out our [github repo](https://github.com/pylenin/pylenin-blogs) and create a Pull Request.
 

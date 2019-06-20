@@ -118,3 +118,5 @@ If you aspire to become a mobile app developer, probably python shouldn't be the
 But with today's electronics capabilities where compute and storage have become so cheap, execution speed and memory consumption are not really much of an issue. Sure it is important to be aware of these issues so that you can take the right course of action during your application development process. But IMHO, these are very small trade-offs to experience the huge amount of advantages and opportunities that python brings your way. 
 
 So it's your choice. If python is for you, we are here to help you along the way. 
+
+**Would you like to suggest changes to the article** - Check out our [github repo](https://github.com/pylenin/pylenin-blogs) and create a Pull Request.
