@@ -1,5 +1,5 @@
 ---
-title: "5 solid reasons to learn Python"
+title: "5 reasons to learn Python in 2019"
 description: "This blog provides 5 important reasons to learn python programming. You will learn about the various advantages, disadvantages and career opportunities in python."
 date: 2019-06-17T21:13:52+02:00
 draft: false
@@ -33,23 +33,31 @@ I did a lot of free courses on the internet, solved every problem I could find o
 So much so that I started applying for python programming jobs even while doing my M.Sc in Transportation Engineering and happily accepted the job offer when I got one. 
 
 #### What can you expect here?
-If you are reading this, there is a good chance you already know what python is and why it is a popular choice in today's generation. 
+If you are reading this, there is a good chance you already know what python is and why it is a popular choice for a programming language to learn in today's generation. 
 
-Maybe you are considering python as your first programming language over other languages. Maybe you are interested in making a career switch to some other field that needs certain expertise of the python programming language and you feel you lack it. Maybe you are just curious and missing a hobby in your present life. So you decide to embark upon a journey of learning a new language. **And you are choosing python!**
+Maybe you are considering python as your first language for learning programming over other languages. 
+
+Maybe you are a software engineer, interested in making a career switch to some other field that needs certain expertise of the python programming language and you feel you lack it. 
+
+Maybe you are just curious and missing a hobby in your present life. So you decide to embark upon a journey of learning a new language. **And you are choosing python!**
 
 No matter why you are here, I am going to provide you all the reasons, why choosing python is a great choice. I am going to layout the various advantages of working with python. 
 
 But then I am not going to be a blind promoter. I am also going to explain to you, what you shouldn't expect from python and areas where python could let you down.
 
 #### Why should you learn Python?
-Python is a high level, interpreted and a general-purpose programming language developed by **Guido van Rossum** in 1991. Over the years, Python has become famous for its versatility of being able to blend object-oriented, procedural and functional programming into itself very elegantly. There are a lot of reasons that make Python special. 
+Python is a high level, interpreted and a general-purpose programming language developed by **Guido van Rossum** in 1991. Over the years, Python has become famous for its versatility of being able to blend object-oriented, procedural and functional programming into itself very elegantly. **It is not just a scripting language anymore.**
+
+There are a lot of reasons that make Python special. 
 
 In this blog, I am going to discuss 5 reasons that are the most important reasons according to me and should be sufficient for you to choose Python as your first or next programming language.
 
 ##### Simplicity and Readability
 ![Python is simple and readable](/img/5-reasons-for-python/python-simplicity.png)
 
-Python's most distinctive quality is its simple syntax and readability. This is what sets it apart from a lot of other programming languages and therefore makes it a great **first choice** for beginners. Python is an interpreted language. So the code is executed at run time and does not need to be compiled like other languages (C++ or C). Therefore it comes with some subtle advantages like dynamic typing, automatic memory management and scoping.   
+Python's most distinctive quality is its simple syntax and readability. This is what sets it apart from a lot of other programming languages and therefore makes it a great **first choice** for beginners. 
+
+Python is an interpreted language. So the code is executed at run time and does not need to be compiled like other languages (C++ or C). Therefore it comes with some subtle advantages like dynamic typing, automatic memory management and scoping.   
 
 ##### Developer Productivity
 ![Enhances developer productivity](/img/5-reasons-for-python/python-productivity.png)
@@ -66,10 +74,10 @@ Python comes with a prebuilt **standard library** that provides awesome support 
 
 With so many companies adopting Python into their stack around the world, there is a huge amount of job opportunities available for all levels of python developers. Surveys in the United States have shown that the average salary of a python developer in 2019 is touted to be between **$100,000 and $130,000**. Of course, this number varies from country to country. However, it does give an idea about the demand and importance of python developers in the current generation.
 
-##### Huge online support community
+##### Huge online python community
 ![Huge online community](/img/5-reasons-for-python/python-online-community.png)
 
-**Stack Overflow, Facebook, Reddit, Youtube, Twitter**... you name it. There is a huge support community online to help you with understanding the nitty gritty details about this language. This is very helpful as you can easily clarify your doubts online and therefore your learning never really slows down. 
+**Stack Overflow, Facebook, Reddit, Youtube, Twitter**... you name it. There is a huge developer community online to support you with understanding the nitty gritty details about this language. This is very helpful as you can easily clarify your doubts online and therefore your learning never really slows down. 
 
 IMHO, this is one of the most important factors to consider while choosing a new programming language. Lack of a support community can become a real deal-breaker for you as you might be stuck with your problems and therefore never continue your learning in this field. 
 
@@ -83,15 +91,19 @@ So what can you do with Python? Where are the areas of software development wher
     
 2. **Web Development**
  
-    Thanks to frameworks like Django, Pyramid, Flask and Web2Py, a lot of famous companies around the world use Python in their stack. These companies include Google, Facebook, Reddit, Instagram and a lot more.
+    Thanks to frameworks like Django, Pyramid, Flask and Web2Py, a lot of famous companies around the world use Python in their stack for web applications. These companies include Google, Facebook, Reddit, Instagram and a lot more.
     
 3. **Data Extraction, Analysis and Visualization**
 
-    Libraries like Requests, Pyspark, Pandas and Matplotlib make it really easy for data engineers to build ETL pipelines, add their transformations and build insightful visualization on the data procured. Companies like **[Stitch](https://www.stitchdata.com/)** have their entire stack built on python for Extracting and Loading data from various sources to relevant destinations. A new tool in the market is **[Dagster](https://github.com/dagster-io/dagster)** which allows developers to build DAG (Directed Acyclic Graphs) based entire ETL pipelines using python.
+    Libraries like Requests, Pyspark, Pandas and Matplotlib make it really easy for data engineers to build ETL pipelines, add their transformations and build insightful visualization on the data procured. 
+    
+    Companies like **[Stitch](https://www.stitchdata.com/)** have their entire stack built on python for Extracting and Loading data from various sources to relevant destinations. A new tool in the market is **[Dagster](https://github.com/dagster-io/dagster)** which allows developers to build DAG (Directed Acyclic Graphs) based entire ETL pipelines using python.
 
-4. **Machine Learning**
+4. **Data Science and Machine Learning**
 
-    Probably the most intensive use of python is being made in the field of Machine Learning. There has been a huge growth in the demand for Machine Learning since 2013. Check out this [report](https://trends.google.com/trends/explore?date=2009-05-17%202019-06-17&geo=US&q=%2Fm%2F01hyh_) from **Google trends** to see how Machine Learning has peaked over the last few years. Python makes it really easy for machine learning enthusiasts to build and train their models with the help of amazing libraries like Keras, Scikit-Learn, Tensor Flow, OpenCV and a lot more.
+    Probably the most intensive use of python is being made in the field of Machine Learning by data scientists. There has been a huge growth in the demand for Machine Learning since 2013. Check out this [report](https://trends.google.com/trends/explore?date=2009-05-17%202019-06-17&geo=US&q=%2Fm%2F01hyh_) from **Google trends** to see how Machine Learning has peaked over the last few years. 
+    
+    Python makes it really easy for machine learning enthusiasts to build and train their models with the help of amazing libraries like Keras, Scikit-Learn, Tensor Flow, OpenCV and a lot more.
 
 #### What are the disadvantages of Python?
 
