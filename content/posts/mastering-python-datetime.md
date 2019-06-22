@@ -274,6 +274,25 @@ Friday, 11:25:23 PM
 ```
 Isn't it very simple to use?
 
+**One extra Tip**
+
+Does the leading 0 in `June 07` bother you? You can remove the leading 0 by using a `-` in your formatting strings.
+
+```python
+# new_date_time.py
+
+from datetime import datetime
+
+# Get the base date and time
+base_date_time = datetime.now()
+
+# Format it to January 1, 1970
+print(datetime.strftime(base_date_time, "%B %-d, %Y"))
+```
+The above code produces the following result.
+```bash
+June 7, 2019
+
 ##### datetime.strptime()
 The `strptime` method does exactly the opposite of `strftime`. It converts a string to a datetime object. In order to do that, we need to provide two kinds of arguments.
 
