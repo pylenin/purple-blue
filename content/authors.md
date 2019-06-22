@@ -27,6 +27,14 @@ My hobbies are travelling, reading and learning new technologies.
 
 ##### Stefan Volz
 
+![stefan-image](/img/authors/Stefan-Volz/StefanVolz.png)
+
 I am an Electrician for buildings and power services, state certified engineer/technician for electrical engineering specialized in IT, PLC-specialist - studying industrial mathematics starting 10.2019. 
 
 I mainly do Python and Rust - but like to try new languages all the time.
+
+##### Paritosh Gupta
+
+![paritosh-image](/img/authors/Paritosh-Gupta/ParitoshGupta.jpg)
+
+I am an M.Tech in Applied Geophysics from IIT Rookee, PGPWE from IIM Lucknow and the founder of Agilytics Technologies Pvt Ltd. I am a GIS (Geographic Information System) and IT Marketing Management Professional for software implementations in various domains, with extensive experience in complete implementation life-cycle of geo-spatial IT projects, including modeling, architecture, design, development and implementation as well as support.
