@@ -17,9 +17,9 @@ image: /img/getting-started-with-jupyter/jupyter-meta-img.png
 
 The [Python Developer Survey](https://www.jetbrains.com/research/python-developers-survey-2018/) by Jetbrains in 2018, showed that Jupyter Notebook is among the top 5 IDEs preferred by programmers, especially for **Machine Learning and Data Analysis**. 
 
-Jupyters Notebook's ability to combine code, visualizations and rich text and the fact that you can share your notebook with the community, makes it suitable for performaing data anlysis in real time and adding a **story telling** aspect to your analysis.
+Jupyter Notebook's ability to combine code, visualizations and rich text and the fact that you can share your notebook with the community, makes it suitable for performaing data anlysis in real time and adding a **story telling** aspect to your analysis.
 
-This blog will help you in installing Jupyter Notebooks for programming in Python. We’ll explore the basic functionality of Jupyter Notebook.
+This blog will help you in installing Jupyter Notebook for programming in Python. We’ll explore the basic functionality of Jupyter Notebook.
 
 Let’s get started and install Jupyter Notebook on your computer.
 
