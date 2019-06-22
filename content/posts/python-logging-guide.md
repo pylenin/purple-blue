@@ -10,7 +10,7 @@ aliases: [/blogs/a-step-by-step-guide-to-python-logging/]
 
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
-Python Logging is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging. However if blogs are your thing, here is a step-by-step guide to understanding the **python logging module** and why they should be preferred over **print**.
+Python Logging module is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging. However if blogs are your thing, here is a step-by-step guide to understanding the **python logging module** for logging events and why they should be preferred over **print**.
 
 ##### Sections covered
 1. [Introduction to Python Logging](#introduction-to-python-logging)
@@ -28,7 +28,7 @@ Python Logging is the first topic in the [#Python30](https://github.com/pylenin/
 13. [Advantages of configuring a Main Logger](#advantages-of-configuring-a-main-logger)
 
 ##### Introduction to Python Logging
-In general, Logging is an important activity in any non-trivial software development application. It informs you about the flow of events in your entire application with other useful metadata like the time at which an event occurred, the severity of the event, the line no. on which the event was logged, the function or the module in which the event triggered and so on. You can easily control the type of information you decide to include in our log files and also the way it shows up.
+In general, Logging event is an important activity in any non-trivial software development application. It informs you about the flow of events in your entire application with other useful metadata like the time at which an event occurred, the severity of the event, the line number on which the event was logged, the function or the module in which the event triggered and so on. You can easily control the type of information you decide to include in our log files and also the way it shows up.
 
 ##### Can we not achieve the same with print statements?
 
@@ -46,7 +46,7 @@ Traceback (most recent call last):
     print(1/0)
 ZeroDivisionError: division by zero
 ```
-There is a ton of information here. We have the line no. in which the python interpreter detected an error, the python statement that created the error and also the nature of the error. In the case above, it is a **ZeroDivisionError**.
+There is a ton of information here. We have the line number in which the python interpreter detected an error, the python statement that created the error and also the nature of the error. In the case above, it is a **ZeroDivisionError**.
 
 Let’s say you don’t want to raise a traceback error. In that case you can can use a **try** statement with an **except** clause.
 ```python
@@ -57,7 +57,7 @@ try:
 except Exception as e:
     print(e)
 ```
-When you execute the above piece of code, it is going to print **division by zero**. Usually it is recommended to handle exceptions in your code using try and except rather than letting it fail. Why? So that the flow of program does not crash because of the exception encountered. But now we are missing relevant details that are useful for debugging the error. We are missing the file name and the line no. at which the error occurred. To solve this problem, we can use the traceback library to catch various other details about the exception.
+When you execute the above piece of code, it is going to print **division by zero**. Usually it is recommended to handle exceptions in your code using try and except rather than letting it fail. Why? So that the flow of program does not crash because of the exception encountered. But now we are missing relevant details that are useful for debugging the error. We are missing the file name and the line number at which the error occurred. To solve this problem, we can use the traceback library to catch various other details about the exception.
 
 ```python
 # printing.py
@@ -69,7 +69,7 @@ try:
 except:
     traceback.print_exc()
 ```
-This way we not only receive the traceback information but also allow our code flow to successfully end without crashing.
+This way we not only receive the python traceback information but also allow our code flow to successfully end without crashing.
 
 Inspite of all the obvious benefits, Printing is still not the best tool for logging.
 ##### Why is Printing not sufficient for Logging?
@@ -105,7 +105,7 @@ The logging module in Python provides a solution for all the above problems.
 So let’s dive into the world of logging in Python.
 
 ##### Levels of Logging
-Now the logging module is already included in your default python installation. So just import logging and we are good to go. By default, you will find that there are 5 standard levels that indicates the severity of events. They are
+Now the logging module is already part of the python standard library. So just import logging and we are good to go. By default, you will find that there are 5 standard logging levels that indicates the severity of events. They are
 
 1. debug (Level 10)
 2. info (Level 20)
@@ -155,7 +155,7 @@ Let’s assume we are interested in having our logs with the following details.
 2. Severity of the log message
 3. Timestamp at which the message was logged
 4. Name of the module where the event occured
-5. Line no. of the module that registered the log
+5. Line number of the module that registered the log
 
 Let’s write a snippet to include these information. I am creating a variable called `log_format` and assigning it a string representation of how my log should look.
 ```python
@@ -172,7 +172,7 @@ logging.warning("Careful! Something does not look right")
 logging.error("You have encountered an error")
 logging.critical("You are in trouble")
 ```
-The above snippet is going to return us all the attributes that we are interested to receive. The logs would look something like this.
+The above snippet is going to return us all the logrecord attributes that we are interested to receive. The logs would look something like this.
 ```bash
 2019-06-04 21:49:37,735::DEBUG::root::logging_guide.py::6::This is a debug message
 2019-06-04 21:49:37,735::INFO::root::logging_guide.py::7::This is an informational message
@@ -199,7 +199,7 @@ logging.warning("Careful! Something does not look right")
 logging.error("You have encountered an error")
 logging.critical("You are in trouble")
 ```
-If you only want to have the latest logs in your logfile, you can use the **filemode** argument as well. That way new logs overwrite the existing logs everytime.
+If you only want to have the latest logs in your log file, you can use the **filemode** argument as well. That way new logs overwrite the existing logs everytime.
 ```python
 # logging_guide.py
 import logging
@@ -300,10 +300,10 @@ But how come no other information is being shown? Where are the message level, l
 
 With the `basicConfig()` method, the level name, the logger name and the message are shown as default to the user. However with configuring your own logger, you have to manually set these parameters. You do that through the **Handler** and **Formatter** objects. 
 
-**Handler** objects are repsonsible for sending your logging message to the right destination. You can find a list of different types of available handlers [here](https://docs.python.org/3/howto/logging.html#useful-handlers). **Formatter** objects configure the structure and format of your log messages.
+Objects from the **Handler classes** are repsonsible for sending your logging message to the right destination. You can find a list of different types of available handlers [here](https://docs.python.org/3/howto/logging.html#useful-handlers). Objects from **Formatter classes** configure the structure and format of your log messages.
 
 ##### Some logging scenarios 
-1. **Logging messages to file using FileHandler()**
+1. **Logging messages to file using FileHandler method**
 
     ```python
     # logging_guide.py
@@ -330,7 +330,7 @@ With the `basicConfig()` method, the level name, the logger name and the message
     2019-06-05 17:43:07,889 - __main__ - INFO - I am a separate Logger
     ```
 
-2. **Logging messages to the console using StreamHandler()**
+2. **Logging messages to the console using StreamHandler method**
 
     ```python
     # logging_guide.py
