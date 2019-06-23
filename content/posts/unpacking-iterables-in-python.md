@@ -137,6 +137,31 @@ name, surname, age, _ = my_info
 28
 ```
 
+**How to unpack a python dictionary?**
+
+The process for unpacking a python dictionary is not the same as unpacking a python tuple or a list. When you apply the above method to a dictionary, you will be unpacking **just the keys**.
+
+```python3
+my_info = {"name":"Lenin", "age":28}
+
+x, y = my_info
+
+# Result
+>>> x
+'name'
+>>> y
+'age'
+```
+
+Now to get the values for the respective dictionary keys, you have to call the dictionary key.
+
+```python3
+>>> my_info[x]
+'Lenin'
+>>> my_info[y]
+28
+````
+
 ##### Unpacking arbitrary length iterables
 
 Let's be honest! Its not always possible to provide all the required variables to unpack the values. Imagine providing a million variables to unpack a list containing 1000 records! That is just sloppy.
