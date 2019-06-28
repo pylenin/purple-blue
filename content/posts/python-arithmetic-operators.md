@@ -1,8 +1,8 @@
 ---
 title: "Python Arithmetic Operators"
-description: "A simple article about various use cases of arithmetic operators in Python"
+description: "An article about various use cases of arithmetic operators with integers, floats and complex numbers in Python"
 date: 2019-06-26T22:21:42+02:00
-draft: true
+draft: false
 image: /img/arithmetic-operators/arithmetic-operators.png
 ---
 
@@ -14,18 +14,18 @@ Python arithmetic expressions are combinations of numbers and at least one arith
 
 To perform an arithmetic expression, the following must be understood.
 
-1. Numbers.
-2. Arithmetic operators.
-3. Number type conversion.
-4. Combining of two numbers of different types.
-5. Precedence of arithmetic operators.
+1. [Numbers](#numbers)
+2. [Arithmetic operators](#arithmetic-operators)
+3. [Number type conversion](#number-type-conversion)
+4. [Combining two numbers of different types](#combining-two-numbers-of-different-types)
+5. [Operators Precedence](#precedence-of-arithmetic-operators)
 
 ##### Numbers
 
 Python version 3 supports three types of numbers: integers, floats and complex numbers.
 
 
-1. Integers 
+1. **Integers**
 
    Integers are the set of numbers containing whole numbers and their opposites.
    ```python3
@@ -35,7 +35,7 @@ Python version 3 supports three types of numbers: integers, floats and complex n
    >>> <class 'int'>
    ```
 
-2. Floats
+2. **Floats**
 
    Floats are the set of numbers containing numbers that has a decimal place.
    ```python3
@@ -45,7 +45,7 @@ Python version 3 supports three types of numbers: integers, floats and complex n
    >>> <class 'float'>
    ```
 
-3. Complex numbers
+3. **Complex numbers**
     
    Complex numbers are the set of numbers containing a real and imaginary parts.
 
@@ -158,23 +158,6 @@ b = 3
 print(a ** b)
 >>> 8
 ```
-**Remember**
-
-To use numbers responsibly you should learn the rules of arithmetic.
-
-Arithmetics may seem trivial, but complications arise when you combine numbers of different types. 
-
-To use arithmetic in python, you first need to understand the idea of **narrower** and **wider** types.
-
-When a binary arithmetic operator has operands of different numeric types, **the operand with the narrower type is widened to that of the other**. 
-
-Integers are narrower than floats.
-
-Floats are narrower than complex numbers.
-
-This has an effect on both type conversion and combining numbers.
-
-Let's see them in action.
 
 ##### Number type conversion
 
@@ -185,6 +168,7 @@ a = 25.0
 
 print(type(a))
 >>> <class 'float'>
+```
 
 Another way to do this is to pass an integer to the **float constructor**.
 ```python3
@@ -258,7 +242,7 @@ print(a == b)
 >>> True
 ```
 
-But what happens when you convert an actual fraction to int? Python just chops off the decimal.
+But what happens when you convert an actual fraction to integer? Python just chops off the decimal.
 ```python3
 a = 3.7
 b = int(a)
@@ -272,3 +256,111 @@ print(type(b))
 print(a == b)
 >>> False
 ```
+
+##### Combining two numbers of different types
+
+To use numbers responsibly you should learn the rules of arithmetic. 
+
+Arithmetic may seem trivial, but complications arise when you combine numbers of different types. To use arithmetic in python you first need to understand the idea of **narrower and wider types**.
+
+As already mentioned above Python 3 supports 3 types of numbers : integers, floats and complex numbers. 
+
+Python 3 also fully supports **mixed arithmetic**. 
+
+The question that arises is: What is the type of the arithmetic expression, when a binary arithmetic operator
+has operands of different numeric types. 
+
+**The rule of thumb **is : the number with the `narrower` type is widened to that of the other, where integer is narrower than float and float is narrower than complex.
+
+For example, expressions in which an integer and a float number is involved, the integer will be promoted to float.
+In summary, Python will widen any numbers to make sure all values are of the same type.
+
+**Example 1** - Arithmetics with integer and a float
+```python3
+a = 3
+b = 4.5
+
+print(a + b)
+>>> 7.5
+
+print(type(a + b))
+>>> <class 'float'>
+```
+
+**Example 2** - Arithmetics with integer and a integer
+```python3
+a = 7
+b = 3
+
+print(a * b)
+>>> 21
+
+print(type(a * b))
+>>> <class 'int'>
+```
+
+Since both `a` and `b` are integers, no widening is required.
+
+**However**
+
+Dividing an integer with an integer **returns a float**. This is a change introduced in Python 3. To learn more relevant differences between Python 3 and 2, check out our article [here](https://www.pylenin.com/blogs/10-benefits-of-switching-to-python-3/).
+
+```python3
+a = 12
+b = 3
+
+print(a/b)
+>>> 4.0
+```
+
+**Example 3** - Arithmetics with integer and complex number.
+```python3
+a = 14 + 4j
+b = 2
+
+print(a/b)
+>>> (7+2j)
+```
+
+**Integers are narrower than complex numbers**. So `b` is widened to a complex number before division. it becomes `2 + 0j`.
+
+**Example 4** - Arithmetic with multiple types of numbers
+
+When combining different types of numbers, Python will widen numbers to the same type.
+```python3
+a = 7
+b = 3.5
+d = 2.0
+f = 2 + 3j
+
+print(a + b * d - a / f )
+>>> (12.923076923076923+1.6153846153846154j)
+```
+
+Are you wondering how Python decides the precedence of operations? Let's move on to the next section.
+
+##### Precedence of arithmetic operators
+
+Python has well-defined rules for specifying the order in which the arithmetic operators in an expression are evaluated when the expression has several operators.
+
+The order of operation can be summarized as follows:
+
+1. Any operations enclosed in parentheses are performed first.
+
+2. Exponents are performed next.
+
+3. Multiplication and Division is performed from left to the right.
+
+4. In the end, any addition and subtraction operations are performed from left to the right. 
+
+Let's see an illustration to understand this better.
+
+![Precedence of Arithmetics](/img/arithmetic-operators/precedence.jpg)
+
+I hope this article draws a clear picture about use of arithmetics in Python. If you have any questions or suggestions - do leave them in the comment box below.
+
+_**Recommended articles**_
+
+1. [A Step-by-Step guide to Python Logging](https://www.pylenin.com/blogs/python-logging-guide/)
+2. [Mastering Python datetime module](https://www.pylenin.com/blogs/mastering-python-datetime/)
+3. [5 reasons to learn Python in 2019](https://www.pylenin.com/blogs/5-reasons-to-learn-python/)
