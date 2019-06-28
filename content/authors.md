@@ -39,3 +39,6 @@ I mainly do Python and Rust - but like to try new languages all the time.
 ![paritosh-image](/img/authors/Paritosh-Gupta/ParitoshGupta.jpg)
 
 I am an M.Tech in Applied Geophysics from IIT Rookee, PGPWE from IIM Lucknow and the founder of [Agilytics Technologies](https://www.agilytics.in). I am a GIS (Geographic Information System) and IT Marketing Management Professional for software implementations in various domains, with extensive experience in complete implementation life-cycle of geo-spatial IT projects, including modeling, architecture, design, development and implementation as well as support.
+
+##### Mostapha Amenchar
+

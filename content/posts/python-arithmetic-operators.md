@@ -24,10 +24,10 @@ To perform an arithmetic expression, the following must be understood.
 
 Python version 3 supports three types of numbers: integers, floats and complex numbers.
 
-
-1. **Integers**
+**Integers**
 
    Integers are the set of numbers containing whole numbers and their opposites.
+   
    ```python3
    a = 5
    print(type(a))
@@ -35,7 +35,7 @@ Python version 3 supports three types of numbers: integers, floats and complex n
    >>> <class 'int'>
    ```
 
-2. **Floats**
+**Floats**
 
    Floats are the set of numbers containing numbers that has a decimal place.
    ```python3
@@ -45,7 +45,7 @@ Python version 3 supports three types of numbers: integers, floats and complex n
    >>> <class 'float'>
    ```
 
-3. **Complex numbers**
+**Complex numbers**
     
    Complex numbers are the set of numbers containing a real and imaginary parts.
 
