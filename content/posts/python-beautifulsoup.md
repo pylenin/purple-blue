@@ -5,7 +5,7 @@ date: 2019-06-18T22:20:42+02:00
 draft: true
 image: /img/beautifulsoup/web-scraping-bs4.png
 ---
-<a href="https://twitter.com/pylenin?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pylenin</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="sharethis-inline-follow-buttons"></div>
 
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
