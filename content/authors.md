@@ -42,3 +42,7 @@ I am an M.Tech in Applied Geophysics from IIT Rookee, PGPWE from IIM Lucknow and
 
 ##### Mostapha Amenchar
 
+![mostapha-image](/img/authors/Mostapha/mostapha.jpeg)
+
+My name is Mostapha Amenchar. I have completed my bachelors in chemistry with specialization in analytical chemistry.
+I work as a senior clinical pharmaceutical analyst at a pharmacy company in the Netherlands. Learning to program in python has become my hobby since mid-2018

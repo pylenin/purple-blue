@@ -1,5 +1,5 @@
 ---
-title: "Dumbeldore's take on Object Oriented Programming (OOP) in Python 3"
+title: "Dumbeldore teaches Object Oriented Programming (OOP) in Python 3"
 description: "A simple guide to working with python datetime objects and timezones in Python"
 date: 2019-06-25T22:13:45+02:00
 draft: true
