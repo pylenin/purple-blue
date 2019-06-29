@@ -2,8 +2,8 @@
 title: "Finding N Largest(Smallest) items in Python with Heapq"
 description: "A simple way to return the N largest or smallest elements using the heapq module in Python 3"
 date: 2019-06-29T09:47:23+02:00
-draft: true
-image: /img/datetimemeta.png
+draft: false
+image: /img/heapq/python-heapq.png
 ---
 
 <div class="sharethis-inline-follow-buttons"></div>
@@ -68,6 +68,8 @@ Heapq is already part of the standard library in Python. Hence no need to instal
 
 Let's find out the 2 largest or smallest numbers from the list using heapq.
 
+For that purpose, we can use the `nlargest` and the `nsmallest` functions respectively.
+
 ```python3
 import heapq
 
@@ -79,4 +81,34 @@ print(heapq.nlargest(2, x))
 print(heapq.nsmallest(2, x))
 >>> [-90, 1]
 ```
+
+We can also use heapq with a python dictionary. In order to do that, we have to pass in a `key` parameter inside our heapq methods.
+
+```python3
+import heapq
+
+laptop_costs = {
+    'Compaq':499,
+    'Dell':530,
+    'Apple':999,
+    'HP':750,
+    'ASUS':650
+}
+
+# The 2 cheapest laptops
+key_values = zip(laptop_costs.values(), laptop_costs.keys())
+print(heapq.nsmallest(2, key_values))
+>>> [(499, 'Compaq'), (530, 'Dell')]
+
+# The 2 expensive laptops
+key_values = zip(laptop_costs.values(), laptop_costs.keys())
+print(heapq.nlargest(2, key_values))
+>>> [(999, 'Apple'), (750, 'HP')]
+```
+
+_**Recommended articles**_
+
+1. [Power of zip() in Python](https://www.pylenin.com/blogs/python-zip-function/)
+2. [Comparison Operators in Python](https://www.pylenin.com/blogs/python-comparison-operators/)
+3. [5 reasons to learn Python in 2019](https://www.pylenin.com/blogs/5-reasons-to-learn-python/)
 
