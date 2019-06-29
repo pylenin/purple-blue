@@ -26,7 +26,7 @@ Python version 3 supports three types of numbers: integers, floats and complex n
 
 **Integers**
 
-   Integers are the set of numbers containing whole numbers and their opposites.
+   [According to Wikipedia](https://en.wikipedia.org/wiki/Integer), integers are numbers without a fractional component.
    
    ```python3
    a = 5
