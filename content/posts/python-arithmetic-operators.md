@@ -37,7 +37,7 @@ Python version 3 supports three types of numbers: integers, floats and complex n
 
 **Floats**
 
-   Floats are the set of numbers containing numbers that has a decimal place.
+   Floats are the set of numbers containing numbers that have a decimal place.
    ```python3
    a = 7.23
    print(type(a))
