@@ -18,10 +18,9 @@ googleAnalytics = "UA-106768190-2"
 #disqusShortname = "https-www-pylenin-com"
 
 [params]
-    author = "Lenin Mishra"
+    author = "A collaborative website for Python topics"
     description = "Everything about Python"
     keywords = "python, blogs, data engineering, business intelligence"
-    info = "Passionate Programmer, Terrible Liar"
     avatarurl = "img/PYLENIN.png"
     footercontent = "P.S I have an accent"
 
