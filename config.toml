@@ -22,7 +22,7 @@ googleAnalytics = "UA-106768190-2"
     description = "Everything about Python"
     keywords = "python, blogs, data engineering, business intelligence"
     info = "Passionate Programmer, Terrible Liar"
-    avatarurl = "img/avatar.jpg"
+    avatarurl = "img/PYLENIN.png"
     footercontent = "P.S I have an accent"
 
     dateformat = "January 2, 2006"
