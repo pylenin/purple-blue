@@ -24,7 +24,7 @@ If you want to pursue a career in the field of Data, here are the 8 important sk
 
     Now if you don't already have a choice for a programming language, you need to consider certain points before picking one. Ideally for a Data Engineering position, you would be working with various kinds of file formats like csv, excel, google sheets, xml, json, pickle files and a lot more. You would also want to fetch data from various APIs, scrape web pages and use the data for your analysis.
 
-    My recommendation for you would be to choose **Python**. Python has a lot of standard and third party librarires that can help you in playing with data from various sources and automate a lot of the trivial stuff.
+    My recommendation for you would be to choose **Python**. Python has a lot of standard and third party libraries that can help you in playing with data from various sources and automate a lot of the trivial stuff.
 
     Also vacancies wise, Python is in heavy demand among companies and you have a good chance of pursuing a successful career in this field.
    
