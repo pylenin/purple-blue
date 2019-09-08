@@ -62,7 +62,7 @@ In this tutorial, the following topics will be explained in details with many ex
  * [Curly bracket syntax](#curly-bracket-syntax)
  * [Using dict() constructor](#using-dict-constructor)
  * [Dictionary comprehension](#dictionary-comprehension)
- * [Transformation of an exciting dictionary to a new dictionary](#transformation-of-an-exciting-dictionary-to-a-new-dictionary)
+ * [Transformation of an existing dictionary to a new dictionary](#transformation-of-an-existing-dictionary-to-a-new-dictionary)
 2. [Accessing dictionary keys, values and items](#accessing-dictionaries)
  * [Accessing keys in a Dictionary](#accessing-keys)
  * [Built in methods](#built-in-methods)
@@ -221,7 +221,7 @@ print(capital_dict)
 >>> {'India':'New Delhi','Pakistan':'Islamabad','Nigeria':'Abuja','Zambia': 'Lukasa','Ghana':'Accra'}
 ```
 
-###### Transformation of an exciting dictionary to a new dictionary
+###### Transformation of an existing dictionary to a new dictionary
 
 During transformation of an existing dictionary to a new dictionary, items within the existing dictionary can be conditionally included in the new dictionary and each item can be transformed as needed.
 
