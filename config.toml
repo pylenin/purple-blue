@@ -94,3 +94,8 @@ googleAnalytics = "UA-106768190-2"
         weight = 3
         url = "https://www.facebook.com/groups/2571658526188257/"
 
+        [[languages.en.menu.main]]
+        name = "Support us on Patreon"
+        weight = 4
+        url = "https://www.patreon.com/join/pylenin?"
+
