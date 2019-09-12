@@ -1,7 +1,7 @@
 ---
 title: "Video of the Day"
 date: 2019-09-12T14:21:42+02:00
-draft: true
+draft: false
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
