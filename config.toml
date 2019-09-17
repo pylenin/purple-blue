@@ -21,7 +21,7 @@ googleAnalytics = "UA-106768190-2"
     author = "A collaborative website for Python topics"
     description = "Everything about Python"
     keywords = "python, blogs, data engineering, business intelligence"
-    avatarurl = "img/PYLENIN.png"
+    avatarurl = "img/pylenin_logo.png"
     footercontent = "P.S I have an accent"
 
     dateformat = "January 2, 2006"
