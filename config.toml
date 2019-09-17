@@ -95,12 +95,12 @@ googleAnalytics = "UA-106768190-2"
         url = "https://www.youtube.com/pylenin/"
 
         [[languages.en.menu.main]]
-        name = "Career Guidance"
+        name = "Pydrools"
         weight = 4
-        url = "https://www.facebook.com/groups/2571658526188257/"
+        url = "https://pydrools.substack.com/"
 
         [[languages.en.menu.main]]
-        name = "Support us on Patreon"
+        name = "Support on Patreon"
         weight = 5
         url = "https://www.patreon.com/join/pylenin?"
 
