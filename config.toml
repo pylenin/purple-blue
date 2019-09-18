@@ -97,7 +97,7 @@ googleAnalytics = "UA-106768190-2"
         [[languages.en.menu.main]]
         name = "Pydrools"
         weight = 4
-        url = "https://pydrools.substack.com/"
+        url = "/pydrools/"
 
         [[languages.en.menu.main]]
         name = "Support on Patreon"
