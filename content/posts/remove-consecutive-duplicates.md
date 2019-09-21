@@ -3,7 +3,7 @@ title: "Python list - Remove consecutive duplicates (3 Ways)"
 description: "3 different ways to remove consecutive duplicates in a Python list"
 date: 2019-09-21T12:08:52+02:00
 draft: false
-image: /img/zipmeta.png
+image: /img/remove-consecutive-elements-python/consecutive-duplicates.png
 ---
 
 <div class="sharethis-inline-follow-buttons"></div>
