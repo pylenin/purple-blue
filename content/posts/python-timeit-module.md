@@ -16,7 +16,7 @@ image: /img/timeit/timeit.png
 3. [Using timeit on commandline](#using-timeit-on-commandline)
 
 #### Python timeit vs time module
-Let's assume you want to return all the characters of a string as a python list.
+Let's assume you want to return all the characters in a string as a python list.
 
 You can follow 2 different approach.
 
