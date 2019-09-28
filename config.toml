@@ -85,9 +85,9 @@ googleAnalytics = "UA-106768190-2"
         url = "/blogs/"
 
         [[languages.en.menu.main]]
-        name = "Video of the Day"
+        name = "Pylenin Store"
         weight = 2
-        url = "/video-of-the-day/"
+        url = "https://teespring.com/nl/stores/pylenin-store-2"
 
         [[languages.en.menu.main]]
         name = "Youtube"
