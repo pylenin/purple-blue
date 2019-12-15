@@ -3,6 +3,7 @@ title: "Writing If-else multiple ways in Python 3"
 description: "Different ways to write if else clause in Python 3"
 date: 2019-12-15T16:43:32+01:00
 draft: false
+image: /img/if-else-multiple/if-else-multiple.png
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
