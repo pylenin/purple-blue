@@ -1,5 +1,5 @@
 ---
-title: """What is if __name__ == "__main__" ?"""
+title: "What is if __name__ == '__main__' ?"
 description: "Understand how __name__ and __main__ work in Python 3"
 date: 2019-12-22T16:18:24+01:00
 draft: false
