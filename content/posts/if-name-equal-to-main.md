@@ -1,15 +1,10 @@
-+++ 
-draft = false
-date = 2019-12-22T16:18:24+01:00
-title = """What is if __name__ == "__main__" ?"""
-description = "Understand how __name__ and __main__ work in Python 3"
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-image = /img/name-main/name-main.png
-+++
+---
+title: """What is if __name__ == "__main__" ?"""
+description: "Understand how __name__ and __main__ work in Python 3"
+date: 2019-12-22T16:18:24+01:00
+draft: false
+image: /img/name-main/name-main.png
+---
 
 <div class="sharethis-inline-follow-buttons"></div>
 
