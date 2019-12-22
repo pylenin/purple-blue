@@ -145,3 +145,6 @@ So now instead of printing `__main__`, the `print(__name__)` statement prints ou
 
 This is the benefit of using `if __ name __ == "__ main __"`. You can easily identify which variables are being imported from which libraries.
 
+<div align="center"><b>Don't forget to subscribe to the Pydrools Newsletter</b></div>
+<div align="center"><iframe width="480" height="320" src="https://pydrools.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>
+
