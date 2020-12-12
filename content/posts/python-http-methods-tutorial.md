@@ -2,7 +2,7 @@
 title: "Python HTTP Methods Tutorial"
 description: "Learn the most common HTTP Methods like GET, POST, PUT and DELETE with Requests library and Github API."
 date: 2020-12-12T06:28:24+05:30
-draft: true
+draft: false
 image: /img/python-http-methods/python-http-method.png
 ---
 <div class="sharethis-inline-follow-buttons"></div>
