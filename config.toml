@@ -94,13 +94,4 @@ googleAnalytics = "UA-106768190-2"
         weight = 3
         url = "https://www.youtube.com/pylenin/"
 
-        [[languages.en.menu.main]]
-        name = "Pydrools"
-        weight = 4
-        url = "/pydrools/"
-
-        [[languages.en.menu.main]]
-        name = "Support on Patreon"
-        weight = 5
-        url = "https://www.patreon.com/join/pylenin?"
 
