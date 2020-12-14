@@ -516,12 +516,12 @@ with open('world_cyclones.csv', 'w', newline="") as output:
 
 #### Conclusion
 
-Beautiful Soup has a lot of useful functionality to parse HTML data. It’s user-friendly and has a well explained documentation. In fact, Beautiful Soup could help you with most of your parsing of the static websites.
+Beautiful Soup has a lot of useful functionality to parse HTML data. It is user-friendly and has a well explained documentation. In fact, Beautiful Soup could help you with most of your parsing of the static websites.
 
-In this article, you’ve learned how to scrape Wikipedia tables using Python, requests, and Beautiful Soup. You learned how to:
+In this article, you have learned how to scrape Wikipedia tables using Python, requests, and Beautiful Soup. You learned how to:
 
 1. Inspect the DOM structure of Wikipedia tools.
-2. Download the page’s HTML content using Python’s requests library with a `GET` request.
+2. Download the page HTML content using Python requests library with a `GET` request.
 3. Parse the downloaded HTML with Beautiful Soup to extract relevant information.
 
 To learn more about Python HTTP Methods, check out our [blog](https://www.pylenin.com/python-http-methods-tutorial).
