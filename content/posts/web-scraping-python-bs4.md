@@ -480,9 +480,9 @@ Our variable `headers` is now a list containing all the header names.
 
 #### Parsing rows of data from Wikipedia table
 
-Let's now parse the rows containing the data. As discussed above, Each table data/cell is defined with a `<td>` tag and the entire row resides within a `tr` tag.
+Let's now parse the rows containing the data. As discussed above, Each table data/cell is defined with a `<td>` tag and the entire row resides within a `<tr>` tag.
 
-Now, we want to store every row as a list, so that it can be easily converted to a csv file. For this purpose, we will parse the `tr` tags and loop through each `tr` tag to find the `td` tag.
+Now, we want to store every row as a list, so that it can be easily converted to a csv file. For this purpose, we will parse the `<tr>` tags and loop through each `<tr>` tag to find the `<td>` tag.
 
 ```python3
 rows = []
