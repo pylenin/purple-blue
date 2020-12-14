@@ -488,7 +488,7 @@ Now, we want to store every row as a list, so that it can be easily converted to
 rows = []
 
 # Find all `tr` tags
-data_rows = table_body.find_all('tr')
+data_rows = required_table.find_all('tr')
 
 for row in data_rows:
     value = row.find_all('td')
@@ -506,6 +506,8 @@ Now our variable `rows` contains all the rows of the tables in a list format.
 Now that we have both our headers and the data rows, the only task that remains is to convert them to a CSV file.
 
 ```python3
+import csv
+
 with open('world_cyclones.csv', 'w', newline="") as output:
     writer = csv.writer(output)
     writer.writerow(headers)
