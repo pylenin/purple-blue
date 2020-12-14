@@ -524,4 +524,4 @@ In this article, you have learned how to scrape Wikipedia tables using Python, r
 2. Download the page HTML content using Python requests library with a `GET` request.
 3. Parse the downloaded HTML with Beautiful Soup to extract relevant information.
 
-To learn more about Python HTTP Methods, check out our [blog](https://www.pylenin.com/python-http-methods-tutorial).
+To learn more about Python HTTP Methods, check out our [blog](https://www.pylenin.com/blogs/python-http-methods-tutorial/).
