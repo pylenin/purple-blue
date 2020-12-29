@@ -2,7 +2,7 @@
 title: "Scatter Plots with Matplotlib"
 description: "Drawing insightful scatter plots with pyplot class of Matplotlib."
 date: 2020-12-24T17:56:23+05:30
-draft: true
+draft: false
 image: /img/matplotlib/scatter_plot/scatter-plot-1.png
 ---
 <div class="sharethis-inline-follow-buttons"></div>
