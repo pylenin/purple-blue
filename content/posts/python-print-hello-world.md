@@ -1,14 +1,3 @@
-+++ 
-draft = true
-date = 2021-01-08T19:49:42+05:30
-title = ""
-description = ""
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 ---
 title: "Python program to print hello world"
 description: "Learn how to print Hello World in Python3"
