@@ -25,5 +25,7 @@ We have used the `print()` built-in function to print the string `Hello World` o
 
 In Python, a string is a sequence of characters. Strings can be enclosed inside single quotes, double quotes, or triple quotes.
 
-**[Dive Deeper into Python Print](https://www.pylenin.com/blogs/python-print/)**
+**Recommended Reading**
 
+* **[Dive Deeper into Python Print](https://www.pylenin.com/blogs/python-print/)**
+* **[f-strings](https://www.pylenin.com/blogs/f-strings-python/)**

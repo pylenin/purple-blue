@@ -57,3 +57,4 @@ Now be careful with this method. We are using the `input()` built in function of
 
 Using the built in `int()` function will chop off the decimal places.
 
+All the above codes use **f-strings**. Learn about f-strings [here](https://www.pylenin.com/blogs/f-strings-python/).
