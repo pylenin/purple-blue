@@ -85,6 +85,11 @@ googleAnalytics = "UA-106768190-2"
         url = "/blogs/"
 
         [[languages.en.menu.main]]
+        name = "Python Examples"
+        weight = 1
+        url = "/python-examples/"
+
+        [[languages.en.menu.main]]
         name = "Pylenin Store"
         weight = 2
         url = "https://teespring.com/nl/stores/pylenin-store-2"
