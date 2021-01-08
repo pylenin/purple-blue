@@ -81,7 +81,13 @@
 
   <body class="{{ if .Site.Params.rtl }}rtl{{ end }} {{ if .Site.Params.inverted }}inverted{{ end }}">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <main class="wrapper">
+      {{ partial "header.html" . }}
+
+      <div class="content">
+        {{ block "content" . }}{{ end }}
+      </div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Pylenin Horizontal Ads -->
     <ins class="adsbygoogle"
          style="display:block"
@@ -92,13 +98,6 @@
     <script>
          (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-    
-    <main class="wrapper">
-      {{ partial "header.html" . }}
-
-      <div class="content">
-        {{ block "content" . }}{{ end }}
-      </div>
 
       {{ partial "footer.html" . }}
     </main>
