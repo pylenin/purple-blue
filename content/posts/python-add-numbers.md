@@ -53,7 +53,7 @@ Enter second number: 2
 The sum of 10 and 2 is 12.0
 ```
 
-Now be careful with this method. We are usiong the `input()` built in function of Python. Since it returns a string, we convert the string into number using the `float()` function. Then, the numbers are added.
+Now be careful with this method. We are using the `input()` built in function of Python. Since it returns a string, we convert the string into number using the `float()` function. Then, the numbers are added.
 
 Using the built in `int()` function will chop off the decimal places.
 
