@@ -28,8 +28,6 @@ Let's look at the image below for better understanding.
 
 ![Indexing in Python](/img/python-strings/positive-negative-indexing-strings.png)
 
-#### Examples
-
 **Code**
 
 ```python3

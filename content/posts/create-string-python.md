@@ -12,7 +12,7 @@ tags: ['python strings']
 
 > If you prefer to watch Youtube videos over reading blogs, check out our [video on Python strings here](https://youtu.be/MXdNMo_f95I). 
 
-#### What is a String?
+#### What are strings in Python?
 
 Strings are amongst the most popular data types in Python. A string can be defined as a sequence of characters. 
 
