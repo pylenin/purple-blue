@@ -7,7 +7,7 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 enableEmoji = true
 
-paginate = 20
+paginate = 50
 canonifyurls = true
 
 pygmentsstyle = "friendly"
