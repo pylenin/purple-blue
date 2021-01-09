@@ -1,14 +1,3 @@
-+++ 
-draft = true
-date = 2021-01-09T23:44:41+05:30
-title = ""
-description = ""
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 ---
 title: "How to replace characters in a string in Python?"
 description: "Learn if you can replace characters in strings in Python"
@@ -43,7 +32,7 @@ Traceback (most recent call last):
 TypeError: 'str' object does not support item assignment
 ```
 
-**However, we can certainly create a new string with our necessary replacements.**
+**However, we can certainly create a copy of our string with our necessary replacements.**
 
 #### Method 1 - Python string replace() method
 
