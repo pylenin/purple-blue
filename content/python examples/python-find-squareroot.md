@@ -90,5 +90,5 @@ Enter a complex number: 2+3j
 Square root of (2+3j) is (1.6741492280355401+0.8959774761298381j)
 ```
 
-All the above codes use **f-strings**. Learn about f-strings [here](https://www.pylenin.com/blogs/f-strings-python/).
+All the above codes use **f-strings**. Learn about python f-strings [here](https://www.pylenin.com/blogs/f-strings-python/).
 
