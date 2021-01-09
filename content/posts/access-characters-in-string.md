@@ -15,7 +15,7 @@ description: "Learn to create and use Python strings"
 date: 2021-01-09T12:58:09+05:30
 draft: true
 image: /img/pylenin_logo.png
-tags: [python strings]
+tags: ["python strings"]
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
