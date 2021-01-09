@@ -53,4 +53,4 @@ As you can see in the code above, we are assigning a string to a variable. It is
 #### Related Articles
 
 1. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
-
+2. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
