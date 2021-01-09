@@ -72,7 +72,7 @@ print(str[1.5])
 >>> TypeError: string indices must be integers
 ```
 
-#### String SLicing
+#### String Slicing
 
 To access a range of characters, you need to use **slicing**. Basically, you have to specify the start index and the end index, separated by a colon, to return a part of the string.
 

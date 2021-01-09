@@ -50,4 +50,7 @@ As you can see in the code above, we are assigning a string to a variable. It is
 
 > Unless necessary, **try not to use triple quotes for strings**. It is generally used for writing docstrings in your Python code, which acts like a documentation.
 
+#### Related Articles
+
+1. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
 
