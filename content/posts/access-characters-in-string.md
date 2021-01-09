@@ -1,14 +1,3 @@
-+++ 
-draft = true
-date = 2021-01-09T12:58:09+05:30
-title = ""
-description = ""
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 ---
 title: "How to create a string in Python?"
 description: "Learn to create and use Python strings"
