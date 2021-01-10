@@ -152,17 +152,6 @@ print(s2.find(s1))
 As you can see, the substring `Python` doesn't occur between the positions 10 and 20. The `find()` method shows that **it occurs at position 32**.
 
 #### Related Articles
-
-1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
-2. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
-3. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
-4. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
-5. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
-
-
-
-
-#### Related Articles
 1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
 2. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
 3. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
