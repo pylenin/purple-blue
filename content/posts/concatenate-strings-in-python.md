@@ -47,4 +47,5 @@ I like I like
 2. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
 3. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
 4. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
-5. [Check if a Substring is Present in a Given String](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
+5. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
+6. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
