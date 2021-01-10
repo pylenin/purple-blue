@@ -1,14 +1,3 @@
-+++ 
-draft = true
-date = 2021-01-10T09:20:41+05:30
-title = ""
-description = ""
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 ---
 title: "How to iterate through a string in Python?"
 description: "Learn to use for loops on strings in Python"
