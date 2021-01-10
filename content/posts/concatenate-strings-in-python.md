@@ -12,6 +12,8 @@ tags: ['python strings']
 
 > If you prefer to watch Youtube videos over reading blogs, check out our [video on Python strings here](https://youtu.be/MXdNMo_f95I). 
 
+#### Concatenating strings in Python
+
 Concatenation is joining of two or more strings into a single string.
 
 In Python, the `+` operator is used for concatenation. 
