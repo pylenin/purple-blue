@@ -154,3 +154,4 @@ str[-5:-2] = LEN
 1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
 2. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
 3. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
+4. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)

@@ -46,3 +46,4 @@ I like I like
 1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
 2. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
 3. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
+4. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)

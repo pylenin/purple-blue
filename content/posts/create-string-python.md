@@ -55,3 +55,4 @@ As you can see in the code above, we are assigning a string to a variable. It is
 1. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
 2. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
 3. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
+4. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
