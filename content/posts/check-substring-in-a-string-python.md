@@ -1,6 +1,6 @@
 ---
-title: "How to create a string in Python?"
-description: "Learn to create and use Python strings"
+title: "Check if a Substring is Present in a Given String"
+description: "Check if a Substring is Present in a Given String in Python"
 date: 2021-01-10T09:59:53+05:30
 draft: false
 image: /img/pylenin_logo.png
