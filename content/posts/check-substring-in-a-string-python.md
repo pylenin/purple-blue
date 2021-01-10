@@ -1,5 +1,5 @@
 ---
-title: "Check if a Substring is Present in a Given String"
+title: "Check if a Substring is Present in a Given String in Python"
 description: "Check if a Substring is Present in a Given String in Python"
 date: 2021-01-10T09:59:53+05:30
 draft: false
