@@ -162,10 +162,11 @@ You can find a list of available formatters [here](https://docs.python.org/3/lib
 
 #### Related Articles
 
-1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
-2. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
-3. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
-4. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
-5. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
-6. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
-7. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
+1. [f-strings in Python](https://www.pylenin.com/blogs/format-method-python-string/)
+2. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
+3. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
+4. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
+5. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
+6. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
+7. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
+8. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
