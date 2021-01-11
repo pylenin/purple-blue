@@ -1,7 +1,7 @@
 ---
 title: "5 reasons to learn Python in 2021"
 description: "This article provides 5 important reasons to learn python programming in 2021. You will learn about the various advantages, disadvantages and career opportunities in python."
-date: 2021-01-10T21:13:52+02:00
+date: 2021-01-10T21:13:52+05:30
 draft: false
 image: /img/5-reasons-for-python/5-reasons-to-learn-python.png
 ---
