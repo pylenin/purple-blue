@@ -195,11 +195,11 @@ print(s)
 Give Pylenin $100
 ```
 
-**Python offers 3 other ways of String Formatting.** They are [formatting with % operator](https://www.pylenin.com/blogs/string-formatting-percentage-operator/), [string.format() method](https://www.pylenin.com/blogs/format-method-python-string/) and the latest being [f-strings](https://www.pylenin.com/blogs/f-strings-python/). Do check them out!
+**Python offers 3 other ways of String Formatting. Check out [the definite guide to Python String Formatting](https://www.pylenin.com/blogs/python-string-formatting/)** 
 
 #### Related Articles
 
-1. [f-strings in Python](https://www.pylenin.com/blogs/format-method-python-string/)
+1. [f-strings in Python](https://www.pylenin.com/blogs/f-strings-python/)
 2. [Python String format() method](https://www.pylenin.com/blogs/format-method-python-string/)
 3. [% operator - Python String formatting](https://www.pylenin.com/blogs/string-formatting-percentage-operator/)
 4. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)

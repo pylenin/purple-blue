@@ -160,13 +160,17 @@ Exponential representation of 99 is 9.90e+01
 
 You can find a list of available formatters [here](https://docs.python.org/3/library/string.html#format-specification-mini-language).
 
+**Python offers 3 other ways of String Formatting. Check out [the definite guide to Python String Formatting](https://www.pylenin.com/blogs/python-string-formatting/)** 
+
 #### Related Articles
 
-1. [f-strings in Python](https://www.pylenin.com/blogs/format-method-python-string/)
-2. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
-3. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
-4. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
-5. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
-6. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
-7. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
-8. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
+1. [f-strings in Python](https://www.pylenin.com/blogs/f-strings-python/)
+2. [Python String Template Class](https://www.pylenin.com/blogs/python-string-template-class/)
+3. [% operator - Python String formatting](https://www.pylenin.com/blogs/string-formatting-percentage-operator/)
+4. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
+5. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
+6. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
+7. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
+8. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
+9. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
+10. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
