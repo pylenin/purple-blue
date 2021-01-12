@@ -573,7 +573,7 @@ Pylenin like Python
 
 #### Multiline f-strings
 
-You can use multiple lines with f-strings. **Just remember to put `f` in fron of every line.**
+You can use multiple lines with f-strings. **Just remember to put `f` in front of every line.**
 
 **Code**
 
