@@ -689,6 +689,8 @@ print(timeit(str1, number=10000))
 
 With f-strings, the code only took **0.1565294 secs**, considerably lesser than any other method.
 
+![Comparison of Execution time for all String Formatting Methods in Python](/img/python-strings/string-formatting/python-string-formatting-execution-time.png)
+
 #### Related Articles
 
 1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
