@@ -531,6 +531,141 @@ print(f"Sum of {num1} and {num2} is {num1+num2}")
 Sum of 10 and 5 is 15
 ```
 
+You can also call Python functions within a f-string.
+
+**Code**
+
+```python3
+x = "Pylenin"
+
+print(f"{x.lower()}")
+```
+
+**Output**
+
+```bash
+pylenin
+```
+
+You could also work with objects created from [classes](https://www.youtube.com/watch?v=fe9h17PYn0M&list=PLqEbL1vopgvsVCEk_aEnsLH-3qyn0Z6Wn) with f-strings.
+
+**Code**
+
+```python3
+class Programmer:
+    def __init__(self, name, language):
+        self.name = name
+        self.language = language
+
+    def __str__(self):
+        return f"{self.name} like {self.language}"
+
+new_programmer = Programmer('Pylenin', 'Python')
+
+print(f"{new_programmer}")
+```
+
+**Output**
+
+```bash
+Pylenin like Python
+```
+
+#### Multiline f-strings
+
+You can use multiple lines with f-strings. **Just remember to put `f` in fron of every line.**
+
+**Code**
+
+```python3
+name = "Pylenin"
+language="Python"
+age = 29
+
+str1 = f"Hello, I am {name}. \n"\
+       f"I love {language}. \n"\
+       f"I am {age} years old."
+
+print(str1)
+```
+
+**Output**
+
+```bash
+Hello, I am Pylenin. 
+I love Python. 
+I am 29 years old.
+```
+
+#### f-strings are fast
+
+Since f-strings are evaluated at runtime, they are faster than both [%-formatting](https://www.pylenin.com/blogs/string-formatting-percentage-operator/) and [string.format() method](https://www.pylenin.com/blogs/format-method-python-string/).
+
+You can confirm it by using the [timeit module in Python](https://www.pylenin.com/blogs/python-timeit-module/).
+
+**Example 1 - Timer with % operator**
+
+```python3
+from timeit import timeit
+
+str1 = """
+name = "Pylenin"
+language="Python"
+age = 29
+
+str1 = "Hello, I am %s. "\
+       "I love %s. "\
+       "I am %d years old."%(name, language, age)
+
+print(str1)
+"""
+print(timeit(str1, number=10000))
+```
+
+The above code took **0.2817505 secs**.
+
+**Example 2 - timeit for string.format() method**
+
+```python3
+from timeit import timeit
+
+str1 = """
+name = "Pylenin"
+language="Python"
+age = 29
+
+str1 = "Hello, I am {0}. "\
+       "I love {1}. "\
+       "I am {2} years old.".format(name, language, age)
+
+print(str1)
+"""
+print(timeit(str1, number=10000))
+```
+
+The above code took **0.3652804 secs**.
+
+**Example 3 - timeit for f-strings**
+
+```python3
+from timeit import timeit
+
+str1 = """
+name = "Pylenin"
+language="Python"
+age = 29
+
+str1 = f"Hello, I am {name}. "\
+       f"I love {language}. "\
+       f"I am {age} years old."
+
+print(str1)
+"""
+print(timeit(str1, number=10000))
+```
+
+With f-strings, the code only took **0.1565294 secs**, considerably lesser than any other method.
+
 #### Related Articles
 
 1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
