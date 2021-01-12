@@ -2,7 +2,7 @@
 title: "String Formatting in Python - The Definite Guide"
 description: "Learn multiple ways to format strings in Python"
 date: 2021-01-12T12:20:04+05:30
-draft: true
+draft: false
 image: /img/pylenin_logo.png
 tags: ['python strings']
 ---
