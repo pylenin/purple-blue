@@ -131,7 +131,7 @@ I am 29 years old.
 
 #### f-strings are fast
 
-Since f-strings are evaluated at runtime, they are faster than both [%-formatting](https://www.pylenin.com/blogs/string-formatting-percentage-operator/) and [string.format() method](https://www.pylenin.com/blogs/format-method-python-string/).
+Since f-strings are evaluated at runtime, they are faster than both [%-formatting](https://www.pylenin.com/blogs/string-formatting-percentage-operator/), [String Template formatting](https://www.pylenin.com/blogs/python-string-template-class/) and [string.format() method](https://www.pylenin.com/blogs/format-method-python-string/).
 
 You can confirm it by using the [timeit module in Python](https://www.pylenin.com/blogs/python-timeit-module/).
 
@@ -177,7 +177,30 @@ print(timeit(str1, number=10000))
 
 The above code took **0.3652804 secs**.
 
-**Example 3 - timeit for f-strings**
+**Example 3 - timeit for String Template Class**
+
+```python3
+from timeit import timeit
+
+str1 = """
+from string import Template
+
+name = "Pylenin"
+language="Python"
+age = 29
+
+str1 = Template("Hello, I am $name. "\
+                "I love $language. "\
+                "I am $age years old.")
+
+print(str1.substitute(name=name, language=language, age=age))
+"""
+print(timeit(str1, number=10000))
+```
+
+The above code took **0.1888825 secs**.
+
+**Example 4 - timeit for f-strings**
 
 ```python3
 from timeit import timeit

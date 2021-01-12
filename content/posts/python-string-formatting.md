@@ -645,7 +645,30 @@ print(timeit(str1, number=10000))
 
 The above code took **0.3652804 secs**.
 
-**Example 3 - timeit for f-strings**
+**Example 3 - timeit for String Template Class**
+
+```python3
+from timeit import timeit
+
+str1 = """
+from string import Template
+
+name = "Pylenin"
+language="Python"
+age = 29
+
+str1 = Template("Hello, I am $name. "\
+                "I love $language. "\
+                "I am $age years old.")
+
+print(str1.substitute(name=name, language=language, age=age))
+"""
+print(timeit(str1, number=10000))
+```
+
+The above code took **0.1888825 secs**.
+
+**Example 4 - timeit for f-strings**
 
 ```python3
 from timeit import timeit
