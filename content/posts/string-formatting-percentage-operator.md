@@ -119,7 +119,7 @@ print("My name is %s"%str1)
 print("The number is %d"%num)
 
 # Floating Point representation
-print("Floating point representation of %s is %.2f"%(num, num))
+print("Floating point representation of %s is %f"%(num, num))
 print("Floating point representation of %s with precision 2 is %.2f"%(num, num))
 
 # Exponential Representation
@@ -135,7 +135,7 @@ print("Hex representation of %s is 0x%X"%(num, num))
 ```bash
 My name is Pylenin
 The number is 100
-Floating point representation of 100 is 100.00
+Floating point representation of 100 is 100.000000
 Floating point representation of 100 with precision 2 is 100.00
 Exponential representation of 100 is 1.000000e+02
 Exponential representation of 100 with precision 2 is 1.00e+02
