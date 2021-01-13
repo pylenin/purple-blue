@@ -2,7 +2,7 @@
 title: "Python String endswith() Method"
 description: "Learn to use endswith() method with Python strings"
 date: 2021-01-13T10:36:16+05:30
-draft: true
+draft: false
 image: /img/pylenin_logo.png
 tags: ['python strings']
 ---
@@ -11,6 +11,73 @@ tags: ['python strings']
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
 > If you prefer to watch Youtube videos over reading blogs, check out our [video on Python strings here](https://youtu.be/MXdNMo_f95I). 
+
+The `endswith()` method in Python returns `True` if the string ends with the specified value, otherwise, returns `False`.
+**It is not case sensitive.**
+
+#### Syntax of `endswith()` method
+
+```bash
+string.endswith(value, start, end)
+
+value: Value to check if the string endswith(Required)
+start: The integer position to start the search. Default is 0.(Optional)
+end:   The integer position to end the search. Default is the end of the string.(Optional)
+```
+
+##### Example 1
+
+**Code**
+
+```python3
+str1 = "Pylenin makes videos on Python"
+
+print(str1.endswith('Python'))
+print(str1.endswith('videos'))
+```
+
+**Output**
+
+```bash
+True
+False
+```
+
+##### Example 2 - Check for case sensitivity
+
+**Code**
+
+```python3
+str1 = "Pylenin makes videos on Python"
+
+print(str1.endswith('python'))
+```
+
+**Output**
+
+```bash
+False
+```
+
+##### Example 3 - Check within specified positions of a string
+
+**Code**
+
+```python3
+str1 = "Pylenin makes videos on Python"
+
+# Check between position 5 and 10
+print(str1.endswith('Python', 5, 10))
+
+print(f"It occurs at position - {str1.find('Python')}")
+```
+
+**Output**
+
+```bash
+False
+It occurs at position - 24
+```
 
 Check out other [commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods).
 

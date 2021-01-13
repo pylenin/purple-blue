@@ -23,7 +23,7 @@ Here is a list of commonly used Python string methods.
 3. [center()](https://www.pylenin.com/blogs/python-string-center) - Returns a centered string
 4. [count()](https://www.pylenin.com/blogs/python-string-count) - Returns the number of times a specified value occurs in a string
 5. [encode()](https://www.pylenin.com/blogs/python-string-encode) - Returns an encoded version of the string
-6. endswith() -	Returns true if the string ends with the specified value
+6. [endswith()](https://www.pylenin.com/blogs/python-string-endswith) -	Returns true if the string ends with the specified value
 7. expandtabs() - Sets the tab size of the string
 8. find() - Searches the string for a specified value and returns the position of where it was found
 9. format() - Formats specified values in a string

@@ -19,7 +19,7 @@ The `count()` method returns the number of times a substring `s1` appears in the
 ```bash
 string.count(value, start, end)
 
-value:	The substring to search for(required)
+value:	The substring to search for(Required)
 start:	The integer position to start the search. Default is 0.(Optional)
 end:	The integer position to end the search. Default is the end of the string.(Optional)
 ```
