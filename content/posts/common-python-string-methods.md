@@ -1,14 +1,3 @@
-+++ 
-draft = true
-date = 2021-01-13T08:46:05+05:30
-title = ""
-description = ""
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 ---
 title: "Common Python String Methods"
 description: "Learn about the common built-in methods used with Python Strings"
