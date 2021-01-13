@@ -18,6 +18,16 @@ It returns **-1** if the value is not found.
 The `find()` method is similar to the `index()` method. 
 Only difference - `index()` method raises an exception if the value is not found.
 
+##### Syntax of `find()` method
+
+```bash
+string.find(value, start, end)
+
+value:	The value to search for(Required)
+start:	The integer position to start the search. Default is 0.(Optional)
+end:	The integer position to end the search. Default is the end of the string.(Optional)
+```
+
 ##### Example 1
 
 **Code**
@@ -59,8 +69,6 @@ print(s2.find(s1))
 The above result tells us that the substring `Python` doesn't exist in `s1`.
 
 Check out other [commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods).
-
-
 
 #### Related Articles
 
