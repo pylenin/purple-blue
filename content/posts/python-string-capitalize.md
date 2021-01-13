@@ -43,6 +43,8 @@ print(new_string)
 Pylenin Writes About Python.
 ```
 
+Check out other [commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods).
+
 #### Related Articles
 
 1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
@@ -53,3 +55,4 @@ Pylenin Writes About Python.
 6. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
 7. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
 8. [Python String Formatting - The Definitive Guide](https://www.pylenin.com/blogs/python-string-formatting/)
+

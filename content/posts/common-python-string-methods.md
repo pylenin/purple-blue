@@ -19,8 +19,8 @@ Python has a number of built-in methods that you can use on strings. **None of t
 Here is a list of commonly used Python string methods.
 
 1. [capitalize()](https://www.pylenin.com/blogs/python-string-capitalize/) - Converts the first character to uppercase
-2. casefold() -	Converts string into lower case
-3. center() - Returns a centered string
+2. [casefold()](https://www.pylenin.com/blogs/python-string-casefold/) - Converts string into lower case
+3. [center()](https://www.pylenin.com/blogs/python-string-center) - Returns a centered string
 4. count() - Returns the number of times a specified value occurs in a string
 5. encode() - Returns an encoded version of the string
 6. endswith() -	Returns true if the string ends with the specified value
