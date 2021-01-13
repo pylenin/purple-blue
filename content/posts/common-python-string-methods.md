@@ -25,7 +25,7 @@ Here is a list of commonly used Python string methods.
 5. [encode()](https://www.pylenin.com/blogs/python-string-encode) - Returns an encoded version of the string
 6. [endswith()](https://www.pylenin.com/blogs/python-string-endswith) -	Returns true if the string ends with the specified value
 7. [expandtabs()](https://www.pylenin.com/blogs/python-string-expandtabs) - Sets the tab size of the string
-8. find() - Searches the string for a specified value and returns the position of where it was found
+8. [find()](https://www.pylenin.com/blogs/python-string-find) - Searches the string for a specified value and returns the position of where it was found
 9. format() - Formats specified values in a string
 10. format_map() - Formats specified values in a string
 11. index() - Searches the string for a specified value and returns the position of where it was found
