@@ -14,7 +14,8 @@ tags: ['python strings']
 
 The `count()` method returns the number of times a substring `s1` appears in the string `s2`. **It is not case sensitive.**
 
-**Syntax**
+#### Syntax of `count()` method
+
 ```bash
 string.count(value, start, end)
 
@@ -51,8 +52,6 @@ if s2.count(s1) > 0:
     print(f"'{s1}' exists in '{s2}'")
 else:
     print(f"'{s1}' does not exist in '{s2}'")
-
-
 ```
 
 **Output**
