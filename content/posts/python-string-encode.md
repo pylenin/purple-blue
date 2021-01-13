@@ -1,17 +1,6 @@
-+++ 
-draft = true
-date = 2021-01-13T10:11:30+05:30
-title = ""
-description = ""
-slug = "" 
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 ---
-title: "Python String count() Method"
-description: "Learn what count() method does to Python strings"
+title: "Python String encode() Method"
+description: "Learn what encode() method does to Python strings"
 date: 2021-01-13T10:11:30+05:30
 draft: false
 image: /img/pylenin_logo.png
