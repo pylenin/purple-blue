@@ -49,3 +49,4 @@ I like I like
 4. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
 5. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
 6. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
+7. [Python String Formatting - The Definitive Guide](https://www.pylenin.com/blogs/python-string-formatting/)

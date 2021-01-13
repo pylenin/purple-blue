@@ -158,3 +158,4 @@ As you can see, the substring `Python` doesn't occur between the positions 10 an
 4. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
 5. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
 6. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
+7. [Python String Formatting - The Definitive Guide](https://www.pylenin.com/blogs/python-string-formatting/)

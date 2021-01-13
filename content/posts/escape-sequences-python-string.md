@@ -76,3 +76,4 @@ Pylenin said, 'Hi there'
 4. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
 5. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
 6. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
+7. [Python String Formatting - The Definitive Guide](https://www.pylenin.com/blogs/python-string-formatting/)
