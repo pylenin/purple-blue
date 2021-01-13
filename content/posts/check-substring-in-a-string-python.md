@@ -79,7 +79,7 @@ The above result tells us that the substring `Python` doesn't exist in `s1`.
 
 #### Method 3 - Python String count() Method
 
-The `count()` method returns the number of times a substring `s1` appears in the string `s2`.
+The `count()` method returns the number of times a substring `s1` appears in the string `s2`. **It is not case sensitive.**
 
 **Syntax**
 ```bash
