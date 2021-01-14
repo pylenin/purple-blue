@@ -37,55 +37,46 @@ Returns True or False
 
 ##### Example
 
-**Code**
+**Code/Output**
 
 ```python3
 s = "1992"
 print(s.isdecimal())
+>>> True
 
 # Floating point number
 s = "1992.10"
 print(s.isdecimal())
+>>> False
 
 # contains alphabets
 s = "Pylenin1992"
 print(s.isdecimal())
+>>> False
 
 # contains alphabets and spaces
 s = "Pylenin loves Python"
 print(s.isdecimal())
+>>> False
 
 # Empty string
 s = ''
 print(s.isdecimal())
+>>> False
 
 # superscripts
 s = '1992\u00B2'
 print(s)
 print(s.isdecimal())
+>>> 1992 ^ 2
+>>> False
 
 # fractions
 s = '\u00BD'
 print(s)
 print(s.isdecimal())
-```
-
-**Output**
-
-```bash
-True
-False
-False
-False
-False
-
-# superscript result
-1992²
-False
-
-# fraction result
-½
-False
+>>> 1/2
+>>> False
 ```
 
 ##### Difference between `isdigit()` and `isdecimal()`

@@ -58,14 +58,14 @@ print(s.isdigit())
 s = '1992\u00B2'
 print(s)
 print(s.isdigit())
->>> 1992²
+>>> 1992^2
 >>> True
 
 # fractions
 s = '\u00BD'
 print(s)
 print(s.isdigit())
->>> ½
+>>> 1/2
 >>> False
 ```
 
