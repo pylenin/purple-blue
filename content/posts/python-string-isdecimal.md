@@ -95,7 +95,7 @@ print(s.isdigit())
 **Output**
 
 ```bash
-2345²
+2345^2
 False #isdecimal()
 True #isdigit()
 ```
