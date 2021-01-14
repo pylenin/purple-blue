@@ -70,7 +70,7 @@ False
 False
 
 # superscript result
-1992²
+1992<sup>2</sup>
 True
 
 # fraction result
