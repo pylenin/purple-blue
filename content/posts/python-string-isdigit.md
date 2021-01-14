@@ -27,55 +27,46 @@ Returns True or False
 
 ##### Example 
 
-**Code**
+**Code/Output**
 
 ```python3
 s = "1992"
 print(s.isdigit())
+>>> True
 
 # Floating point number
 s = "1992.10"
 print(s.isdigit())
+>>> False
 
 # contains alphabets
 s = "Pylenin1992"
 print(s.isdigit())
+>>> False
 
 # contains alphabets and spaces
 s = "Pylenin loves Python"
 print(s.isdigit())
+>>> False
 
 # Empty string
 s = ''
 print(s.isdigit())
+>>> False
 
 # superscripts
 s = '1992\u00B2'
 print(s)
 print(s.isdigit())
+>>> 1992²
+>>> True
 
 # fractions
 s = '\u00BD'
 print(s)
 print(s.isdigit())
-```
-
-**Output**
-
-```
-True
-False
-False
-False
-False
-
-# superscript result
-1992²
-True
-
-# fraction result
-½
-False
+>>> ½
+>>> False
 ```
 
 As you can see, **fractions don't qualify as digits.**
