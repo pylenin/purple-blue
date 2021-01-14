@@ -4,7 +4,8 @@ description: "Learn to use index() method on Python strings"
 date: 2021-01-14T10:02:11+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
+tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
@@ -20,7 +21,7 @@ If the value is not found, it raises a `ValueError` exception. The `find()` meth
 
 **The `index()` method is not case sensitive.**
 
-#### Syntax of `index()` method
+##### Syntax of `index()` method
 
 ```bash
 string.index(value, start end)

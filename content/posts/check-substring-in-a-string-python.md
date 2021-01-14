@@ -4,7 +4,7 @@ description: "Check if a Substring is Present in a Given String in Python"
 date: 2021-01-10T09:59:53+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

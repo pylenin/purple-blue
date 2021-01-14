@@ -4,7 +4,8 @@ description: "Learn to use f-strings in Python"
 date: 2021-01-08T20:51:35+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
+tags: ['python string formatting']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

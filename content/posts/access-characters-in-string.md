@@ -4,7 +4,7 @@ description: "Learn to access characters in Python strings"
 date: 2021-01-09T12:58:09+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

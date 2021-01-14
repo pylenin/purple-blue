@@ -1,5 +1,5 @@
 ---
-title: "Find Duplicate Characters in a String (2 ways)"
+title: "Find Duplicate Characters in a Python String (2 ways)"
 description: "This article provides an interesting approach to finding duplicate characters in a string by using the collections library."
 date: 2019-08-30T16:08:56+02:00
 draft: false

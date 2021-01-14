@@ -4,7 +4,8 @@ description: "Learn what casefold() method does to Python strings"
 date: 2021-01-13T08:56:47+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
+tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

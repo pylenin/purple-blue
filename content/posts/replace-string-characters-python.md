@@ -4,7 +4,7 @@ description: "Learn if you can replace characters in strings in Python"
 date: 2021-01-09T23:44:41+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

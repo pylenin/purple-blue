@@ -4,7 +4,7 @@ description: "Learn about the common built-in methods used with Python Strings"
 date: 2021-01-13T08:46:05+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
@@ -29,7 +29,7 @@ Here is a list of commonly used Python string methods.
 9. [format()](https://www.pylenin.com/blogs/format-method-python-string/) - Formats specified values in a string
 10. [format_map()](https://www.pylenin.com/blogs/python-string-format-map) - Formats specified values in a string
 11. [index()](https://www.pylenin.com/blogs/python-string-index) - Searches the string for a specified value and returns the position of where it was found
-12. isalnum() - Returns True if all characters in the string are alphanumeric
+12. [isalnum()](https://www.pylenin.com/blogs/python-string-isalnum) - Returns True if all characters in the string are alphanumeric
 13. isalpha() - Returns True if all characters in the string are in the alphabet
 14. isdecimal() - Returns True if all characters in the string are decimals
 15. isdigit() - Returns True if all characters in the string are digits

@@ -4,7 +4,8 @@ description: "Learn to perform string formatting with String Template class in P
 date: 2021-01-12T12:09:04+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
+tags: ['python string formatting']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

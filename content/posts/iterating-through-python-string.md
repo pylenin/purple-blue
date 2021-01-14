@@ -4,7 +4,7 @@ description: "Learn to use for loops on strings in Python"
 date: 2021-01-10T09:20:41+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

@@ -4,7 +4,8 @@ description: "Learn to perform string formatting with format() method in Python"
 date: 2021-01-11T00:30:30+05:30
 draft: false
 image: /img/pylenin_logo.png
-tags: ['python strings']
+categories: ['python strings']
+tags: ['python string formatting']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

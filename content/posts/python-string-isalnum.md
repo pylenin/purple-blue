@@ -1,7 +1,7 @@
 ---
-title: "Python String endswith() Method"
-description: "Learn to use endswith() method with Python strings"
-date: 2021-01-13T10:36:16+05:30
+title: "Python String isalnum() Method"
+description: "Learn to use isalnum() method on Python strings"
+date: 2021-01-14T10:32:47+05:30
 draft: false
 image: /img/pylenin_logo.png
 categories: ['python strings']
@@ -13,17 +13,18 @@ tags: ['python string methods']
 
 > If you prefer to watch Youtube videos over reading blogs, check out our [video on Python strings here](https://youtu.be/MXdNMo_f95I). 
 
-The `endswith()` method in Python returns `True` if the string ends with the specified value, otherwise, returns `False`.
-**It is not case sensitive.**
+##### Python String `isalnum()` method
 
-#### Syntax of `endswith()` method
+The `isalnum()` method in Python checks if all characters in the string are **alphanumeric**.
+
+**Alphanumeric characters** - Alphabet letters (a-z) and numbers (0-9)
+
+##### Syntax of `isalnum()` method
 
 ```bash
-string.endswith(value, start, end)
+string.isalnum()
 
-value: Value to check if the string endswith(Required)
-start: The integer position to start the search. Default is 0.(Optional)
-end:   The integer position to end the search. Default is the end of the string.(Optional)
+Returns True or False
 ```
 
 ##### Example 1
@@ -31,27 +32,25 @@ end:   The integer position to end the search. Default is the end of the string.
 **Code**
 
 ```python3
-str1 = "Pylenin makes videos on Python"
+s1 = "Pylenin1992"
 
-print(str1.endswith('Python'))
-print(str1.endswith('videos'))
+print(s1.isalnum())
 ```
 
 **Output**
 
 ```bash
 True
-False
 ```
 
-##### Example 2 - Check for case sensitivity
+##### Example 2 - Check for a sentence
 
 **Code**
 
 ```python3
-str1 = "Pylenin makes videos on Python"
+s1 = "Pylenin was born in 1992"
 
-print(str1.endswith('python'))
+print(s1.isalnum())
 ```
 
 **Output**
@@ -60,24 +59,39 @@ print(str1.endswith('python'))
 False
 ```
 
-##### Example 3 - Check within specified positions of a string
+##### Example 3 - Check for special characters
 
 **Code**
 
 ```python3
-str1 = "Pylenin makes videos on Python"
+s1 = "pylenin1992@gmail.com"
 
-# Check between position 5 and 10
-print(str1.endswith('Python', 5, 10))
-
-print(f"It occurs at position - {str1.find('Python')}")
+print(s1.isalnum())
 ```
 
 **Output**
 
 ```bash
 False
-It occurs at position - 24
+```
+
+As you can see, `@` is not an alphanumeric character.
+
+Let's check for random characters.
+
+
+**Code**
+
+```python3
+s1 = "!#%&?"
+
+print(s1.isalnum())
+```
+
+**Output**
+
+```bash
+False
 ```
 
 Check out other [commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods).
