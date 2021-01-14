@@ -6,7 +6,6 @@ draft: false
 image: /img/pylenin_logo.png
 categories: ['python strings']
 tags: ['python string formatting']
-tags_weight: 4
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 

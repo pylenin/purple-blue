@@ -30,9 +30,9 @@ Here is a list of commonly used Python string methods.
 10. [format_map()](https://www.pylenin.com/blogs/python-string-format-map) - Formats specified values in a string
 11. [index()](https://www.pylenin.com/blogs/python-string-index) - Searches the string for a specified value and returns the position of where it was found
 12. [isalnum()](https://www.pylenin.com/blogs/python-string-isalnum) - Returns True if all characters in the string are alphanumeric
-13. isalpha() - Returns True if all characters in the string are in the alphabet
-14. isdecimal() - Returns True if all characters in the string are decimals
-15. isdigit() - Returns True if all characters in the string are digits
+13. [isalpha()](https://www.pylenin.com/blogs/python-string-isalpha) - Returns True if all characters in the string are in the alphabet
+14. [isdecimal()](https://www.pylenin.com/blogs/python-string-isdecimal) - Returns True if all characters in the string are decimals
+15. [isdigit()](https://www.pylenin.com/blogs/python-string-isdigit) - Returns True if all characters in the string are digits
 16. isidentifier() - Returns True if the string is an identifier
 17. islower() - Returns True if all characters in the string are lower case
 18. isnumeric() - Returns True if all characters in the string are numeric
