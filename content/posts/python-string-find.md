@@ -15,8 +15,10 @@ tags: ['python strings']
 The `find()` method in Python, finds the first occurrence of a specified value in a given string. It returns the index where the substring `s1` occurs.
 It returns **-1** if the value is not found.
 
-The `find()` method is similar to the `index()` method. 
+The `find()` method is similar to the [index()](https://www.pylenin.com/blogs/python-string-index) method. 
 Only difference - `index()` method raises an exception if the value is not found.
+
+**It is not case sensitive.**
 
 ##### Syntax of `find()` method
 
@@ -33,7 +35,7 @@ end:	The integer position to end the search. Default is the end of the string.(O
 **Code**
 
 ```python3
-s2 = "I like Pylenin"
+s2 = 'I like Pylenin'
 s1 = 'like'
 
 print(s2.find(s1))
@@ -54,7 +56,7 @@ Let's check for another substring.
 **Code**
 
 ```python3
-s2 = "I like Pylenin"
+s2 = 'I like Pylenin'
 s1 = 'Python'
 
 print(s2.find(s1))
@@ -67,6 +69,22 @@ print(s2.find(s1))
 ```
 
 The above result tells us that the substring `Python` doesn't exist in `s1`.
+
+##### Example 3 - Check for case sensitivity
+**Code**
+
+```python3
+s2 = 'I like Pylenin'
+s1 = 'pylenin'
+
+print(s2.find(s1))
+```
+
+**Output**
+
+```bash
+-1
+```
 
 Check out other [commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods).
 

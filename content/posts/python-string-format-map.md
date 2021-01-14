@@ -12,7 +12,7 @@ tags: ['python strings']
 
 > If you prefer to watch Youtube videos over reading blogs, check out our [video on Python strings here](https://youtu.be/MXdNMo_f95I). 
 
-##### Difference between format() and format_map() in Python
+##### Difference between `format()` and `format_map()` in Python
 
 The `format_map()` method is similar to `format()` method in Python., except that it only accepts a dictionary as input.
 
