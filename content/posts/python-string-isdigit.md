@@ -70,7 +70,7 @@ False
 False
 
 # superscript result
-1992<sup>2</sup>
+1992\U+00B2
 True
 
 # fraction result
