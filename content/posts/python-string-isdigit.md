@@ -62,7 +62,7 @@ print(s.isdigit())
 
 **Output**
 
-```bash
+```
 True
 False
 False
@@ -70,7 +70,7 @@ False
 False
 
 # superscript result
-1992\U+00B2
+1992²
 True
 
 # fraction result
