@@ -36,7 +36,7 @@ Here is a list of commonly used Python string methods.
 16. [isidentifier()](https://www.pylenin.com/blogs/python-string-isidentifier) - Returns True if the string is an identifier
 17. [islower()](https://www.pylenin.com/blogs/python-string-islower) - Returns True if all characters in the string are lower case
 18. [isnumeric()](https://www.pylenin.com/blogs/python-string-isnumeric) - Returns True if all characters in the string are numeric
-19. isprintable() - Returns True if all characters in the string are printable
+19. [isprintable()](https://www.pylenin.com/blogs/python-string-isprintable) - Returns True if all characters in the string are printable
 20. isspace() - Returns True if all characters in the string are whitespaces
 21. istitle() - Returns True if the string follows the rules of a title
 22. isupper() - Returns True if all characters in the string are upper case
