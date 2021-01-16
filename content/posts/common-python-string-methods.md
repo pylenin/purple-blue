@@ -45,7 +45,7 @@ Here is a list of commonly used Python string methods.
 25. [lower()](https://www.pylenin.com/blogs/python-string-lower) - Converts a string into lower case
 26. [lstrip()](https://www.pylenin.com/blogs/python-string-lstrip) - Returns a left trim version of the string
 27. [maketrans()](https://www.pylenin.com/blogs/python-string-maketrans) - Returns a translation table to be used in translations
-28. partition() - Returns a tuple where the string is parted into three parts
+28. [partition()](https://www.pylenin.com/blogs/python-string-partition) - Returns a tuple where the string is parted into three parts
 29. replace() - Returns a string where a specified value is replaced with a specified value
 30. rfind() - Searches the string for a specified value and returns the last position of where it was found
 31. rindex() - Searches the string for a specified value and returns the last position of where it was found
