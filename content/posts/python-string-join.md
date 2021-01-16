@@ -24,7 +24,7 @@ The `join()` method in Python returns a string in which all the elements of an i
 ```bash
 separator.join(iterable)
 
-iterable	Any iterable object where 
+iterable:	Any iterable object where 
             all the values are strings.
 ```
 
