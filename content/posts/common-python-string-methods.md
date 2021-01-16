@@ -39,8 +39,8 @@ Here is a list of commonly used Python string methods.
 19. [isprintable()](https://www.pylenin.com/blogs/python-string-isprintable) - Returns True if all characters in the string are printable
 20. [isspace()](https://www.pylenin.com/blogs/python-string-isspace) - Returns True if all characters in the string are whitespaces
 21. [istitle()](https://www.pylenin.com/blogs/python-string-istitle) - Returns True if the string follows the rules of a title
-22. isupper() - Returns True if all characters in the string are upper case
-23. join() - Joins the elements of an iterable to the end of the string
+22. [isupper()](https://www.pylenin.com/blogs/python-string-isupper) - Returns True if all characters in the string are upper case
+23. [join()](https://www.pylenin.com/blogs/python-string-join) - Joins the elements of an iterable to the end of the string
 24. ljust() - Returns a left justified version of the string
 25. lower() - Converts a string into lower case
 26. lstrip() - Returns a left trim version of the string
