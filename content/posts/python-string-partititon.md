@@ -21,7 +21,7 @@ The `partition()` method in Python searches for the **first occurence of the spe
 2. The second element - Contains the specified string.
 3. The third element - Contains the part after the string.
 
-##### Syntax of `maketrans()` method
+##### Syntax of `partition()` method
 
 ```bash
 string.partition(value)

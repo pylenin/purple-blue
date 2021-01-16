@@ -49,9 +49,9 @@ Here is a list of commonly used Python string methods.
 29. [replace()](https://www.pylenin.com/blogs/python-string-replace) - Returns a string where a specified value is replaced with a specified value
 30. [rfind()](https://www.pylenin.com/blogs/python-string-rfind) - Searches the string for a specified value and returns the last position of where it was found
 31. [rindex()](https://www.pylenin.com/blogs/python-string-rindex) - Searches the string for a specified value and returns the last position of where it was found
-32. rjust() - Returns a right justified version of the string
-33. rpartition() - Returns a tuple where the string is parted into three parts
-34. rsplit() - Splits the string at the specified separator, and returns a list
+32. [rjust()](https://www.pylenin.com/blogs/python-string-rjust) - Returns a right justified version of the string
+33. [rpartition()](https://www.pylenin.com/blogs/python-string-rpartition) - Returns a tuple where the string is parted into three parts
+34. [rsplit()](https://www.pylenin.com/blogs/python-string-rsplit) - Splits the string at the specified separator, and returns a list
 35. rstrip() - Returns a right trim version of the string
 36. split()- Splits the string at the specified separator, and returns a list
 37. splitlines() - Splits the string at line breaks and returns a list
