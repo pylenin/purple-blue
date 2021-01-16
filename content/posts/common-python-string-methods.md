@@ -52,9 +52,9 @@ Here is a list of commonly used Python string methods.
 32. [rjust()](https://www.pylenin.com/blogs/python-string-rjust) - Returns a right justified version of the string
 33. [rpartition()](https://www.pylenin.com/blogs/python-string-rpartition) - Returns a tuple where the string is parted into three parts
 34. [rsplit()](https://www.pylenin.com/blogs/python-string-rsplit) - Splits the string at the specified separator, and returns a list
-35. rstrip() - Returns a right trim version of the string
-36. split()- Splits the string at the specified separator, and returns a list
-37. splitlines() - Splits the string at line breaks and returns a list
+35. [rstrip()](https://www.pylenin.com/blogs/python-string-rstrip) - Returns a right trim version of the string
+36. [split()](https://www.pylenin.com/blogs/python-string-split) - Splits the string at the specified separator, and returns a list
+37. [splitlines()](https://www.pylenin.com/blogs/python-string-splitlines) - Splits the string at line breaks and returns a list
 38. startswith() - Returns true if the string starts with the specified value
 39. strip() - Returns a trimmed version of the string
 40. swapcase() - Swaps cases, lower case becomes upper case and vice versa
