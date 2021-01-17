@@ -38,7 +38,7 @@ print(x.lower())
 
 x = "Pylenin1992@gmail.com"
 print(x.lower())
-pylenin1992@gmail.com
+>>> pylenin1992@gmail.com
 ```
 
 Check out other [commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods).
