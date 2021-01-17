@@ -55,7 +55,7 @@ Here is a list of commonly used Python string methods.
 35. [rstrip()](https://www.pylenin.com/blogs/python-string-rstrip) - Returns a right trim version of the string
 36. [split()](https://www.pylenin.com/blogs/python-string-split) - Splits the string at the specified separator, and returns a list
 37. [splitlines()](https://www.pylenin.com/blogs/python-string-splitlines) - Splits the string at line breaks and returns a list
-38. startswith() - Returns true if the string starts with the specified value
+38. [startswith()](https://www.pylenin.com/blogs/python-string-startswith) - Returns true if the string starts with the specified value
 39. strip() - Returns a trimmed version of the string
 40. swapcase() - Swaps cases, lower case becomes upper case and vice versa
 41. title() - Converts the first character of each word to upper case
