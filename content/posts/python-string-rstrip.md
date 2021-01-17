@@ -35,9 +35,11 @@ Returns a new string
 ```python3
 x = "Pylenin loves Python   "
 print(x.rstrip())
+>>> Pylenin loves Python
 
 x = "*Pylenin loves Python*"
 print(x.rstrip('*'))
+>>> *Pylenin loves Python
 
 x = "*@Pylenin loves Python@*"
 print(x.rstrip('@'))
