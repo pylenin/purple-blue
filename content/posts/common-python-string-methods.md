@@ -58,7 +58,7 @@ Here is a list of commonly used Python string methods.
 38. [startswith()](https://www.pylenin.com/blogs/python-string-startswith) - Returns true if the string starts with the specified value
 39. [strip()](https://www.pylenin.com/blogs/python-string-strip) - Returns a trimmed version of the string
 40. [swapcase()](https://www.pylenin.com/blogs/python-string-swapcase) - Swaps cases, lower case becomes upper case and vice versa
-41. title() - Converts the first character of each word to upper case
+41. [title()](https://www.pylenin.com/blogs/python-string-title) - Converts the first character of each word to upper case
 42. translate() - Returns a translated string
 43. upper() - Converts a string into upper case
 44. zfill() - Fills the string with a specified number of 0 values at the beginning

@@ -28,6 +28,8 @@ Returns a new string
 
 ##### Example
 
+**Code/Output**
+
 ```python3
 x = "Pylenin loves Python"
 print(x.swapcase())
