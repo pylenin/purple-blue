@@ -61,7 +61,7 @@ Here is a list of commonly used Python string methods.
 41. [title()](https://www.pylenin.com/blogs/python-string-title) - Converts the first character of each word to upper case
 42. [translate()](https://www.pylenin.com/blogs/python-string-translate) - Returns a translated string
 43. [upper()](https://www.pylenin.com/blogs/python-string-upper) - Converts a string into upper case
-44. zfill() - Fills the string with a specified number of 0 values at the beginning
+44. [zfill()](https://www.pylenin.com/blogs/python-string-zfill) - Fills the string with a specified number of 0 values at the beginning
 
 #### Related Articles
 
