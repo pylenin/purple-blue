@@ -18,7 +18,7 @@ In this article, you will learn to install Python 3 on windows. Since 2020, Pyth
 
 This article will show you how to install Python 3.9(the latest version) and start programming using the command line interface.
 
-#### Step 1 - Visit [www.python.org]
+#### Step 1 - Visit [Python official website](https://www.python.org)
 
 Visit the [official website](https://www.python.org) of the Python Programming language and click on **Downloads**.
 
