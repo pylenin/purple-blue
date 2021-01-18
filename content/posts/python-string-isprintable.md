@@ -4,7 +4,6 @@ description: "Learn to use isprintable() method on Python strings"
 date: 2021-01-15T09:12:45+05:30
 draft: true
 image: /img/pylenin_logo.png
-categories: ['python strings']
 tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>

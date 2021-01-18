@@ -4,7 +4,6 @@ description: "Learn what center() method does to Python strings"
 date: 2021-01-13T09:16:00+05:30
 draft: false
 image: /img/pylenin_logo.png
-categories: ['python strings']
 tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>

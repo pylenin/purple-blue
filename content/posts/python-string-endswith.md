@@ -4,7 +4,6 @@ description: "Learn to use endswith() method with Python strings"
 date: 2021-01-13T10:36:16+05:30
 draft: false
 image: /img/pylenin_logo.png
-categories: ['python strings']
 tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>

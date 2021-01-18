@@ -4,7 +4,6 @@ description: "Learn what capitalize() method does in Python strings"
 date: 2021-01-13T07:17:38+05:30
 draft: false
 image: /img/pylenin_logo.png
-categories: ['python strings']
 tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>

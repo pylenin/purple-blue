@@ -4,7 +4,6 @@ description: "Learn to use zfill() method on Python strings"
 date: 2021-01-15T09:13:58+05:30
 draft: false
 image: /img/pylenin_logo.png
-categories: ['python strings']
 tags: ['python string methods']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
