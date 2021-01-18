@@ -1,5 +1,5 @@
 ---
-title: "Installing Python3 on Windows"
+title: "Installing Python 3 on Windows"
 description: "Learn to install Python 3 on windows machine"
 date: 2021-01-18T12:49:15+05:30
 draft: false
