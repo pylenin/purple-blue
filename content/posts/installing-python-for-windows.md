@@ -35,7 +35,7 @@ Once you click on the Download button, the installer should be downloaded.
 
 #### Step 3 - Start Installation
 
-Double click on the installer to start the **installtion process for Python 3.9**.
+Double click on the installer to start the **installation process for Python 3.9**.
 It will open up a dialog box like below.
 
 ![Dialog Box for Python 3 Installer](/img/install-python/install-python-1.png)
