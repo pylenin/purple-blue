@@ -158,3 +158,4 @@ str[-5:-2] = LEN
 5. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
 6. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
 7. [Python String Formatting - The Definitive Guide](https://www.pylenin.com/blogs/python-string-formatting/)
+8. [Commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods)

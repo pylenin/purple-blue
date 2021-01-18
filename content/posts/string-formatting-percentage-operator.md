@@ -157,3 +157,4 @@ Hex representation of 100 is 0x64
 8. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
 9. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
 10. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
+11. [Commonly used Python string methods](https://www.pylenin.com/blogs/common-python-string-methods)
