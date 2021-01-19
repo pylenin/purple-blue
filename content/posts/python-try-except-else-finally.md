@@ -1,7 +1,7 @@
 ---
 title: "Try, Except, Else and Finally in Python"
 description: "Handle errors in Python using try, except, else and finally"
-date: 2021-01-08T06:13:27+05:30
+date: 2021-01-19T12:13:27+05:30
 draft: false
 image: /img/python-error-handling/python-error-handling.png
 categories: ['python exceptions']
@@ -11,7 +11,7 @@ categories_weight: 1
 
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
-> This is the 8th topic in the Python 30 series. [Check out the series here.](https://www.youtube.com/playlist?list=PLqEbL1vopgvuI-3wzwHqftEkH3AILozS5)
+> This is the 8th topic in the Python 30 series. [Check out the series here.](https://youtu.be/siXcty5yLf0)
 
 As soon as Python encounters an error, it terminates immediately. An `Exception` event is raised. This affects the flow of the program.
 

@@ -1,7 +1,7 @@
 ---
 title: "ZeroDivisionError Exception in Python"
 description: "How to handle ZeroDivision Exception in Python?"
-date: 2021-01-15T08:39:53+05:30
+date: 2021-01-19T12:14:53+05:30
 draft: false
 image: /img/pylenin_logo.png
 categories: ['python exceptions']
@@ -130,9 +130,9 @@ float division by zero <class 'ZeroDivisionError'>
 complex division by zero <class 'ZeroDivisionError'>
 ```
 
-[Check this article](https://www.pylenin.com/blogs/python-try-except-else-finally/) to learn more about `e.__class__`.
+Check out other [Python Built-in Exception classes in Python](https://www.pylenin.com/tags/built-in-exception-class/).
 
 #### Related Articles
 
 1. [Try, Except, Else and Finally in Python](https://www.pylenin.com/blogs/python-try-except-else-finally/)
-2. [Python Built-in Exception Classes]()
+2. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
