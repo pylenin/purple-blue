@@ -6,6 +6,7 @@ draft: false
 image: /img/pylenin_logo.png
 categories: ['python exceptions']
 tags: ['Built-in exception class']
+categories_weight: 2
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
