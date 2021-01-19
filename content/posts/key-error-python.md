@@ -14,7 +14,7 @@ categories_weight: 2
 
 > This is the part of the 9th day in the Python 30 series. [Check out the series here.](https://www.youtube.com/playlist?list=PLqEbL1vopgvuI-3wzwHqftEkH3AILozS5)
 
-A `KeyError` exception is raised when you are trying to access an invalid key in a [python dictionary](https://www.pylenin.com/blogs/python-dictionary/). It tells you that there was an issue retrieving the key you were looking for. 
+A `KeyError` exception is raised when you are trying to access an invalid key in a [python dictionary](https://www.pylenin.com/blogs/python-dictionary/). It tells you that there was an issue retrieving the key you were trying to access. It is part of the [LookupError Exception class](https://www.pylenin.com/blogs/lookup-error-python). 
 
 ##### Example 1
 
@@ -79,3 +79,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 3. [OverflowError Exception in Python](https://www.pylenin.com/blogs/overflow-error-python/)
 4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
 5. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)
+6. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)

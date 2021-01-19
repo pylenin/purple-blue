@@ -139,3 +139,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 3. [OverflowError Exception in Python](https://www.pylenin.com/blogs/overflow-error-python/)
 4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
 5. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)
+6. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)

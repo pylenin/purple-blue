@@ -14,7 +14,7 @@ categories_weight: 2
 
 > This is the part of the 9th day in the Python 30 series. [Check out the series here.](https://www.youtube.com/playlist?list=PLqEbL1vopgvuI-3wzwHqftEkH3AILozS5)
 
-The `IndexError` exception in Python means that you are trying to access an index that doesn't exist. For example you are trying to access the 5th index of a list, but there are only 4 elements present. 
+The `IndexError` exception in Python means that you are trying to access an index that doesn't exist. For example you are trying to access the 5th index of a list, but there are only 4 elements present. It is part of the [LookupError Exception class](https://www.pylenin.com/blogs/lookup-error-python). 
 
 This error can happen with any object that is indexable, like - **Lists, Tuples, Strings etc.**
 
@@ -83,3 +83,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 3. [OverflowError Exception in Python](https://www.pylenin.com/blogs/overflow-error-python/)
 4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
 5. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
+6. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)
