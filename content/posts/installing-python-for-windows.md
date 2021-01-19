@@ -72,8 +72,13 @@ In your interactive session, type `print("Hello World!")` and press `Enter`.
 
 Now you can run any kind of python code in this interactive session. Try doing some mathematical calculation and see how Python works with [arithmetic operators](https://www.pylenin.com/blogs/python-arithmetic-operators/).
 
+**Next Step** - You need to download a Python IDE. [Check out our articles](https://www.pylenin.com/tags/python-ide/).
+
 #### Related Articles
 
 1. [What can you do with Python?](https://www.pylenin.com/blogs/5-reasons-to-learn-python/)
 2. [Benefits of using Python 3 over 2](https://www.pylenin.com/blogs/10-benefits-of-switching-to-python-3/)
-3. [Learn to Print in Python 3](https://www.pylenin.com/blogs/python-print/)
+3. [Install Pycharm Community Edition for Python 3](https://www.pylenin.com/blogs/install-pycharm-for-python-3/)
+4. [Learn to Print in Python 3](https://www.pylenin.com/blogs/python-print/)
+5. [Install Pycharm Community Edition for Python 3](https://www.pylenin.com/blogs/install-pycharm-for-python-3)
+6. [Install Visual Studio Code for Python 3](https://www.pylenin.com/blogs/install-vscode-for-python3)

@@ -117,10 +117,13 @@ Click on **"File"** and then **Settings**.
 
 Once you are in the Settings dialog box, click on **"Appearance"** in the left column and then choose the theme of your choice from the drop down. Clik on **"Apply"** and **"Okay"**.
 
+Check out installation guides for other [Python IDEs](https://www.pylenin.com/tags/python-ide/).
+
 #### Related Articles
 
-1. [Install Python 3 on Windows](https://www.pylenin.com/blogs/installing-python-for-windows/)
-2. [What can you do with Python?](https://www.pylenin.com/blogs/5-reasons-to-learn-python/)
-3. [Benefits of using Python 3 over 2](https://www.pylenin.com/blogs/10-benefits-of-switching-to-python-3/)
-4. [Learn to Print in Python 3](https://www.pylenin.com/blogs/python-print/)
+1. [Install Visual Studio Code for Python 3](https://www.pylenin.com/blogs/install-vscode-for-python3)
+2. [Install Python 3 on Windows](https://www.pylenin.com/blogs/installing-python-for-windows/)
+3. [What can you do with Python?](https://www.pylenin.com/blogs/5-reasons-to-learn-python/)
+4. [Benefits of using Python 3 over 2](https://www.pylenin.com/blogs/10-benefits-of-switching-to-python-3/)
+5. [Learn to Print in Python 3](https://www.pylenin.com/blogs/python-print/)
 
