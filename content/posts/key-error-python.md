@@ -75,4 +75,5 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 #### Related Articles
 
 1. [Try, Except, Else and Finally in Python](https://www.pylenin.com/blogs/python-try-except-else-finally/)
-2. [ZeroDivisionError in Python](https://www.pylenin.com/blogs/zero-division-error-python/)
+2. [ZeroDivisionError Exception in Python](https://www.pylenin.com/blogs/zero-division-error-python/)
+2. [OverflowError Exception in Python](https://www.pylenin.com/blogs/overflow-error-python/)
