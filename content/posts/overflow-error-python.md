@@ -1,6 +1,6 @@
 ---
 title: "OverflowError Exception in Python"
-description: "How to handle Overflow Exception in Python?"
+description: "How to handle OverflowError Exception in Python?"
 date: 2021-01-19T13:25:21+05:30
 draft: false
 image: /img/pylenin_logo.png
@@ -80,3 +80,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 1. [Try, Except, Else and Finally in Python](https://www.pylenin.com/blogs/python-try-except-else-finally/)
 2. [ZeroDivisionError Exception in Python](https://www.pylenin.com/blogs/zero-division-error-python/)
 3. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
+4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
