@@ -2,7 +2,7 @@
 title: "ZeroDivisionError Exception in Python"
 description: "How to handle ZeroDivision Exception in Python?"
 date: 2021-01-15T08:39:53+05:30
-draft: true
+draft: false
 image: /img/pylenin_logo.png
 categories: ['python exceptions']
 tags: ['Built-in exception class']

@@ -4,6 +4,8 @@ description: "Handle errors in Python using try, except, else and finally"
 date: 2021-01-08T06:13:27+05:30
 draft: false
 image: /img/python-error-handling/python-error-handling.png
+categories: ['python exceptions']
+categories_weight: 1
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
