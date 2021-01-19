@@ -234,4 +234,4 @@ As you can see, the code inside the `else` block has been executed successfully 
 * [Check out the blog](https://www.pylenin.com/blogs/python-logging-guide/)
 
 **If you like to watch Youtube videos over reading blogs, click below.**
-[![](http://img.youtube.com/vi/siXcty5yLf0/0.jpg)](http://www.youtube.com/watch?v=siXcty5yLf0 "Python Error Handling with try, except, else and finally")
+[![](https://img.youtube.com/vi/siXcty5yLf0/0.jpg)](http://www.youtube.com/watch?v=siXcty5yLf0 "Python Error Handling with try, except, else and finally")
