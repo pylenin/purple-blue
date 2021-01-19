@@ -1,5 +1,5 @@
 ---
-title: "Overflow Exception in Python"
+title: "OverflowError Exception in Python"
 description: "How to handle Overflow Exception in Python?"
 date: 2021-01-19T13:25:21+05:30
 draft: false
