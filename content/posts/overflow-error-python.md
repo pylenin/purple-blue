@@ -14,7 +14,7 @@ categories_weight: 2
 
 > This is the part of the 9th day in the Python 30 series. [Check out the series here.](https://www.youtube.com/playlist?list=PLqEbL1vopgvuI-3wzwHqftEkH3AILozS5)
 
-An `OverflowError` exception is raised when an [arithmetic operation](https://www.pylenin.com/blogs/python-arithmetic-operators/) exceeds the limits to be represented.
+An `OverflowError` exception is raised when an [arithmetic operation](https://www.pylenin.com/blogs/python-arithmetic-operators/) exceeds the limits to be represented. This is part of the [ArithmeticError Exception class](https://www.pylenin.com/blogs/arithmetic-error-python/).
 
 ##### Example 1
 
@@ -81,3 +81,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 2. [ZeroDivisionError Exception in Python](https://www.pylenin.com/blogs/zero-division-error-python/)
 3. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
 4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
+5. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)

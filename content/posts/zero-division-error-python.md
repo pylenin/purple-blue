@@ -14,7 +14,7 @@ categories_weight: 2
 
 > This is the part of the 9th day in the Python 30 series. [Check out the series here.](https://www.youtube.com/playlist?list=PLqEbL1vopgvuI-3wzwHqftEkH3AILozS5)
 
-A `ZeroDivisionError` is raised when you try to **divide by 0.** This is part of the `ArithmeticError` Exception class.
+A `ZeroDivisionError` is raised when you try to **divide by 0.** This is part of the [ArithmeticError Exception class](https://www.pylenin.com/blogs/arithmetic-error-python/).
 
 ##### Example 1
 
@@ -138,3 +138,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 2. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
 3. [OverflowError Exception in Python](https://www.pylenin.com/blogs/overflow-error-python/)
 4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
+5. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)
