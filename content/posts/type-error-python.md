@@ -117,5 +117,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 6. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)
 7. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)
 8. [StopIteration Exception in Python](https://www.pylenin.com/blogs/stop-iteration-error-python/)
-
-
+9. [NameError Exception in Python](https://www.pylenin.com/blogs/name-error-python/)

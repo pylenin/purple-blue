@@ -1,7 +1,7 @@
 ---
-title: "StopIteration Exception in Python"
-description: "How to handle StopIteration Exception in Python?"
-date: 2021-01-19T19:55:23+05:30
+title: "NameError Exception in Python"
+description: "How to handle NameError Exception in Python?"
+date: 2021-01-20T06:53:45+05:30
 draft: false
 image: /img/pylenin_logo.png
 categories: ['python exceptions']
@@ -14,62 +14,54 @@ categories_weight: 2
 
 > This is the part of the 9th day in the Python 30 series. [Check out the series here.](https://www.youtube.com/playlist?list=PLqEbL1vopgvuI-3wzwHqftEkH3AILozS5)
 
-To understand `StopIteration` Exception, you need to understand how **iterators work in Python**.
+The `NameError` Exception in Python is raised when the object being accessed is not defined in the local or global scope of your python program.
 
-1. Iterator is an object that holds values which can be iterated upon.
-2. It uses the `__next__()` method to move to the next value in the iterator.
-3. When the `__next__()` method tries to move to the next value, but there are no new values, a `StopIteration` Exception is raised.
+A few examples of `NameError` Exception in Python:-
 
-##### Example 1
+1. Trying to access a variable that doesn't exist
+2. Trying to access a variable in the global scope but it is defined in the local scope.
 
-**Code**
+**To learn more about local and global scope of variables, check out the video below.**
 
-```python3
-y = [1, 2, 3]
-x = iter(y)
-print(x.__next__())
-print(x.__next__())
-print(x.__next__())
-print(x.__next__())
-```
+[![](https://img.youtube.com/vi/Dnm2IWh_kxE/0.jpg)](https://youtu.be/Dnm2IWh_kxE "Variable Scope and Namespace in Python")
 
-**Output**
+You can handle such errors using the `NameError` Exception class.
 
-```bash
-1
-2
-3
-Traceback (most recent call last):
-  File "some_file_location", line 6, in <module>
-    print(x.__next__())
-StopIteration
-```
-
-You can catch such errors using the `StopIteration` Exception class.
-
-##### Example 2
+##### Example 1 - Accessing a variable that doesn't exist
 
 **Code**
 
 ```python3
-y = [1, 2, 3]
-x = iter(y)
 try:
-    print(x.__next__())
-    print(x.__next__())
-    print(x.__next__())
-    print(x.__next__())
-except StopIteration as e:
-    print("StopIteration error handled successfully")
+    print(name)
+except NameError as e:
+    print(e)
 ```
 
 **Output**
 
 ```bash
-1
-2
-3
-StopIteration error handled successfully
+name 'name' is not defined
+```
+
+##### Example 2 - Accessing variables not present in global scope
+
+**Code**
+
+```python3
+def random_func():
+    name = "Pylenin"
+
+try:
+    print(name)
+except NameError as e:
+    print(e)
+```
+
+**Output**
+
+```bash
+name 'name' is not defined
 ```
 
 Check out other [Python Built-in Exception classes in Python](https://www.pylenin.com/tags/built-in-exception-class/).
@@ -84,4 +76,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 6. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)
 7. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)
 8. [TypeError Exception in Python](https://www.pylenin.com/blogs/type-error-python/)
-9. [NameError Exception in Python](https://www.pylenin.com/blogs/name-error-python/)
+9. [StopIteration Exception in Python](https://www.pylenin.com/blogs/stop-iteration-error-python/)
