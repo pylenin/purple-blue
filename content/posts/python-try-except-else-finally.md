@@ -235,3 +235,19 @@ As you can see, the code inside the `else` block has been executed successfully 
 
 **If you like to watch Youtube videos over reading blogs, click below.**
 [![](https://img.youtube.com/vi/siXcty5yLf0/0.jpg)](http://www.youtube.com/watch?v=siXcty5yLf0 "Python Error Handling with try, except, else and finally")
+
+Check out how to work with [Python Built-in Exception classes in Python](https://www.pylenin.com/tags/built-in-exception-class/).
+
+#### Related Articles
+
+1. [Catch Multiple Exceptions in Python](https://www.pylenin.com/blogs/catch-multiple-exceptions-python/)
+2. [ZeroDivisionError Exception in Python](https://www.pylenin.com/blogs/zero-division-error-python/)
+3. [OverflowError Exception in Python](https://www.pylenin.com/blogs/overflow-error-python/)
+4. [ArithmeticError Exception in Python](https://www.pylenin.com/blogs/arithmetic-error-python/)
+5. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
+6. [IndexError Exception in Python](https://www.pylenin.com/blogs/index-error-python/)
+7. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)
+8. [StopIteration Exception in Python](https://www.pylenin.com/blogs/stop-iteration-error-python/)
+9. [NameError Exception in Python](https://www.pylenin.com/blogs/name-error-python/)
+10. [FileNotFoundError Exception in Python](https://www.pylenin.com/blogs/file-not-found-error-python/)
+11. [TypeError Exception in Python](https://www.pylenin.com/blogs/type-error-python/)

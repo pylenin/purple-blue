@@ -78,3 +78,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 8. [TypeError Exception in Python](https://www.pylenin.com/blogs/type-error-python/)
 9. [StopIteration Exception in Python](https://www.pylenin.com/blogs/stop-iteration-error-python/)
 10. [FileNotFoundError Exception in Python](https://www.pylenin.com/blogs/file-not-found-error-python/)
+11. [Catch Multiple Exceptions in Python](https://www.pylenin.com/blogs/catch-multiple-exceptions-python/)
