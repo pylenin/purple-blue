@@ -85,3 +85,4 @@ Check out other [Python Built-in Exception classes in Python](https://www.pyleni
 5. [KeyError Exception in Python](https://www.pylenin.com/blogs/key-error-python/)
 6. [LookupError Exception in Python](https://www.pylenin.com/blogs/lookup-error-python/)
 7. [StopIteration Exception in Python](https://www.pylenin.com/blogs/stop-iteration-error-python/)
+8. [TypeError Exception in Python](https://www.pylenin.com/blogs/type-error-python/)
