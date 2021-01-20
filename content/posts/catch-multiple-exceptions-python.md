@@ -1,5 +1,5 @@
 ---
-title: "Catching Multiple Exception in Python"
+title: "Catching Multiple Exceptions in Python"
 description: "Learn to catch multiple exceptions in Python using try and except."
 date: 2021-01-20T08:21:32+05:30
 draft: false
