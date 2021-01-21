@@ -4,6 +4,7 @@ description: "Learn to calculate the frequency of every character in Python 3"
 date: 2021-01-21T06:57:35+05:30
 draft: false
 image: /img/pylenin_logo.png
+categories: ['Python String Examples']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
