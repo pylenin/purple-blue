@@ -4,6 +4,8 @@ description: "Learn how to print relevant messages to screen or other outputs us
 date: 2019-07-08T21:16:02+02:00
 draft: false
 image: /img/python-print/python-print.png
+categories: ['Getting Started with Python']
+categories_weight: 4
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
