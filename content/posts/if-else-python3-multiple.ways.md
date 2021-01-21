@@ -51,6 +51,3 @@ To learn more about `if else` clause in Python 3, check out this video.
 <br>
 {{< youtube id="LEQNrCdV_Cg" >}}
 <br>
-
-<div align="center"><b>Don't forget to subscribe to the Pydrools Newsletter</b></div>
-<div align="center"><iframe width="480" height="320" src="https://pydrools.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>

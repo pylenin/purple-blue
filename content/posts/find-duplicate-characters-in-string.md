@@ -70,6 +70,3 @@ With just 2 lines of code, we were easily able to achieve our objective.
 
 Let me know if you have a better way of doing this, through the comments.
 
-<div align="center"><b>Don't forget to subscribe to the Pydrools Newsletter</b></div>
-<div align="center"><iframe width="480" height="320" src="https://pydrools.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>
-

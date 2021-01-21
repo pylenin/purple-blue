@@ -327,6 +327,3 @@ python3 -m timeit -n 1000 -r 3 -u sec -s "x = 'Pylenin'" '"-".join(char for char
 
 So the above was an detailed overview on the `timeit` module in Python. If you have some better examples to share, use the comments section.
 
-<div align="center"><b>Don't forget to subscribe to the Pydrools Newsletter</b></div>
-<div align="center"><iframe width="480" height="320" src="https://pydrools.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>
-

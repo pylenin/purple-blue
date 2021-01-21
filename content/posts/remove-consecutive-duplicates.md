@@ -72,9 +72,6 @@ You can see that the **3rd approach (using the itertools library)** is the faste
 
 Hope you enjoyed this article. Let me know if you have a better way of doing this, through the comments.
 
-<div align="center"><b>Don't forget to subscribe to the Pydrools Newsletter</b></div>
-<div align="center"><iframe width="480" height="320" src="https://pydrools.substack.com/embed" frameborder="0" scrolling="no"></iframe></div>
-
 
 
 
