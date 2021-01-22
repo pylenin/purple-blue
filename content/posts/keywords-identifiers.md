@@ -1,8 +1,8 @@
 ---
 title: "Keywords and Identifiers in Python 3"
 description: "Learn about reserved keywords, identifiers and their usage in Python 3."
-date: 2021-01-21T21:16:02+02:00
-draft: true
+date: 2021-01-22T21:16:02+02:00
+draft: false
 image: /img/python-print/python-print.png
 categories: ['Getting Started with Python']
 categories_weight: 5
