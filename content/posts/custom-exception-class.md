@@ -3,7 +3,7 @@ title: "How to define Custom Exception Class in Python?"
 description: "Learn to build custom exception classes in Python that provide more flexibility and readability"
 date: 2021-01-22T12:13:27+05:30
 draft: false
-image: /img/python-error-handling/python-error-handling.png
+image: /img/pylenin_logo.png
 categories: ['python exceptions']
 categories_weight: 2
 ---
