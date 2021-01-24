@@ -1,9 +1,11 @@
 ---
-title: "Python Arithmetic Operators"
+title: "Python Numbers, Arithmetic Operators and Mathematics"
 description: "An article about various use cases of arithmetic operators with integers, floats and complex numbers in Python"
-date: 2019-06-26T22:21:42+02:00
+date: 2021-01-24T12:21:42+05:30
 draft: false
-image: /img/arithmetic-operators/arithmetic-operators.png
+image: /img/pylenin_logo.png
+categories: ['Getting Started with Python']
+categories_weight: 7
 ---
 
 <div class="sharethis-inline-follow-buttons"></div>
@@ -12,7 +14,9 @@ image: /img/arithmetic-operators/arithmetic-operators.png
 
 Python arithmetic expressions are combinations of numbers and at least one arithmetic operation. 
 
-To perform an arithmetic expression, the following must be understood.
+To perform an arithmetic expression, the following topics must be understood.
+
+##### Sections Covered
 
 1. [Numbers](#numbers)
 2. [Arithmetic operators](#arithmetic-operators)
