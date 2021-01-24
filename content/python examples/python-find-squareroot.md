@@ -4,6 +4,7 @@ description: "Learn to find square roots of numbers in Python3"
 date: 2021-01-08T19:49:42+05:30
 draft: false
 image: /img/pylenin_logo.png
+categories: ['Python Number Examples']
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
