@@ -15,7 +15,7 @@ categories_weight: 1
 
 However, analyzing huge amount of data in Excel can become highly tedious and time-consuming. You could build customized data processing and analytics application using **Visual Basic(VBA)**, the language that powers the Excel sheets. However, learning VBA could be difficult and perhaps, not worth it.
 
-However, if you have a little knowledge of Python, you could build highly professional Business Intelligence using Excel data, without the need of a database.
+However, if you have a little knowledge of Python, you could build highly professional Business Intelligence using Excel data, without the need of a database. Using Python with Excel could be a game changer for your business.
 
 ### Sections Covered
 
@@ -42,7 +42,7 @@ Before beginning this Openpyxl tutorial, you need to keep the following details 
 ### What is Openpyxl and how to install it?
 
 The Openpyxl module in Python is used to handle Excel files 
-without involving third-party Microsoft application software. 
+without involving third-party Microsoft application software. Openpyxl is arguably, the best python excel library that allows you to perform various Excel operations and automate excel reports using Python.
 You can perform all kinds of tasks using Openpyxl like:-
 
 1. Reading data 
