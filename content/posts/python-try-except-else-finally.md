@@ -1,6 +1,6 @@
 ---
-title: "Try, Except, Else and Finally in Python"
-description: "Handle errors in Python using try, except, else and finally"
+title: "Python Exception Handling: Try, Except, Else and Finally"
+description: "Handle Python exceptions using try, except, else and finally keywords."
 date: 2021-01-19T12:13:27+05:30
 draft: false
 image: /img/python-error-handling/python-error-handling.png

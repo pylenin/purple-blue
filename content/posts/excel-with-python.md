@@ -25,7 +25,7 @@ However, if you have a little knowledge of Python, you could build highly profes
 4. [Reading multiple cells from Excel](#reading-multiple-cells-from-excel)
 5. [iter_rows() and iter_cols() in Openpyxl](#iter_rows-and-iter_cols-in-openpyxl)
 7. [Create a new Excel file with Openpyxl](#create-a-new-excel-file-with-openpyxl)
-8. [Writing data to cells in Excel](#writing-data-to-cells-in-excel)
+8. [Writing data to cells in Excel with Openpyxl](#writing-data-to-cells-in-excel-with-openpyxl)
 9. [Appending data to Excel with Openpyxl](#appending-data-to-excel-with-openpyxl)   
 10. [Manipulating Sheets in Openpyxl](#manipulating-sheets-in-openpyxl)
 
@@ -251,7 +251,7 @@ Quantity
 
 #### Method 3 - Reading all rows in Excel using `rows` attribute
 
-To read all the rows, use `sheet.rows` to receive a tuple element per row.
+To read all the rows, use `sheet.rows` to iterate over rows with Openpyxl. You receive a tuple element per row by using the `sheet.rows` attribute.
 
 **Code**
 
@@ -319,7 +319,7 @@ ProductId
 
 #### Method 5 - Reading all the columns in Excel using `columns` attribute
 
-To read all the data as a tuple of the columns in your Excel sheet, use `sheet.columns`.
+To read all the data as a tuple of the columns in your Excel sheet, use `sheet.columns` attribute to iterate over all columns with Openpyxl.
 
 **Code**
 
@@ -538,7 +538,7 @@ This should create a new Excel workbook called `pylenin.xlsx` with the provided 
 
 ![Create new Excel file with Openpyxl](/img/excel-with-python/wb2-pylenin.png)
 
-### Writing data to cells in Excel
+### Writing data to cells in Excel with Openpyxl
 
 There are multiple ways to write data to an Excel file using Openpyxl.
 
