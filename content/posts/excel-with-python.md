@@ -1,6 +1,6 @@
 ---
-title: "Handling Excel sheets with Openpyxl in Python 3"
-description: "Automate your excel workflow by using Openpyxl module in Python 3."
+title: "Openpyxl tutorial: Handling Excel sheets in Python"
+description: "Automate your Excel workflow by using Openpyxl module in Python 3."
 date: 2021-01-24T20:27:00+05:30
 draft: true
 image: /img/pylenin_logo.png
@@ -20,8 +20,8 @@ However, if you have a little knowledge of Python, you could build highly profes
 ### Sections Covered
 
 1. [Basic Information about Excel](#basic-information-about-excel)
-2. [Installing Openpyxl using pip](#installing-openpyxl-using-pip)
-3. [Reading data from Excel](#reading-data-from-excel)
+2. [What is Openpyxl and how to install it?](#what-is-openpyxl-and-how-to-install-it)
+3. [Reading data from Excel using Openpyxl](#reading-data-from-excel-using-openpyxl)
 4. [Reading multiple cells from Excel](#reading-multiple-cells-from-excel)
 5. [iter_rows() and iter_cols() in Openpyxl](#iter_rows-and-iter_cols-in-openpyxl)
 7. [Create a new Excel file with Openpyxl](#create-a-new-excel-file-with-openpyxl)
@@ -31,7 +31,7 @@ However, if you have a little knowledge of Python, you could build highly profes
 
 ### Basic Information about Excel
 
-Before beginning with Openpyxl, you need to keep the following details in mind.
+Before beginning this Openpyxl tutorial, you need to keep the following details in mind.
 
 1. Excel files are called **Workbooks**.
 2. Each Workbook can contain **multiple sheets**.
@@ -39,7 +39,7 @@ Before beginning with Openpyxl, you need to keep the following details in mind.
 4. Rows and columns together make up a **cell**. 
 5. Any type of data can be stored.
 
-### Installing Openpyxl using pip
+### What is Openpyxl and how to install it?
 
 The Openpyxl module in Python is used to handle Excel files 
 without involving third-party Microsoft application software. 
@@ -52,7 +52,7 @@ You can perform all kinds of tasks using Openpyxl like:-
 5. Working with multiple sheets
 6. Sheet Styling etc.
 
-You can install Openpyxl by using the following command.
+You can install Openpyxl module by using the following command.
 
 ```bash
 pip install openpyxl
@@ -70,9 +70,9 @@ pip install openpyxl
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-### Reading data from Excel
+### Reading data from Excel using Openpyxl
 
-Let's open an excel file named `wb1.xlsx` in Python. It has the following data as shown in the image below.
+Let's open an Excel file named `wb1.xlsx` in Python. It has the following data as shown in the image below.
 
 ![MS Excel file - wb1.xlsx](/img/excel-with-python/wb1.png)
 
@@ -729,9 +729,6 @@ from openpyxl import load_workbook
 
 wb = load_workbook('pylenin.xlsx')
 
-# insert sheet at first position
-wb.create_sheet('Python', 0)
-
 # insert sheet at 2nd to last position
 wb.create_sheet('Lenin Mishra', -1)
 
@@ -763,4 +760,4 @@ wb.save('pylenin.xlsx')
 
 ![Working with a particular sheet in Excel workbook with Openpyxl](/img/excel-with-python/wb7-pylenin.png)
 
-
+In this Openpyxl tutorial, we learnt about various ways to handle Excel files in Python. If you have any doubts, post your doubts in the comment section below. 
