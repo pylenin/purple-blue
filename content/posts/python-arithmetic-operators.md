@@ -73,6 +73,18 @@ Python version 3 supports three types of numbers: integers, floats and complex n
    >>> 2.0
    ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Arithmetic Operators
 
 Python arithmetic operators are:-
@@ -260,6 +272,18 @@ print(type(b))
 print(a == b)
 >>> False
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### Combining two numbers of different types
 
