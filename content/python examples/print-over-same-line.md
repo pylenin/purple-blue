@@ -28,7 +28,7 @@ loves
 Python
 ```
 
-However, **if you want to print over and over one line in Python**, you have to use the **carriage return `\r` symbol.**
+However, **if you want to print over and over the same line in Python**, you have to use the **carriage return `\r` symbol.**
 
 **Code**
 
