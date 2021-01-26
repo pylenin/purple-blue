@@ -13,14 +13,14 @@ categories_weight: 6
 
 #### What is a Variable in Python?
 
-A variable in Python is a reserved memory location that stores values.
+A Python variable is a reserved memory location that stores values.
 
 **Python is a dynamically typed language**. 
 Unlike statically typed languages like C and C++, 
 the **data type of a variable in Python is defined at runtime**. 
 
-Also, in Python, a variable can store different data types during 
-its lifetime. 
+Also, in Python, the variable type can change during 
+the code lifetime. 
 This is different for statically typed languages, 
 where you have to declare a variable with a specific data type, 
 and values assigned to it during its lifetime must always have the same type.
@@ -74,7 +74,7 @@ Basically, you can change the content and data type of variable during the cours
 
 In Python, you can also perform chained assignments, 
 which makes it possible to assign the same value to 
-several variables simultaneously:
+multiple variables simultaneously:
 
 **Code**
 
