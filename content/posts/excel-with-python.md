@@ -886,39 +886,39 @@ The last step is to calculate the `Total Cost` of the last column in the Excel f
 
 1. **Access the last column and add up all the cost.**
 
-   You can read the last column by accessing the `sheet.columns` attribute.
-   Since it returns a generator, you first convert it to a `python list` and access the last column.
+    You can read the last column by accessing the `sheet.columns` attribute.
+    Since it returns a generator, you first convert it to a `python list` and access the last column.
    
-   ```python3
-   last_column_data = list(sheet.columns)[-1]
-   # Ignore header cell 
-   total_cost = sum([x.value for x in last_column_data[1:]])
-   ```
+    ```python3
+    last_column_data = list(sheet.columns)[-1]
+    # Ignore header cell 
+    total_cost = sum([x.value for x in last_column_data[1:]])
+    ```
    
 2. Create a new row 2 places down from the max_row and fill in `Total Cost`.
 
-   ```python3
-   max_row = sheet.max_row
-
-   total_cost_descr_cell = sheet.cell(row = max_row +2, column = sheet.max_column -1)
-   total_cost_descr_cell.value = "Total Cost"
+    ```python3
+    max_row = sheet.max_row
     
-   total_cost_cell =  sheet.cell(row = max_row +2, column = sheet.max_column)
-   total_cost_cell.value = total_cost
-   ```
+    total_cost_descr_cell = sheet.cell(row = max_row +2, column = sheet.max_column -1)
+    total_cost_descr_cell.value = "Total Cost"
+     
+    total_cost_cell =  sheet.cell(row = max_row +2, column = sheet.max_column)
+    total_cost_cell.value = total_cost
+    ```
    
 3. Import `Font` class from `openpyxl.styles` to make the last row **Bold**.
 
-   ```python3
-   # Import the Font class from Openpyxl
-   from openpyxl.styles import Font
+    ```python3
+    # Import the Font class from Openpyxl
+    from openpyxl.styles import Font
     
-   bold_font = Font(bold=True)
-   total_cost_descr_cell.font = bold_font
-   total_cost_cell.font = bold_font
+    bold_font = Font(bold=True)
+    total_cost_descr_cell.font = bold_font
+    total_cost_cell.font = bold_font
     
-   total_cost_cell.number_format = "$#,#0.0"
-   ```
+    total_cost_cell.number_format = "$#,#0.0"
+    ```
 
 **Final Code looks like the below.**
 
