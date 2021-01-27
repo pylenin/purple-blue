@@ -907,7 +907,7 @@ The last step is to calculate the `Total Cost` of the last column in the Excel f
     total_cost_cell.value = total_cost
     ```
    
-3. **Import `Font` class from `openpyxl.styles` to make the last row **Bold**.**
+3. **Import `Font` class from `openpyxl.styles` to make the last row Bold.**
 
     ```python3
     # Import the Font class from Openpyxl
