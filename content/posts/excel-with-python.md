@@ -24,11 +24,11 @@ However, if you have a little knowledge of Python, you could build highly profes
 3. [Reading data from Excel using Openpyxl](#reading-data-from-excel-using-openpyxl)
 4. [Reading multiple cells from Excel](#reading-multiple-cells-from-excel)
 5. [iter_rows() and iter_cols() in Openpyxl](#iter_rows-and-iter_cols-in-openpyxl)
-7. [Create a new Excel file with Openpyxl](#create-a-new-excel-file-with-openpyxl)
-8. [Writing data to cells in Excel with Openpyxl](#writing-data-to-cells-in-excel-with-openpyxl)
-9. [Appending data to Excel with Openpyxl](#appending-data-to-excel-with-openpyxl)   
-10. [Manipulating Sheets in Openpyxl](#manipulating-sheets-in-openpyxl)
-11. [Practical usage example of Openpyxl](#practical-usage-example-of-openpyxl)
+6. [Create a new Excel file with Openpyxl](#create-a-new-excel-file-with-openpyxl)
+7. [Writing data to cells in Excel with Openpyxl](#writing-data-to-cells-in-excel-with-openpyxl)
+8. [Appending data to Excel with Openpyxl](#appending-data-to-excel-with-openpyxl)   
+9. [Manipulating Sheets in Openpyxl](#manipulating-sheets-in-openpyxl)
+10. [Practical usage example of Openpyxl](#practical-usage-example-of-openpyxl)
 
 ### Basic Information about Excel
 
