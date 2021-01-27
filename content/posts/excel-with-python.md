@@ -404,6 +404,33 @@ Max row in the active sheet is 11
 Max column in the active sheet is 4
 ```
 
+**Note** - If you update a cell wih a value, the `sheet.max_row` and `sheet.max_column` values also change, even though you haven't saved your changes.
+
+**Code**
+
+```python3
+from openpyxl import load_workbook
+
+wb = load_workbook('pylenin.xlsx')
+
+sheet = wb.active
+
+sheet["A1"].value = "Lenin"
+print(sheet.max_row)
+
+sheet["A2"].value = "Mishra"
+print(sheet.max_row)
+
+# wb.save('pylenin.xlsx')
+```
+
+**Output**
+
+```bash
+1
+2
+```
+
 ### iter_rows() and iter_cols() in Openpyxl
 
 Openpyxl offers two commonly used methods to iterate over rows and column.
