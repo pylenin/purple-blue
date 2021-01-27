@@ -28,6 +28,7 @@ However, if you have a little knowledge of Python, you could build highly profes
 8. [Writing data to cells in Excel with Openpyxl](#writing-data-to-cells-in-excel-with-openpyxl)
 9. [Appending data to Excel with Openpyxl](#appending-data-to-excel-with-openpyxl)   
 10. [Manipulating Sheets in Openpyxl](#manipulating-sheets-in-openpyxl)
+11. [Practical usage example of Openpyxl](#practical-usage-example-of-openpyxl)
 
 ### Basic Information about Excel
 
@@ -72,7 +73,7 @@ pip install openpyxl
 
 ### Reading data from Excel using Openpyxl
 
-Let's import an Excel file named `wb1.xlsx` in Python using Openpyxl module. It has the following data as shown in the image below.
+Let's import an Excel file named `wb1.xlsx` in Python using Openpyxl module~~~~. It has the following data as shown in the image below.
 
 ![MS Excel file - wb1.xlsx](/img/excel-with-python/wb1.png)
 
@@ -759,5 +760,204 @@ wb.save('pylenin.xlsx')
 **Output**
 
 ![Working with a particular sheet in Excel workbook with Openpyxl](/img/excel-with-python/wb7-pylenin.png)
+
+### Practical usage example of Openpyxl
+
+Let's perform some data analysis with `wb1.xlsx` file as shown in the first image.
+
+**Objective**
+
+1. Add a new column showing `Total Price per Product`.
+2. Calculate the `Total Cost` of all the items bought.
+
+The resulting Excel sheet should look like the below image.
+
+![Perform Data Analysis with Excel in Openpyxl](/img/excel-with-python/wb10-pylenin.png)
+
+#### Step 1 - Find the max row and max column of the Excel sheet
+
+To find the max row and max column for any Excel sheet with Openpyxl, you can use the `sheet.max_row` and `sheet.max_column` attribute.
+
+**Code**
+
+```python3
+from openpyxl import load_workbook
+
+wb = load_workbook('wb1.xlsx')
+
+sheet = wb.active
+
+print(f"Max row in the active sheet is {sheet.max_row}")
+print(f"Max column in the active sheet is {sheet.max_column}")
+```
+
+**Output**
+
+```bash
+Max row in the active sheet is 11
+Max column in the active sheet is 4
+```
+
+![Max row and Max column in Excel with Openpyxl](/img/excel-with-python/wb11-pylenin.png)
+
+#### Step 2 - Add an extra column in Excel with Openpyxl
+
+![Add an extra column in Excel with Openpyxl](/img/excel-with-python/wb12-pylenin.png)
+
+To add an extra column in the active Excel sheet, with calculations, you need to first create a new column header in the first empty cell and then iterate over all rows to multiply `Quantity` with `Cost per Unit`.
+
+**Code**
+
+```python3
+from openpyxl import load_workbook
+
+wb = load_workbook('wb1.xlsx')
+
+sheet = wb.active
+
+# Add new column header
+
+sheet.cell(row=1, column=sheet.max_column+1).value = "Total Price per Product"
+
+wb.save("wb1.xlsx")
+```
+
+**Output**
+
+![Add an extra column in Excel with Openpyxl](/img/excel-with-python/wb13-pylenin.png)
+
+Now that an extra column header has been created, the `sheet.max_column` value will change to 5.
+
+Now you can calculate the `Total Price per Product` using `iter_rows()` method.
+
+**Code**
+
+```python3
+from openpyxl import load_workbook
+
+wb = load_workbook('wb1.xlsx')
+
+sheet = wb.active
+
+# Calculate Total Price per Product
+
+for id, row in enumerate(sheet.iter_rows(min_row=2,
+                                         max_row = sheet.max_row)):
+
+    row_number = id + 2 # index for enumerate will start at 0
+    product_name = row[1].value
+    cost_per_unit = row[2].value
+    quantity = row[3].value
+    print(f"Total cost for {product_name} is {cost_per_unit*quantity}")
+
+    # Update cell value in the last column
+    current_cell = sheet.cell(row=row_number, column=sheet.max_column)
+    current_cell.value = cost_per_unit*quantity
+
+    # Format cell from number to $ currency
+    current_cell.number_format = '$#,#0.0'
+
+print("\nSuccesfully updated Excel")
+wb.save('wb1.xlsx')
+```
+
+**Output**
+
+```bash
+Total cost for Pencil is 100.0
+Total cost for Pen is 500
+Total cost for Eraser is 25.0
+Total cost for Sharpner is 75.0
+Total cost for Files is 150
+Total cost for A4 Size Paper is 90
+Total cost for Pencil Box is 240
+Total cost for Pen Stand is 55.0
+Total cost for Notebook is 100
+Total cost for Marker is 75
+
+Succesfully updated Excel
+```
+
+![Add an extra column in Excel with Openpyxl](/img/excel-with-python/wb14-pylenin.png)
+
+#### Step 3 - Calculate sum of a column in Excel with Openpyxl
+
+The last step is to calculate the `Total Cost` of the last column in the Excel file.
+
+1. **Access the last column and add up all the cost.**
+
+   You can read the last column by accessing the `sheet.columns` attribute.
+   Since it returns a generator, you first convert it to a `python list` and access the last column.
+   
+   ```python3
+   last_column_data = list(sheet.columns)[-1]
+   # Ignore header cell 
+   total_cost = sum([x.value for x in last_column_data[1:]])
+   ```
+   
+2. Create a new row 2 places down from the max_row and fill in `Total Cost`.
+
+   ```python3
+   max_row = sheet.max_row
+
+   total_cost_descr_cell = sheet.cell(row = max_row +2, column = sheet.max_column -1)
+   total_cost_descr_cell.value = "Total Cost"
+    
+   total_cost_cell =  sheet.cell(row = max_row +2, column = sheet.max_column)
+   total_cost_cell.value = total_cost
+   ```
+   
+3. Import `Font` class from `openpyxl.styles` to make the last row **Bold**.
+
+   ```python3
+   # Import the Font class from Openpyxl
+   from openpyxl.styles import Font
+    
+   bold_font = Font(bold=True)
+   total_cost_descr_cell.font = bold_font
+   total_cost_cell.font = bold_font
+    
+   total_cost_cell.number_format = "$#,#0.0"
+   ```
+
+**Final Code looks like the below.**
+
+**Code**
+
+```python3
+from openpyxl import load_workbook
+
+wb = load_workbook('wb1.xlsx')
+
+sheet = wb.active
+
+last_column_data = list(sheet.columns)[-1]
+# Ignore header cell 
+total_cost = sum([x.value for x in last_column_data[1:]])
+
+max_row = sheet.max_row
+
+total_cost_descr_cell = sheet.cell(row = max_row + 2, column = sheet.max_column -1)
+total_cost_descr_cell.value = "Total Cost"
+
+total_cost_cell =  sheet.cell(row = max_row + 2, column = sheet.max_column)
+total_cost_cell.value = total_cost
+
+# Import the Font class from Openpyxl
+from openpyxl.styles import Font
+
+bold_font = Font(bold=True)
+total_cost_descr_cell.font = bold_font
+total_cost_cell.font = bold_font
+
+total_cost_cell.number_format = "$#,#0.0"
+
+print("\nSuccesfully updated Excel")
+wb.save('wb1.xlsx')
+```
+
+When you run the above code, you should see all the relevant updates to your Excel sheet.
+
+![Data Analysis in Excel sheets with Openpyxl](/img/excel-with-python/wb15-pylenin.png)
 
 In this Openpyxl tutorial, we learnt about various ways to handle Excel files in Python. If you have any doubts, post your doubts in the comment section below. 
