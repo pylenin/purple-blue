@@ -23,6 +23,7 @@ However, if you have a little knowledge of Python, you could build highly profes
 2. [What is Openpyxl and how to install it?](#what-is-openpyxl-and-how-to-install-it)
 3. [Reading data from Excel using Openpyxl](#reading-data-from-excel-using-openpyxl)
 4. [Reading multiple cells from Excel](#reading-multiple-cells-from-excel)
+5. [Find the max row and column number with Openpyxl](#find-the-max-row-and-column-number-with-openpyxl)
 5. [iter_rows() and iter_cols() in Openpyxl](#iter_rows-and-iter_cols-in-openpyxl)
 6. [Create a new Excel file with Openpyxl](#create-a-new-excel-file-with-openpyxl)
 7. [Writing data to cells in Excel with Openpyxl](#writing-data-to-cells-in-excel-with-openpyxl)
@@ -377,6 +378,30 @@ for row in sheet:
 [8, 'Pen Stand', '$5.5', 10]
 [9, 'Notebook', '$2', 50]
 [10, 'Marker', '$1', 75]
+```
+
+### Find the max row and column number with Openpyxl
+
+To find the max row and column number in your Excel sheet, use `sheet.max_row` and `sheet.max_column` attributes.
+
+**Code**
+
+```python3
+from openpyxl import load_workbook
+
+wb = load_workbook('wb1.xlsx')
+
+sheet = wb.active
+
+print(f"Max row in the active sheet is {sheet.max_row}")
+print(f"Max column in the active sheet is {sheet.max_column}")
+```
+
+**Output**
+
+```bash
+Max row in the active sheet is 11
+Max column in the active sheet is 4
 ```
 
 ### iter_rows() and iter_cols() in Openpyxl
@@ -776,7 +801,8 @@ The resulting Excel sheet should look like the below image.
 
 #### Step 1 - Find the max row and max column of the Excel sheet
 
-To find the max row and max column for any Excel sheet with Openpyxl, you can use the `sheet.max_row` and `sheet.max_column` attribute.
+As mentioned before, you can use the `sheet.max_row` and `sheet.max_column` attributes 
+to find the max row and max column for any Excel sheet with Openpyxl.
 
 **Code**
 
