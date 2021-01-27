@@ -72,7 +72,7 @@ pip install openpyxl
 
 ### Reading data from Excel using Openpyxl
 
-Let's open an Excel file named `wb1.xlsx` in Python. It has the following data as shown in the image below.
+Let's import an Excel file named `wb1.xlsx` in Python using Openpyxl module. It has the following data as shown in the image below.
 
 ![MS Excel file - wb1.xlsx](/img/excel-with-python/wb1.png)
 
