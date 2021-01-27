@@ -6,6 +6,7 @@ draft: false
 image: /img/pylenin_logo.png
 categories: ['Data Engineering with Python']
 categories_weight: 1
+tags: ["python excel", "openpyxl"]
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
