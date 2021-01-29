@@ -9,6 +9,8 @@ categories_weight: 7
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
+By [Manoj Sarkar](https://www.pylenin.com/authors/manoj-sarkar)
+
 There are 2 types of Booleans - `True` and `False`.
 
 When you evaluate any expression or compare values in Python, Python returns `True` or `False`.
