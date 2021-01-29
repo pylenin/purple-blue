@@ -1015,3 +1015,7 @@ When you run the above code, you should see all the relevant updates to your Exc
 ![Data Analysis in Excel sheets with Openpyxl](/img/excel-with-python/wb15-pylenin.png)
 
 In this Openpyxl tutorial, we learnt about various ways to handle Excel files in Python. If you have any doubts, post your doubts in the comment section below. 
+
+#### Related Reading
+
+1. [Combining multiple Excel sheets into one in Python](https://www.pylenin.com/blogs/combining-workbooks-to-sheets/)
