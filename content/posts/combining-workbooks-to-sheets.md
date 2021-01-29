@@ -12,6 +12,10 @@ tags: ["python excel", "openpyxl"]
 
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
+**Prerequisites**
+1. [Reading Excel data with Openpyxl](https://www.pylenin.com/blogs/excel-with-python/#reading-data-from-excel-using-openpyxl)
+2. [Writing to Excel with Openpyxl](https://www.pylenin.com/blogs/excel-with-python/#writing-data-to-cells-in-excel-with-openpyxl)
+
 Let's say you have a directory with multiple Excel files containing sales data of every month.
 
 ![A directory containing multiple Excel files](/img/excel-with-python/combining-wb-1.png)
