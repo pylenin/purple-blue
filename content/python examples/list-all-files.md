@@ -9,7 +9,7 @@ image: /img/pylenin_logo.png
 
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
-#### Using `os.listdir()`
+#### Method 1 - Using `os.listdir()`
 
 You can use `os.listdir()` to get you everything that is present in a directory(both files and directories).
 
@@ -26,7 +26,7 @@ print(os.listdir('C:\\Users\\91824\\'))
 ```
 **The above code gets you every file and directory present in the path.**
 
-#### Using `os.path` 
+#### Method 2 - Using `os.path` 
 
 **If you just want files, you could filter the above code down using `os.path`.
 
@@ -41,7 +41,7 @@ for file in listdir(dir_to_search):
         print(file)
 ```
 
-#### Using `os.walk()`
+#### Method 3 - Using `os.walk()`
 
 You could also use `os.walk()` function 
 which will generate the file names present in a directory 
@@ -63,6 +63,33 @@ import os
 
 dir_to_search = 'C:\\Users\\91824\\'
 _, _, filenames = next(os.walk(dir_to_search))
+```
+
+#### Method 4 - Using `glob` module for pattern matching
+
+If you want to search for only specific types of files like `.txt` or `.csv`, use the `glob` module.
+It will return a list of files matching the pattern.
+
+```python3
+import glob
+
+dir_to_search = 'C:\\Users\\91824\\'
+pattern = "*.txt"
+print(glob.glob(dir_to_search+"\\"+pattern))
+```
+
+**This method doesn't search for the files in the subdirectories. To search in all the subdirectories, use `os.walk` with the `glob` module**
+
+```python3
+import os
+import glob
+
+dir_to_search = 'C:\\Users\\91824\\PycharmProjects'
+pattern = "*.py"
+files = []
+for (dirpath, dirnames, filenames) in os.walk(dir_to_search, topdown=True):
+    for dir in dirnames:
+        print(glob.glob(os.path.join(dirpath, dir)+"\\"+pattern))
 ```
 
 #### Related Reading
