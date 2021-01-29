@@ -5,7 +5,7 @@ date: 2021-01-28T08:21:32+05:30
 draft: false
 image: /img/pylenin_logo.png
 categories: ['python lists']
-categories_weight: 3
+categories_weight: 1
 ---
 <div class="sharethis-inline-follow-buttons"></div>
 
