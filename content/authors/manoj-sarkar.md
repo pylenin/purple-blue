@@ -7,7 +7,7 @@ image: /img/pylenin_logo.png
 
 ##### Manoj Sarkar
 
-![manoj-image](/img/authors/Savan-Disawal/SavanDisawal.jpg)
+![manoj-image](/img/authors/Manoj-Sarkar/manoj.png)
 
 My name is Manoj Sarkar. 
 
