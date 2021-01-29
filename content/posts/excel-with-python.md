@@ -1019,3 +1019,4 @@ In this Openpyxl tutorial, we learnt about various ways to handle Excel files in
 #### Related Reading
 
 1. [Combining multiple Excel sheets into one in Python](https://www.pylenin.com/blogs/combining-workbooks-to-sheets/)
+2. [Openpyxl - Plotting Bar Charts in Excel](https://www.pylenin.com/blogs/bar-charts-openpyxl)

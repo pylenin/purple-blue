@@ -133,3 +133,4 @@ All the data should be copied to the sheets in **"yearly_sales.xlsx"**.
 #### Related Reading
 
 1. [Openpyxl Tutorial: Handling Excel sheets in Python](https://www.pylenin.com/blogs/excel-with-python/)
+2. [Openpyxl - Plotting Bar Charts in Excel](https://www.pylenin.com/blogs/bar-charts-openpyxl)
