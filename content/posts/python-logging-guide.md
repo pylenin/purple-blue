@@ -12,6 +12,7 @@ image: /img/loggingmeta.png
 Python Logging module is the first topic in the [#Python30](https://github.com/pylenin/Python30) course. If you prefer videos over text, [click here](https://youtu.be/HJIz1PTMmuE) to check out my youtube video on Python Logging. However if blogs are your thing, here is a step-by-step guide to understanding the **python logging module** for logging events and why they should be preferred over **print**.
 
 ##### Sections covered
+
 1. [Introduction to Python Logging](#introduction-to-python-logging)
 2. [Can we not achieve the same with print statements?](#can-we-not-achieve-the-same-with-print-statements)
 3. [Why is Printing not sufficient for Logging?](#why-is-printing-not-sufficient-for-logging)
@@ -26,8 +27,32 @@ Python Logging module is the first topic in the [#Python30](https://github.com/p
 12. [Some logging scenarios](#some-logging-scenarios)
 13. [Advantages of configuring a Main Logger](#advantages-of-configuring-a-main-logger)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Introduction to Python Logging
 In general, Logging event is an important activity in any non-trivial software development application. It informs you about the flow of events in your entire application with other useful metadata like the time at which an event occurred, the severity of the event, the line number on which the event was logged, the function or the module in which the event triggered and so on. You can easily control the type of information you decide to include in our log files and also the way it shows up.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### Can we not achieve the same with print statements?
 
@@ -71,6 +96,19 @@ except:
 This way we not only receive the python traceback information but also allow our code flow to successfully end without crashing.
 
 Inspite of all the obvious benefits, Printing is still not the best tool for logging.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Why is Printing not sufficient for Logging?
 Below are the 4 reasons that make print unsuitable.
 
@@ -90,6 +128,18 @@ Below are the 4 reasons that make print unsuitable.
 
     Imagine a log file containing all sorts of print statements. Once your application has gone through various stages of development and finally in production, it is going to become very difficult to categorize and debug those print statements. You might argue that you can modify your print statements to suit the various stages and provide more information. But that would be adding junk to your codebase to make up for something that print is not suitable and was not even built for.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Advantages of using Python Logging module
 The logging module in Python provides a solution for all the above problems.
 
@@ -102,6 +152,18 @@ The logging module in Python provides a solution for all the above problems.
 4. Doesn’t tamper with the **user experience** if your module is being imported by other users.
 
 So let’s dive into the world of logging in Python.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### Levels of Logging
 Now the logging module is already part of the python standard library. So just import logging and we are good to go. By default, you will find that there are 5 standard logging levels that indicates the severity of events. They are
@@ -145,6 +207,18 @@ logging.critical("You are in trouble")
 ```
 When you run the above script, you will see that all the messages with severity level of debug and above are being logged. **Its that simple!**
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Formatting our logs to have more information
 Now the amount of information here is not sufficient. Didn’t I brag about the magical attributes of the logging module earlier? Well it is all true. If you check the [log record attributes page](https://docs.python.org/3/library/logging.html#logrecord-attributes) you can find a table of all the attribute names with their usable formats and descriptions that you can include in your logs. Let’s try to pick some of the important ones.
 
@@ -182,6 +256,18 @@ The above snippet is going to return us all the logrecord attributes that we are
 
 All this time, have you been wondering what does `root` mean in the logs? Stay with that thought for a while, we will discuss it very soon.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Logging to a file
 Usually logs have little purpose being printed to the console. You would ideally want to store them in a file. To do that you have to use the filename argument and set it to the filename or complete path of the filename of our choice. Everytime you run your application, the new logs are appended to the file.
 ```python
@@ -213,6 +299,18 @@ logging.warning("Careful! Something does not look right")
 logging.error("You have encountered an error")
 logging.critical("You are in trouble")
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### Logging from multiple modules
 Let’s say you are working on a project `project.py` and importing another module called `helper.py`. Both the files look something like this.
@@ -272,6 +370,19 @@ logging.debug("I won't be logged to any file")
 So this is a problem. We are unable to log messages from two different modules to two different places. How can we solve it? 
 
 Probably now is a good time to talk about the `root` aka **Root logger**. 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Root Logger
 
 Python logging module has a hierarchy. **Root Logger** is at the top of the hierarchy. When you are using the `basicConfig` method, you are basically initalizing the Root logger. When you use the `name` logging attribute and it returns `root`, it means you are using the root logger. Once the root logger is initialized, you can not add any other logging method to your module. As we can see from the above example, it is not really a good idea to directly log against the Root logger. Instead we should create and configure logging entities that serve the logging requirements for every specific module. We can do that by configuring a **Main Logger**.
@@ -300,6 +411,18 @@ But how come no other information is being shown? Where are the message level, l
 With the `basicConfig()` method, the level name, the logger name and the message are shown as default to the user. However with configuring your own logger, you have to manually set these parameters. You do that through the **Handler** and **Formatter** objects. 
 
 Objects from the **Handler classes** are repsonsible for sending your logging message to the right destination. You can find a list of different types of available handlers [here](https://docs.python.org/3/howto/logging.html#useful-handlers). Objects from **Formatter classes** configure the structure and format of your log messages.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### Some logging scenarios 
 1. **Logging messages to file using FileHandler method**
@@ -355,6 +478,17 @@ Objects from the **Handler classes** are repsonsible for sending your logging me
 
 </ol>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### Advantages of configuring a Main Logger
 There is a huge advantage to configuring a Main Logger instead of using the Root Logger. Let us see that through an example. Let's go back to our old example of `project.py` and `helper.py`. However this time, instead of using the `basicConfig()` method, we will configure main loggers for both the files. This time also, we want to log the message from `project.py` to a file and the message from `helper.py` to the console.
@@ -401,6 +535,19 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.info("I am a log from helper")
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 When you execute `project.py`, only the log message from the helper module is logged to the console. The log from `project.py` is logged to the file you wanted to. Hurray !! 
 
 Also notice one more thing! Look at the message logged from `helper.py`.
