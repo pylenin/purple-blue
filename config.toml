@@ -80,23 +80,28 @@ googleAnalytics = "UA-106768190-2"
         languagename = "English"
 
         [[languages.en.menu.main]]
-        name = "Blogs"
+        name = "Python Bootcamp 2021"
         weight = 1
+        url = "/python-bootcamp-2021/"
+
+        [[languages.en.menu.main]]
+        name = "Blogs"
+        weight = 2
         url = "/blogs/"
 
         [[languages.en.menu.main]]
         name = "Python Examples"
-        weight = 1
+        weight = 3
         url = "/python-examples/"
 
         [[languages.en.menu.main]]
         name = "Pylenin Store"
-        weight = 2
+        weight = 4
         url = "https://teespring.com/nl/stores/pylenin-store-2"
 
         [[languages.en.menu.main]]
         name = "Youtube"
-        weight = 3
+        weight = 5
         url = "https://www.youtube.com/pylenin/"
 
 
