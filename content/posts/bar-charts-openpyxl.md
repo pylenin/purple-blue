@@ -25,7 +25,8 @@ you have to use `BarChart` class from `openpyxl.chart` submodule.
 
 #### Example 1 - Vertical Bar Charts
 
-Let's plot a Bar Chart for the quantities listed for every product.
+Vertical Bar charts are also kown as **Column Charts**.
+Let's plot a Vertical Bar Chart for the quantities listed for every product.
 
 **Code**
 
@@ -43,7 +44,7 @@ values = Reference(sheet,
                    max_col=4,
                    min_row=1,
                    max_row=11)
-print(values)
+
 cats = Reference(sheet, min_col=2, max_col=2, min_row=2, max_row=11)
 
 # Create object of BarChart class
@@ -88,7 +89,7 @@ values = Reference(sheet,
                    max_col=4,
                    min_row=1,
                    max_row=11)
-print(values)
+
 cats = Reference(sheet, min_col=2, max_col=2, min_row=2, max_row=11)
 
 # Create object of BarChart class
@@ -139,7 +140,7 @@ values = Reference(sheet,
                    max_col=4,
                    min_row=1,
                    max_row=11)
-print(values)
+
 cats = Reference(sheet, min_col=2, max_col=2, min_row=2, max_row=11)
 
 # Create object of BarChart class
@@ -193,7 +194,7 @@ values = Reference(sheet,
                    max_col=5,
                    min_row=1,
                    max_row=11)
-print(values)
+
 cats = Reference(sheet, min_col=2, max_col=2, min_row=2, max_row=11)
 
 # Create object of BarChart class
@@ -245,7 +246,7 @@ values = Reference(sheet,
                    max_col=5,
                    min_row=1,
                    max_row=11)
-print(values)
+
 cats = Reference(sheet, min_col=2, max_col=2, min_row=2, max_row=11)
 
 # Create object of BarChart class
@@ -299,7 +300,7 @@ values = Reference(sheet,
                    max_col=4,
                    min_row=1,
                    max_row=11)
-print(values)
+
 cats = Reference(sheet, min_col=2, max_col=2, min_row=2, max_row=11)
 
 # Create object of BarChart class
