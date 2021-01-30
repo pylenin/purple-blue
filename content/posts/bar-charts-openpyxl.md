@@ -5,7 +5,7 @@ date: 2021-01-29T23:03:12+05:30
 draft: false
 image: /img/pylenin_logo.png
 categories: ['Data Engineering with Python']
-categories_weight: 3
+categories_weight: 4
 tags: ["python excel", "openpyxl"]
 ---
 <div class="sharethis-inline-follow-buttons"></div>
@@ -334,3 +334,4 @@ wb.save("wb1.xlsx")
 
 1. [Openpyxl Tutorial: Handling Excel sheets in Python](https://www.pylenin.com/blogs/excel-with-python/)
 2. [Combining multiple Excel sheets into one in Python](https://www.pylenin.com/blogs/combining-workbooks-to-sheets/)
+3. [Openpyxl - Plotting Bubble Charts in Excel](https://www.pylenin.com/blogs/bubble-charts-openpyxl/)
