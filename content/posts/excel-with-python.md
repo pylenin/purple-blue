@@ -1202,3 +1202,4 @@ In this Openpyxl tutorial, we learnt about various ways to handle Excel files in
 2. [Openpyxl - Plotting Bar Charts in Excel](https://www.pylenin.com/blogs/bar-charts-openpyxl)
 3. [Openpyxl - Plotting Line Charts in Excel](https://www.pylenin.com/blogs/line-charts-openpyxl/)
 4. [Openpyxl - Plotting Bubble Charts in Excel](https://www.pylenin.com/blogs/bubble-charts-openpyxl/)
+5. [Openpyxl - Adding hyperlinks to cells in Excel](https://www.pylenin.com/blogs/adding-hyperlink-openpyxl/)

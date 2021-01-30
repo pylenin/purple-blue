@@ -104,3 +104,4 @@ Since the type of x and y axis is declared `NumericType` in the `BubbleChart` cl
 2. [Combining multiple Excel sheets into one in Python](https://www.pylenin.com/blogs/combining-workbooks-to-sheets/)
 3. [Openpyxl - Plotting Bar Charts in Excel](https://www.pylenin.com/blogs/bar-charts-openpyxl/)
 4. [Openpyxl - Plotting Line Charts in Excel](https://www.pylenin.com/blogs/line-charts-openpyxl/)
+5. [Openpyxl - Adding hyperlinks to cells in Excel](https://www.pylenin.com/blogs/adding-hyperlink-openpyxl/)
