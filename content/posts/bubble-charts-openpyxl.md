@@ -50,25 +50,28 @@ wb = openpyxl.load_workbook('wb1.xlsx')
 sheet = wb.active
 
 # Data for plotting
-# Just take the data from last column
+# Choose the product column
 xvalues = Reference(sheet,
                    min_col=2,
                    max_col=2,
                    min_row=2,
                    max_row=11)
+
+# Choose the Total Cost Column
 yvalues = Reference(sheet,
                    min_col=5,
                    max_col=5,
                    min_row=2,
                    max_row=11)
 
+# Choose the Cost per Unit column
 size = Reference(sheet,
                  min_col=3,
                  max_col=3,
                  min_row=2,
                  max_row=11)
 
-# Create object of BarChart class
+# Create object of BubbleChart class
 chart = BubbleChart()
 series = Series(values=yvalues, xvalues=xvalues, zvalues=size)
 chart.series.append(series)
@@ -100,3 +103,4 @@ Since the type of x and y axis is declared `NumericType` in the `BubbleChart` cl
 1. [Openpyxl Tutorial: Handling Excel sheets in Python](https://www.pylenin.com/blogs/excel-with-python/)
 2. [Combining multiple Excel sheets into one in Python](https://www.pylenin.com/blogs/combining-workbooks-to-sheets/)
 3. [Openpyxl - Plotting Bar Charts in Excel](https://www.pylenin.com/blogs/bar-charts-openpyxl/)
+4. [Openpyxl - Plotting Line Charts in Excel](https://www.pylenin.com/blogs/line-charts-openpyxl/)

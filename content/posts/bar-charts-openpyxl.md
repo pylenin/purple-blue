@@ -51,7 +51,6 @@ wb = openpyxl.load_workbook('wb1.xlsx')
 sheet = wb.active
 
 # Data for plotting
-# Just take the data from last column
 values = Reference(sheet,
                    min_col=4,
                    max_col=4,
@@ -396,3 +395,4 @@ wb.save("wb1.xlsx")
 1. [Openpyxl Tutorial: Handling Excel sheets in Python](https://www.pylenin.com/blogs/excel-with-python/)
 2. [Combining multiple Excel sheets into one in Python](https://www.pylenin.com/blogs/combining-workbooks-to-sheets/)
 3. [Openpyxl - Plotting Bubble Charts in Excel](https://www.pylenin.com/blogs/bubble-charts-openpyxl/)
+4. [Openpyxl - Plotting Line Charts in Excel](https://www.pylenin.com/blogs/line-charts-openpyxl/)
