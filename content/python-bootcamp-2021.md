@@ -15,7 +15,7 @@ In this Bootcamp, you will have the access to the best resources for every topic
 
 Whether you are aiming to join a Fortune 500 corporation 
 or desire to pursue a freelancing career in programming, 
-it is important to know **what’s hot in the industry**.
+it is important to know **what is hot in the industry**.
 
 Python continues to be the language that is pretty much used in every company around the world for various purposes.
 This also means that there is a huge potential for **you to land a job as a Python developer**.
