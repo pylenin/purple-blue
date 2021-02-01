@@ -93,24 +93,24 @@ Identifiers are **opposite of reserved keywords**. They are just names that user
 
 ##### Rules to remember while writing identifiers
 
-*. Can be a combination of lowercase and uppercase letters(`A to Z`), numbers(`0 to 9`) and underscore(`_`). 
+* Can be a combination of lowercase and uppercase letters(`A to Z`), numbers(`0 to 9`) and underscore(`_`). 
    
    **Valid Examples** - `x`, `my_list`, `str123`
 
-*. Cannot start with a number.
+* Cannot start with a number.
    
    **Invalid example** - `1name`
    
    **Valid Example** - `name1`
    
-*. Keywords cannot be used as identifiers
+* Keywords cannot be used as identifiers
 
    ```python3
    for = 1
    >>> SyntaxError: invalid syntax
    ```
    
-*. Special symbols like **!, @, #, $, %** etc. cannot be used
+* Special symbols like **!, @, #, $, %** etc. cannot be used
 
     ```python3
     x@ = 1
