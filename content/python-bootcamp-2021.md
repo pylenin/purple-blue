@@ -75,18 +75,18 @@ To ensure that people are able to ask their doubts without being disturbed by ot
 
    Improve the following code so that **it prints over the same line**.
    
-   ```python3
-   print("Welcome")
-   print("to")
-   print("Python")
-   print("Bootcamp")
-   print("2021")
-   ```
+    ```python3
+    print("Welcome")
+    print("to")
+    print("Python")
+    print("Bootcamp")
+    print("2021")
+    ```
    **Expected Outcome**
    
-   ```bash
-   2021
-   ```
+    ```bash
+    2021
+    ```
 
 3. Use print statement to print to a file instead of `stdout`.
    
