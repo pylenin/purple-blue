@@ -96,7 +96,7 @@ Identifiers are **opposite of reserved keywords**. They are just names that user
 1. Can be a combination of lowercase and uppercase letters(`A to Z`), numbers(`0 to 9`) and underscore(`_`). 
    
    **Valid Examples** - `x`, `my_list`, `str123`
-   
+
 2. Cannot start with a number.
    
    **Invalid example** - `1name`
@@ -112,10 +112,10 @@ Identifiers are **opposite of reserved keywords**. They are just names that user
    
 4. Special symbols like **!, @, #, $, %** etc. cannot be used
 
-   ```python3
-   x@ = 1
-   >>> SyntaxError: invalid syntax
-   ```
+    ```python3
+    x@ = 1
+    >>> SyntaxError: invalid syntax
+    ```
 
 #### Final Suggestions
 
