@@ -67,28 +67,31 @@ To ensure that people are able to ask their doubts without being disturbed by ot
 
 **Daily Exercise**
 
-1. **Qns 1**
+**Qns 1**
    
-   Print `My Name Is Pylenin` as `My|Name|Is|Pylenin` using output formatting of a `print()` function.
+Print `My Name Is Pylenin` as `My|Name|Is|Pylenin` using output formatting of a `print()` function.
    
 
-2. **Qns 2**
+**Qns 2**
 
-   Improve the following code so that **it prints over the same line**.
-   ```python3
-   print("Welcome")
-   print("to")
-   print("Python")
-   print("Bootcamp")
-   print("2021")
-   ```
-   
-   **Expected Outcome**
-   ```bash
-   2021
-   ```
+Improve the following code so that **it prints over the same line**.
 
-3. Use print statement to print to a file instead of `stdout`.
+```python3
+print("Welcome")
+print("to")
+print("Python")
+print("Bootcamp")
+print("2021")
+```
+
+**Expected Outcome**
+```bash
+2021
+```
+
+**Qns 3**
+
+Use print statement to print to a file instead of `stdout`.
    
 
 ##### Day 2 - Passing comments, Keywords and Identifiers
