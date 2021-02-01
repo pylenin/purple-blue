@@ -71,22 +71,23 @@ To ensure that people are able to ask their doubts without being disturbed by ot
    
    Print `My Name Is Pylenin` as `My|Name|Is|Pylenin` using output formatting of a `print()` function.
    
+
 2. **Qns 2**
 
    Improve the following code so that **it prints over the same line**.
    
-    ```python3
+   ```python3
     print("Welcome")
     print("to")
     print("Python")
     print("Bootcamp")
     print("2021")
-    ```
+   ```
    **Expected Outcome**
    
-    ```bash
+   ```bash
     2021
-    ```
+   ```
 
 3. Use print statement to print to a file instead of `stdout`.
    
