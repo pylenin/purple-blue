@@ -61,6 +61,36 @@ To ensure that people are able to ask their doubts without being disturbed by ot
 
 ##### Day 1 - Installing Python and Hello World!
 
+1. [Check out this installation guide](https://www.pylenin.com/blogs/installing-python-for-windows/) to install Python on your machine. The article demonstrates installing **Python 3.9 on Windows 10**, but you can use the instructions for any OS.
+2. Next you will need an IDE. We suggest you to choose either **VS Code or Pycharm Community Edition**. [Check out their installation guide here](https://www.pylenin.com/tags/python-ide/).
+3. Every programmer's first code - **Hello World!**. [Check out this article](https://www.pylenin.com/blogs/python-print/) to learn about printing anything in Python.
+
+**Daily Exercise**
+
+1. **Qns 1**
+   
+   Print `My Name Is Pylenin` as `My|Name|Is|Pylenin` using output formatting of a `print()` function.
+   
+2. **Qns 2**
+
+   Improve the following code so that **it prints over the same line**.
+   
+   ```python3
+   print("Welcome")
+   print("to")
+   print("Python")
+   print("Bootcamp")
+   print("2021")
+   ```
+   **Expected Outcome**
+   
+   ```bash
+   2021
+   ```
+
+3. Use print statement to print to a file instead of `stdout`.
+   
+
 ##### Day 2 - Passing comments, Keywords and Identifiers
 
 ##### Day 3 - Python Variables and String Formatting
