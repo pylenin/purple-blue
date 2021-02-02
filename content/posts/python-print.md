@@ -135,7 +135,7 @@ When you have multiple print statements, Python by default prints it to a newlin
 
 However, you can change this default behavior. 
 
-**To print multiple expressions to the same line**, you can end the print statement in Python 2 with a comma (`,`). In Python 3, you can set the `end` parameter to a **whitespace character string**.
+**To print multiple expressions to the same line**, you can end the print statement in Python 2 with a comma (`,`). In Python 3, you can set the `end` parameter to a **whitespace character string** to print without newline.
 
 ```python3
 # Python 2
@@ -149,7 +149,7 @@ print('I love Python')
 >>> Python 3 Rocks I love Python
 ```
 
-With Python 3, you do have the added flexibility of changing the `end` paramter to anything you want. For e.g.
+With Python 3, you do have the added flexibility of changing the `end` parameter to print on the same line. For e.g.
 ```python3
 # Python 3
 print('Python', 3, 'Rocks', end='*')
