@@ -70,7 +70,8 @@ To ensure that people are able to ask their doubts without being disturbed by ot
 **Qns 1**
    
 Print `My Name Is Pylenin` as `My|Name|Is|Pylenin` using output formatting of a `print()` function.
-   
+
+[Solution](https://www.pylenin.com/blogs/python-print/#printing-multiple-elements)
 
 **Qns 2**
 
@@ -89,12 +90,60 @@ print("2021")
 2021
 ```
 
+[Solution](https://www.pylenin.com/python-examples/print-over-same-line/)
+
 **Qns 3**
 
 Use print statement to print to a file instead of `stdout`.
    
+[Solution](https://www.pylenin.com/blogs/python-print/#printing-to-a-file)
 
 ##### Day 2 - Passing comments, Keywords and Identifiers
+
+The best time to learn the best practices in anything is when you are a beginner. The habits you develop in that phase, stay with you forever.
+
+1. [Check out this article](https://www.pylenin.com/blogs/python-comments/) to learn about **using Comments and its importance** in Python Programming
+
+Before you learn to write code in Python, **learn, what you should not use in your code**.
+
+2. Learn about Keywords and Identifiers used in Python [in this article](https://www.pylenin.com/blogs/keywords-identifiers/).
+
+**Daily Exercise**
+
+**Qns 1**
+
+Check if the following list of terms are keywords in Python.
+
+```bash
+check, i, Exception, flush, nonlocal, async, await
+```
+
+**Qns 2**
+
+Which of the following identifiers are valid?
+
+```bash
+1. @x = 10
+2. y = type("Lenin")
+3. 1_integer = 10
+4. else = "Apple"
+5. _ = 23
+```
+
+**Qns 3**
+
+Check out the following code. Add comments where you deem fit.
+
+```python3
+a = 10
+b = 12
+c = 13
+
+s = (a + b + c) / 2
+
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+print('The area of our triangle is %0.2f' %area)
+```
 
 ##### Day 3 - Python Variables and String Formatting
 
