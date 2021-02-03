@@ -172,7 +172,10 @@ print >> open('hello.txt', 'w'), 'Hello World'
 # Python 3
 print('Hello World', file=open('hello.txt', 'w'))
 ```
-In the above example, the message is written to a file called `hello.txt`. Notice the use of `open` in order to save the messages to the file. 
+In the above example, the message is written to a file called `hello.txt` in the same folder. 
+Notice the use of `open` in order to save the messages to the file. 
+
+To write to a file in a different folder, provide the full path of the file in your print statement.
 
 So if you want to send your messages to any other place other than the standard output, make sure to provide a file object that has a **write** method to it.
 
