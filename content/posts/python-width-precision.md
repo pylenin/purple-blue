@@ -27,7 +27,7 @@ In this article, you will learn the intricacies of using width and precision wit
 2. [format method](https://www.pylenin.com/blogs/format-method-python-string/)
 3. [f-strings](https://www.pylenin.com/blogs/f-strings-python/)
 
-#### Example 1
+## Example 1
 
 Let's print the **floating point representation** of `4 divided by 3`.
 
@@ -114,9 +114,9 @@ You can see that your result contains **empty white spaces** to the left of each
 
 **So what happened?** Let's dive in.
 
-#### Understanding width and precision in Python
+## Understanding width and precision in Python
 
-##### Stage 1 - Using only `%f` representation
+### Stage 1 - Using only `%f` representation
 
 If you just use `%f` representation, the output will have a **width/length of 8**.
 
@@ -143,7 +143,7 @@ print(f"{4/3:f}")
 
 ![Results from using %f](/img/width-precision/wp-1.png)
 
-##### Stage 2 - Adding width
+### Stage 2 - Adding width
 
 Let's add only a `width` placeholder to `%f`.
 
@@ -201,9 +201,7 @@ print(f"{4/3:0f}")
 1.333333
 ```
 
-
-
-##### Stage 3 - Adding precision
+### Stage 3 - Adding precision
 
 Let's now change the number of decimal places in the output to 2. This can be done by providing the `precision` value.
 
@@ -234,7 +232,9 @@ Hence, the output string moves even further to the right, creating more empty wh
 
 ![Results from adding precision to %f formatting](/img/width-precision/wp-6.png)
 
-#### Using width and precision with integers
+## Using width and precision with integers
+
+### Formatting integers with width
 
 Formatting integers with width has similar effect as formatting floating points.
 
@@ -260,6 +260,8 @@ print(f"{1992:10d}")
 ```
 
 ![Results from adding width to integer formatting](/img/width-precision/wp-3.png)
+
+### Formatting integers with precision
 
 **However, providing precision with `%` formatting has no effect 
 and with `f-strings` and `format` method, it throws an error.**
@@ -292,7 +294,9 @@ print(f"{1992:10.2d}")
    ValueError: Precision not allowed in integer format specifier
 ```
 
-#### Using width and precision with strings
+## Using width and precision with strings
+
+### Formatting string with width
 
 Unfortunately the default alignment differs between `%` formatting (old style) 
 and formatting with `format` method and `f-strings` (new style). 
@@ -321,6 +325,56 @@ Pylenin
 ```
 
 ![Results from adding width to string formatting](/img/width-precision/wp-4.png)
+
+You can change this behaviour easily by using certain operators.
+
+**To right align your string, use `>` operator with the new formatting methods.**
+
+**Code - To right align strings**
+
+```python3
+# Using % operator
+print("%10s"%("Pylenin"))
+
+# Using format method
+print("{:>10s}".format("Pylenin"))
+
+# Using f-strings
+print(f"{'Pylenin':>10s}")
+```
+
+**Output**
+
+```bash
+   Pylenin
+   Pylenin
+   Pylenin
+```
+
+**To left align your string, use `-` operator with the old formatting method.**
+
+**Code - To left align strings**
+
+```python3
+# Using % operator
+print("%-10s"%("Pylenin"))
+
+# Using format method
+print("{:10s}".format("Pylenin"))
+
+# Using f-strings
+print(f"{'Pylenin':10s}")
+```
+
+**Output**
+
+```bash
+Pylenin   
+Pylenin   
+Pylenin   
+```
+
+### Formatting string with precision
 
 When you add `precision` to string formatting, the characters of the string are truncated.
 
