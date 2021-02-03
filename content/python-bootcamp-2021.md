@@ -118,6 +118,8 @@ Check if the following list of terms are keywords in Python.
 check, i, Exception, flush, nonlocal, async, await
 ```
 
+[Solution](https://www.pylenin.com/blogs/keywords-identifiers/#how-to-check-if-a-string-is-a-keyword)
+
 **Qns 2**
 
 Which of the following identifiers are valid?
@@ -129,6 +131,8 @@ Which of the following identifiers are valid?
 4. else = "Apple"
 5. _ = 23
 ```
+
+[Solution](https://www.pylenin.com/blogs/keywords-identifiers/#rules-to-remember-while-writing-identifiers)
 
 **Qns 3**
 
@@ -145,7 +149,61 @@ area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('The area of our triangle is %0.2f' %area)
 ```
 
+[Solution](https://www.pylenin.com/python-examples/python-area-of-triangle/)
+
 ##### Day 3 - Python Variables and String Formatting
+
+1. [Youtube Video on Variable and String Formatting](https://youtu.be/qBO9Cfs4UEs)
+
+2. **Further Reading on Variables** - [Understanding Variables in Python 3](https://www.pylenin.com/blogs/python-variables/)
+
+3. **Further Reading on String Formatting** - [Learn 4 ways to format strings in Python](https://www.pylenin.com/tags/python-string-formatting/)
+
+**Daily Exercise**
+
+**Qns 1**
+
+Format the following line of code to contain only 2 decimal places.
+
+```python3
+print("4 divided by 3 is %f"%(4/3))
+```
+
+**Qns 2**
+
+Format the following line of code to contain only 2 decimal places.
+
+```python3
+print(f"4 divided by 3 is {4/3}")
+```
+
+**Qns 3**
+
+Run the following lines of code in your editor and check the output.
+
+Figure out, why are they being printed that way.
+
+```python3
+print(f"4 divided by 3 is {4/3:0.2f}")
+print(f"4 divided by 3 is {4/3:1.2f}")
+print(f"4 divided by 3 is {4/3:2.2f}")
+print(f"4 divided by 3 is {4/3:3.2f}")
+print(f"4 divided by 3 is {4/3:4.2f}")
+print(f"4 divided by 3 is {4/3:5.2f}")
+print(f"4 divided by 3 is {4/3:6.2f}")
+print(f"4 divided by 3 is {4/3:7.2f}")
+print(f"4 divided by 3 is {4/3:8.2f}")
+print(f"4 divided by 3 is {4/3:9.2f}")
+print(f"4 divided by 3 is {4/3:10.2f}")
+```
+
+**Qns 4**
+
+Write a Python program which accepts the user's 
+first and last name and print them in reverse 
+order with a space between them.
+
+Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
 
 ##### Day 4 - Python Booleans and Operators
 
