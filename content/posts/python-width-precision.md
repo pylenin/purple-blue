@@ -232,7 +232,7 @@ Hence, the output string moves even further to the right, creating more empty wh
       1.33
 ```
 
-![Results from adding precision to %f formatting](/img/width-precision/wp-2.png)
+![Results from adding precision to %f formatting](/img/width-precision/wp-6.png)
 
 #### Using width and precision with integers
 
