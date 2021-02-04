@@ -169,12 +169,24 @@ Format the following line of code to contain only 2 decimal places.
 print("4 divided by 3 is %f"%(4/3))
 ```
 
+_*Solution*_
+
+```python3
+print("4 divided by 3 is %.2f"%(4/3))
+```
+
 **Qns 2**
 
 Format the following line of code to contain only 2 decimal places.
 
 ```python3
 print(f"4 divided by 3 is {4/3}")
+```
+
+_*Solution*_
+
+```python3
+print(f"4 divided by 3 is {4/3:.2f}")
 ```
 
 **Qns 3**
@@ -197,6 +209,8 @@ print(f"4 divided by 3 is {4/3:9.2f}")
 print(f"4 divided by 3 is {4/3:10.2f}")
 ```
 
+[Solution](https://www.pylenin.com/blogs/python-width-precision/)
+
 **Qns 4**
 
 Write a Python program which accepts the user's 
@@ -206,6 +220,64 @@ order with a space between them.
 Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
 
 ##### Day 4 - Python Booleans and Operators
+
+1. [Arithmetic Operators and Booleans](https://youtu.be/pOUp-qCQg64)
+2. [Comparison and Assignment Operators](https://youtu.be/mPrcM1WHmdA)
+
+**Further Reading**
+
+3. [Detailed Examples of using Booleans](https://www.pylenin.com/blogs/booleans-in-python/)
+4. [Fun with Numbers and Arithmetic Operators](https://www.pylenin.com/blogs/python-arithmetic-operators/)
+5. [Comparison Operators and understanding ASCII values](https://www.pylenin.com/blogs/python-comparison-operators/)
+6. [Assignment Operators and Bitwise Operation](https://www.pylenin.com/blogs/python-assignment-operators/)
+7. [Walrus Operator - Cool new feature since Python 3.8](https://www.pylenin.com/blogs/python-assignment-operators/#walrus-operator)
+
+**Daily Exercise**
+
+**Qns 1** 
+
+Write a Python program to convert Degrees to Radians.
+
+**Qns 2**
+
+Write a Python program to ask user for an integer and calculate its square.
+Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
+
+**Qns 3**
+
+What is the value of the expression `1 + 2.0 +3` in Python?
+
+**Qns 4**
+
+Write a Python program to ask user for an integer and convert it **into floating point**.
+Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
+
+**Qns 5**
+
+Calculate the results of the following Bitwise operations **by hand** and then verify your answers by running it in Python interpretor.
+
+```bash
+1. 10&=4
+2. 10^=4
+3. 12|=3
+4. 10<<=3
+```
+
+**Qns 6**
+
+Simplify the below operation to show the numerator and denominator and calculate the result.
+
+```python3
+print((a:=3)/(10+(y:=4)))
+```
+
+**Qns 7**
+
+Run the following code and figure out **why Python is returning False?**
+
+```python3
+print(0.1 + 0.2 == 0.3)
+```
 
 ### Python Data Types
 
