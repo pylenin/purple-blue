@@ -85,10 +85,7 @@ print("Bootcamp")
 print("2021")
 ```
 
-**Expected Outcome**
-```bash
-2021
-```
+**What is the expected outcome?**
 
 [Solution](https://www.pylenin.com/python-examples/print-over-same-line/)
 

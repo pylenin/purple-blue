@@ -41,10 +41,12 @@ print("Python")
 **Output**
 
 ```bash
-Python
+Pythonn
 ```
 
 Even though the first 2 print statements are executed, the carriage returns makes the next **stdout** line start at the beginning of the current line.
+
+Also, carriage return will only replace the number of characters contained in the print statement. So you have an extra **n** at the end.
 
 Learn about `end`, `sep` and `flush` parameters of `print()` function [here](https://www.pylenin.com/blogs/python-print/).
 
