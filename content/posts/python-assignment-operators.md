@@ -100,7 +100,7 @@ print(x)
 6
 ```
 
-### /= operator - Divide and assign
+### /= operator - Floor Divide and assign
 
 The `/=` operator is used to subtract 2 operands and 
 assign the new value to the left operand.
@@ -408,7 +408,7 @@ The decimal representation of **1100** is **12**.
 
 ### Walrus Operator
 
-The Walrus operator is a cool little feature that was introduced in Python 3.8.
+The Walrus operator **(:=)** is a cool little feature that was introduced in Python 3.8.
 
 It allows you to assign a value to a variable while also returning the value, **without having to declare it before**.
 
