@@ -1,7 +1,7 @@
 ---
 title: "Why is 0.1 + 0.2 not equal to 0.3 in Python?"
 description: "Learn how arithmetics with floating point works in Python and how Python stores floating point numbers."
-date: 2021-02-03T09:47:26+05:30
+date: 2021-02-05T09:47:26+05:30
 draft: false
 image: /img/pylenin_logo.png
 categories: ['Getting Started with Python']
@@ -149,10 +149,10 @@ Follow the same procedure, until it becomes 1.0.
 
 **Example 1 - Convert 0.125 to binary**
 
-Integral part - 0.
+Integral part - 0. 
 Binary value of Integral part is 0.
 
-Fractional part - 0.125
+Fractional part - 0.125. 
 Calculate the binary value of fractional part as shown below.
 
 ```bash

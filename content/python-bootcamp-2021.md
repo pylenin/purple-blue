@@ -235,19 +235,27 @@ Reference Material - [How input() works in Python](https://www.pylenin.com/blogs
 
 Write a Python program to convert Degrees to Radians.
 
+[Solution](https://www.pylenin.com/python-examples/degree-to-radian/)
+
 **Qns 2**
 
 Write a Python program to ask user for an integer and calculate its square.
 Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
 
+[Solution to a similar problem](https://www.pylenin.com/python-examples/python-find-squareroot/)
+
 **Qns 3**
 
-What is the value of the expression `1 + 2.0 +3` in Python?
+What is the value of the expression `1 + 2.0 + 3` in Python?
+
+[Solution](https://www.pylenin.com/blogs/python-arithmetic-operators/#combining-two-numbers-of-different-types)
 
 **Qns 4**
 
 Write a Python program to ask user for an integer and convert it **into floating point**.
 Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
+
+[Solution](https://www.pylenin.com/blogs/python-arithmetic-operators/#number-type-conversion)
 
 **Qns 5**
 
@@ -260,6 +268,8 @@ Calculate the results of the following Bitwise operations **by hand** and then v
 4. 10<<=3
 ```
 
+[Solution](https://www.pylenin.com/blogs/python-assignment-operators/)
+
 **Qns 6**
 
 Simplify the below operation to show the numerator and denominator and calculate the result.
@@ -267,6 +277,8 @@ Simplify the below operation to show the numerator and denominator and calculate
 ```python3
 print((a:=3)/(10+(y:=4)))
 ```
+
+[Solution](https://www.pylenin.com/blogs/python-assignment-operators/#walrus-operator)
 
 **Qns 7**
 
@@ -276,9 +288,46 @@ Run the following code and figure out **why Python is returning False?**
 print(0.1 + 0.2 == 0.3)
 ```
 
+[Solution](https://www.pylenin.com/blogs/python-float-arithmetics/)
+
 ### Python Data Types
 
 #### Day 5 - Python Numbers
+
+1. [Python Numbers, Arithmetic Operators and Mathematics](https://www.pylenin.com/blogs/python-arithmetic-operators/)
+2. [Python isinstance() function - Figuring out the types](https://www.pylenin.com/blogs/python-isinstance/)
+
+**Daily Exercise**
+
+**Qns 1**
+
+Write a Python Program to check if a number is odd or even.
+
+**Qns 2**
+
+Write a Python program to check if **any** of the variables below are **Integer types**.
+
+```python3
+x = "Pylenin"
+y = 7
+z = abs(-22)
+```
+
+[Reference Material](python-isinstance/#how-to-check-if-multiple-variables-are-a-single-type-in-python)
+
+**Qns 3**
+
+Convert the following decimals to Binary format by hand.
+
+```bash
+1. 4.25
+2. 0.0625
+3. 9.8
+```
+
+**Qns 4**
+
+Read up the difference between `type()` and `isinstance()` in Python.
 
 #### Day 6 - Python String
 
