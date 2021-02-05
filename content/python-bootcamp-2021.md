@@ -296,6 +296,7 @@ print(0.1 + 0.2 == 0.3)
 
 1. [Python Numbers, Arithmetic Operators and Mathematics](https://www.pylenin.com/blogs/python-arithmetic-operators/)
 2. [Python isinstance() function - Figuring out the types](https://www.pylenin.com/blogs/python-isinstance/)
+3. [Difference between type() and isinstance()](https://www.pylenin.com/blogs/type-vs-isinstance/)
 
 **Daily Exercise**
 
@@ -324,10 +325,6 @@ Convert the following decimals to Binary format by hand.
 2. 0.0625
 3. 9.8
 ```
-
-**Qns 4**
-
-Read up the difference between `type()` and `isinstance()` in Python.
 
 #### Day 6 - Python String
 

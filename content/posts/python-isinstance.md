@@ -31,6 +31,18 @@ print(isinstance(1992, int))
 >> True
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Example 2 - Check for floats with isinstance()
 
 **Code/Output**
@@ -48,6 +60,18 @@ print(isinstance(2.0, float))
 print(isinstance(2 + 3j, complex))
 >> True
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Example 4 - Check for lists with isinstance()
 
@@ -67,6 +91,18 @@ print(isinstance({"name":"Pylenin"}, dict))
 >> True
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Example 5 - Check for tuples with isinstance()
 
 **Code/Output**
@@ -84,6 +120,18 @@ print(isinstance((1, 2, 3), tuple))
 print(isinstance({1, 2, 3}, set))
 >> True
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Example 7 - Check for strings with isinstance()
 
@@ -109,6 +157,18 @@ print(isinstance(myself, Pylenin))
 >> True
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Example 9 - Python isinstance with multiple types
 
 If you are unsure, you can also check your object with multiple class types. 
@@ -126,6 +186,18 @@ print(isinstance("Pylenin", (str, int)))
 print(isinstance("Pylenin", (list, int)))
 >>> False
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### How to check if multiple variables are a single type in Python?
 
@@ -150,3 +222,15 @@ else:
 ```bash
 All variables are not integer
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
