@@ -304,9 +304,12 @@ print(0.1 + 0.2 == 0.3)
 
 Write a Python Program to check if a number is odd or even.
 
+[Solution](https://www.pylenin.com/python-examples/odd-even/)
+
 **Qns 2**
 
-Write a Python program to check if **any** of the variables below are **Integer types**.
+Write a Python program to check if **any** of the variables below are 
+**Integer types**.
 
 ```python3
 x = "Pylenin"
@@ -314,7 +317,9 @@ y = 7
 z = abs(-22)
 ```
 
-[Reference Material](python-isinstance/#how-to-check-if-multiple-variables-are-a-single-type-in-python)
+[Reference Material](https://www.pylenin.com/blogs/python-any-all/)
+
+[Solution](https://www.pylenin.com/blogs/python-any-all/#check-if-any-variables-are-of-particular-data-type-in-python)
 
 **Qns 3**
 
@@ -326,7 +331,39 @@ Convert the following decimals to Binary format by hand.
 3. 9.8
 ```
 
+[Solution](https://www.instagram.com/p/CK8B9p0g9XO/?utm_source=ig_web_copy_link)
+
 #### Day 6 - Python String
+
+1. [Video on Python Strings](https://youtu.be/MXdNMo_f95I)
+
+**Reading Materials**
+
+1. [How to create a string in Python?](https://www.pylenin.com/blogs/create-string-python/)
+2. [How to access characters in a Python string?](https://www.pylenin.com/blogs/access-characters-in-string/)
+3. [How to replace characters in a string in Python?](https://www.pylenin.com/blogs/replace-string-characters-python/)
+4. [How to concatenate strings in Python?](https://www.pylenin.com/blogs/concatenate-strings-in-python/)
+5. [How to iterate through a string in Python?](https://www.pylenin.com/blogs/iterating-through-python-string/)
+6. [Check if a Substring is Present in a Given String in Python](https://www.pylenin.com/blogs/check-substring-in-a-string-python/)
+7. [Escape sequences in Python String](https://www.pylenin.com/blogs/escape-sequences-python-string/)
+8. [Python String Formatting - The Definitive Guide](https://www.pylenin.com/blogs/python-string-formatting/)
+9. [Common Python String Methods](https://www.pylenin.com/blogs/common-python-string-methods/)
+
+**Daily Exercise**
+
+1. Write a Python program to replace all occurences of the first character in a string. 
+2. Write a Python program to calculate length of a string.
+3. Write a Python program to calculate character frequency in a string.
+4. Write a Python program to add first and last n characters in a string
+5. Write a Python program to draw the below Pyramid.
+
+```bash
+    *     
+   ***    
+  *****   
+ *******  
+********* 
+```
 
 #### Day 4 - Python Lists
 
