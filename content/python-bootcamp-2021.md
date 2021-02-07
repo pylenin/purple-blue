@@ -351,11 +351,11 @@ Convert the following decimals to Binary format by hand.
 
 **Daily Exercise**
 
-1. Write a Python program to replace all occurences of the first character in a string. 
-2. Write a Python program to calculate length of a string.
-3. Write a Python program to calculate character frequency in a string.
-4. Write a Python program to add first and last n characters in a string
-5. Write a Python program to draw the below Pyramid.
+1. Write a Python program to replace all occurences of the first character in a string. [Solution](https://www.pylenin.com/python-examples/python-replace-chars/) 
+2. Write a Python program to calculate length of a string. [Solution](https://www.pylenin.com/python-examples/python-string-length/)
+3. Write a Python program to calculate character frequency in a string. [Solution](https://www.pylenin.com/python-examples/python-character-freq/)
+4. Write a Python program to add first and last n characters in a string. [Solution](https://www.pylenin.com/python-examples/first-last-n-chars/)
+5. Write a Python program to draw the below Pyramid. [Solution](https://www.pylenin.com/blogs/python-string-center/#example-3-printing-pyramid-patterns-in-python)
 
 ```bash
     *     
