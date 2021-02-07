@@ -5,7 +5,7 @@ draft: false
 image: /img/pylenin_logo.png
 ---
 
-### Welcome to the self paced Python Bootcamp 2021. 
+## Welcome to the self paced Python Bootcamp 2021. 
 
 This course has been designed, keeping in mind the current requirements of Python in the Job world and the minimum effort required to master Python as a choice of programming language.
 
@@ -22,13 +22,13 @@ This also means that there is a huge potential for **you to land a job as a Pyth
 
 **[Check out this article](https://www.pylenin.com/blogs/5-reasons-to-learn-python/) demonstrating 5 key reasons to learn Python in 2021**.
 
-### Who is this Bootcamp for?
+## Who is this Bootcamp for?
 
 1. Beginners who have never programmed.
 2. Programmers coming in from another language to learn Python.
 3. Programmers who know the basics and want to level up their skills.
 
-### How to follow along this Bootcamp?
+## How to follow along this Bootcamp?
 
 **This bootcamp will begin on 1st of February and end on 28th of February, 2021.**
 
@@ -37,13 +37,13 @@ This also means that there is a huge potential for **you to land a job as a Pyth
 3. The solutions to the asked questions shall be provided the next day.
 4. **If you are joining late to the Bootcamp**, be sure to first try out the questions yourself before checking the solution. **DON'T CHEAT YOURSELF!**
 
-### How to get notified when course materials are uploaded?
+## How to get notified when course materials are uploaded?
 
 Every day, the course materials should be uploaded by **10 AM UTC**. 
 A daily notification will be sent to all member of the [Official Pylenin Group](https://t.me/pythonwithpylenin) on Telegram 
 when the course materials are uploaded. To receive the notification, **join the above Telegram group**.
 
-### Where to ask doubts?
+## Where to ask doubts?
 
 Asking doubts on Telegram could make the group **really SPAMMY!**.
 To ensure that people are able to ask their doubts without being disturbed by others all day, we have created a [Facebook Group](https://www.facebook.com/groups/programmingcareerguidance).
@@ -57,9 +57,9 @@ To ensure that people are able to ask their doubts without being disturbed by ot
 
 ##### Our average response time is 2 hours.
 
-### Getting Started
+## Getting Started
 
-##### Day 1 - Installing Python and Hello World!
+### Day 1 - Installing Python and Hello World!
 
 1. [Check out this installation guide](https://www.pylenin.com/blogs/installing-python-for-windows/) to install Python on your machine. The article demonstrates installing **Python 3.9 on Windows 10**, but you can use the instructions for any OS.
 2. Next you will need an IDE. We suggest you to choose either **VS Code or Pycharm Community Edition**. [Check out their installation guide here](https://www.pylenin.com/tags/python-ide/).
@@ -95,7 +95,7 @@ Use print statement to print to a file instead of `stdout`.
    
 [Solution](https://www.pylenin.com/blogs/python-print/#printing-to-a-file)
 
-##### Day 2 - Passing comments, Keywords and Identifiers
+### Day 2 - Passing comments, Keywords and Identifiers
 
 The best time to learn the best practices in anything is when you are a beginner. The habits you develop in that phase, stay with you forever.
 
@@ -148,7 +148,7 @@ print('The area of our triangle is %0.2f' %area)
 
 [Solution](https://www.pylenin.com/python-examples/python-area-of-triangle/)
 
-##### Day 3 - Python Variables and String Formatting
+### Day 3 - Python Variables and String Formatting
 
 1. [Youtube Video on Variable and String Formatting](https://youtu.be/qBO9Cfs4UEs)
 
@@ -216,7 +216,7 @@ order with a space between them.
 
 Reference Material - [How input() works in Python](https://www.pylenin.com/blogs/how-input-works-python/)
 
-##### Day 4 - Python Booleans and Operators
+### Day 4 - Python Booleans and Operators
 
 1. [Arithmetic Operators and Booleans](https://youtu.be/pOUp-qCQg64)
 2. [Comparison and Assignment Operators](https://youtu.be/mPrcM1WHmdA)
@@ -290,9 +290,9 @@ print(0.1 + 0.2 == 0.3)
 
 [Solution](https://www.pylenin.com/blogs/python-float-arithmetics/)
 
-### Python Data Types
+## Python Data Types
 
-#### Day 5 - Python Numbers
+### Day 5 - Python Numbers
 
 1. [Python Numbers, Arithmetic Operators and Mathematics](https://www.pylenin.com/blogs/python-arithmetic-operators/)
 2. [Python isinstance() function - Figuring out the types](https://www.pylenin.com/blogs/python-isinstance/)
@@ -333,7 +333,7 @@ Convert the following decimals to Binary format by hand.
 
 [Solution](https://www.instagram.com/p/CK8B9p0g9XO/?utm_source=ig_web_copy_link)
 
-#### Day 6 - Python String
+### Day 6 - Python String
 
 1. [Video on Python Strings](https://youtu.be/MXdNMo_f95I)
 
@@ -365,59 +365,59 @@ Convert the following decimals to Binary format by hand.
 ********* 
 ```
 
-#### Day 4 - Python Lists
+### Day 4 - Python Lists
 
-#### Day 5 - Python Tuples
+### Day 5 - Python Tuples
 
-#### Day 6 - Python Dictionary
+### Day 6 - Python Dictionary
 
-#### Day 7 - Python Sets
+### Day 7 - Python Sets
 
-### Control FLows in Python
+## Control FLows in Python
 
-#### Day 8 - If else operation
+### Day 8 - If else operation
 
-#### Day 9 - For loops
+### Day 9 - For loops
 
-#### Day 10 - While Loops
+### Day 10 - While Loops
 
-#### Day 11 - Understanding use of break, continue and pass
+### Day 11 - Understanding use of break, continue and pass
 
-### Iterators and Comprehensions
+## Iterators and Comprehensions
 
-#### Day 12 - Understanding Manual Iteration - __iter__ and __next__
+### Day 12 - Understanding Manual Iteration - __iter__ and __next__
 
-#### Day 13 - List Comprehensions
+### Day 13 - List Comprehensions
 
-#### Day 14 - Map, Filter, Zip and Reduce
+### Day 14 - Map, Filter, Zip and Reduce
 
-### Functional Programming with Python
+## Functional Programming with Python
 
-#### Day 15 - Python Functions
+### Day 15 - Python Functions
 
-#### Day 16 - Understanding Variable Scope and Namespace
+### Day 16 - Understanding Variable Scope and Namespace
 
-#### Day 17 - *args vs **kwargs in Python Functions
+### Day 17 - *args vs **kwargs in Python Functions
 
-#### Day 18 - Python Closures
+### Day 18 - Python Closures
 
-#### Day 19 - Recursive Functions
+### Day 19 - Recursive Functions
 
-#### Day 20 - Lambda Functions
+### Day 20 - Lambda Functions
 
-#### Day 21 - Python Generators
+### Day 21 - Python Generators
 
-#### Day 22 - Python Decorators
+### Day 22 - Python Decorators
 
-### File Operations
+## File Operations
 
-#### Day 23 - Basic File Operations with Python
+### Day 23 - Basic File Operations with Python
 
-#### Day 24 - Understanding Python Modules
+### Day 24 - Understanding Python Modules
 
-#### Day 25 - Understanding file locations with `os` module
+### Day 25 - Understanding file locations with `os` module
 
-### Final Project - Building Sales Report with Excel and Python
+## Final Project - Building Sales Report with Excel and Python
 
 
 
