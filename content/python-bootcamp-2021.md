@@ -365,57 +365,86 @@ Convert the following decimals to Binary format by hand.
 ********* 
 ```
 
-### Day 4 - Python Lists
+### Day 7 - Python Lists
 
-### Day 5 - Python Tuples
+1. [Extensive discussion on Python lists](https://youtu.be/r6lJVWMR9e4)
 
-### Day 6 - Python Dictionary
+**Further Reading**
+1. [Characteristics of Python Lists](https://www.pylenin.com/blogs/python-lists/#characteristics-of-python-lists)
+2. [How to create a list in Python?](https://www.pylenin.com/blogs/python-lists/#how-to-create-a-list-in-python)
+3. [Access elements of a list](https://www.pylenin.com/blogs/python-lists/#access-elements-of-a-list)
+4. [Slicing of Lists](https://www.pylenin.com/blogs/python-lists/#slicing-of-lists)
+5. [Mixing positive and negative indices for slicing](https://www.pylenin.com/blogs/python-lists/#mixing-positive-and-negative-indices-for-slicing)
+6. [Using steps in slicing](https://www.pylenin.com/blogs/python-lists/#using-steps-in-slicing)
+7. [Reversing a list](https://www.pylenin.com/blogs/python-lists/#reversing-a-list)
+8. [Changing elements of a list](https://www.pylenin.com/blogs/python-lists/#changing-elements-of-a-list)
+9. [Adding elements to a list](https://www.pylenin.com/blogs/python-lists/#adding-elements-to-a-list)
+10. [Deleting elements from a list](https://www.pylenin.com/blogs/python-lists/#deleting-elements-from-a-list)
+11. [Common Python list Methods](https://www.pylenin.com/blogs/python-lists/#common-python-list-methods)
 
-### Day 7 - Python Sets
+**Daily Exercise**
+
+**Qns 1**
+
+Write a Python program to get the largest number from a list.
+
+**Qns 2**
+
+Write a Python program to remove duplicates from a list.
+
+**Qns 3**
+
+Write a Python program to build a list containing 5 integer zeros.
+
+### Day 8 - Python Tuples
+
+### Day 9 - Python Dictionary
+
+### Day 10 - Python Sets
 
 ## Control FLows in Python
 
-### Day 8 - If else operation
+### Day 11 - If else operation
 
-### Day 9 - For loops
+### Day 12 - For loops
 
-### Day 10 - While Loops
+### Day 13 - While Loops
 
-### Day 11 - Understanding use of break, continue and pass
+### Day 14 - Understanding use of break, continue and pass
 
 ## Iterators and Comprehensions
 
-### Day 12 - Understanding Manual Iteration - __iter__ and __next__
+### Day 15 - Understanding Manual Iteration - __iter__ and __next__
 
-### Day 13 - List Comprehensions
+### Day 16 - List Comprehensions
 
-### Day 14 - Map, Filter, Zip and Reduce
+### Day 17 - Map, Filter, Zip and Reduce
 
 ## Functional Programming with Python
 
-### Day 15 - Python Functions
+### Day 18 - Python Functions
 
-### Day 16 - Understanding Variable Scope and Namespace
+### Day 19 - Understanding Variable Scope and Namespace
 
-### Day 17 - *args vs **kwargs in Python Functions
+### Day 20 - *args vs **kwargs in Python Functions
 
-### Day 18 - Python Closures
+### Day 21 - Python Closures
 
-### Day 19 - Recursive Functions
+### Day 22 - Recursive Functions
 
-### Day 20 - Lambda Functions
+### Day 23 - Lambda Functions
 
-### Day 21 - Python Generators
+### Day 24 - Python Generators
 
-### Day 22 - Python Decorators
+### Day 25 - Python Decorators
 
 ## File Operations
 
-### Day 23 - Basic File Operations with Python
+### Day 26 - Basic File Operations with Python
 
-### Day 24 - Understanding Python Modules
+### Day 27 - Understanding Python Modules
 
-### Day 25 - Understanding file locations with `os` module
+### Day 28 - Understanding file locations with `os` module
 
 ## Final Project - Building Sales Report with Excel and Python
 

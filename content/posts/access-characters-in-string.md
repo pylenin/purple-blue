@@ -59,7 +59,7 @@ str[-2] = I
 
 If you try to access a character out of range, it will raise an `IndexError`. 
 
-Also, the index must be an **integer**. You can't use floats or other types for indexing. This will result into `TypeError`.
+Also, the index must be an **integer**. You can't use floats or other types for indexing. This will result in `TypeError`.
 
 **Code/Output**
 
