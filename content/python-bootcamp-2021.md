@@ -370,6 +370,7 @@ Convert the following decimals to Binary format by hand.
 1. [Extensive discussion on Python lists](https://youtu.be/r6lJVWMR9e4)
 
 **Further Reading**
+
 1. [Characteristics of Python Lists](https://www.pylenin.com/blogs/python-lists/#characteristics-of-python-lists)
 2. [How to create a list in Python?](https://www.pylenin.com/blogs/python-lists/#how-to-create-a-list-in-python)
 3. [Access elements of a list](https://www.pylenin.com/blogs/python-lists/#access-elements-of-a-list)
