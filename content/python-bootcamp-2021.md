@@ -417,15 +417,15 @@ Write a Python program to build a list containing 5 integer zeros.
 
 1. Write a Python code to merge 2 dictionaries as shown below.
 
-   ```python3
-   capital_dict_1 = {"India": "New Delhi",
+   
+        capital_dict_1 = {"India": "New Delhi",
 		          "Pakistan": "Islamabad",
 		          "Nigeria": "Abuja",
 		          "Zambia": "Lusaka"}
 
-   capital_dict_2 = {"Peru": "Lim", 
+        capital_dict_2 = {"Peru": "Lim", 
                   "Ghana": "Accra"}
-   ```
+
 
 2. Write a Python program to sort a dictionary by value.
 
