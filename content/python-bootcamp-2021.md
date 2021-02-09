@@ -389,17 +389,51 @@ Convert the following decimals to Binary format by hand.
 
 Write a Python program to get the largest number from a list.
 
+[Solution](https://www.pylenin.com/python-examples/largest-number-in-list/)
+
 **Qns 2**
 
 Write a Python program to remove duplicates from a list.
+
+[Solution](https://www.pylenin.com/python-examples/remove-duplicates-from-list/)
 
 **Qns 3**
 
 Write a Python program to build a list containing 5 integer zeros.
 
-### Day 8 - Python Tuples
+**Solution**
 
-### Day 9 - Python Dictionary
+[Solution](https://www.pylenin.com/blogs/python-lists/#adding-elements-to-a-list)
+
+### Day 8 - Python Dictionary
+
+1. [Working with a Python Dictionary](https://youtu.be/FvD0Zum8L3s)
+
+**Further Reading**
+
+2. [Dictionaries in Python](https://www.pylenin.com/blogs/python-dictionary/)
+
+**Daily Exercises**
+
+1. Write a Python code to merge 2 dictionaries as shown below.
+
+   ```python3
+   capital_dict_1 = {"India": "New Delhi",
+		          "Pakistan": "Islamabad",
+		          "Nigeria": "Abuja",
+		          "Zambia": "Lusaka"}
+
+   capital_dict_2 = {"Peru": "Lim", 
+                  "Ghana": "Accra"}
+   ```
+
+2. Write a Python program to sort a dictionary by value.
+
+3. Write a Python script to check whether a given key already exists in a dictionary.
+
+4. Write a Python program to sum all the items in a dictionary.
+
+### Day 9 - Python Tuples
 
 ### Day 10 - Python Sets
 

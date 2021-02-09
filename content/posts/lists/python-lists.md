@@ -25,7 +25,7 @@ The above characteristics make Python lists very powerful and versatile.
 
 ### How to create a list in Python?
 
-To create an empty list, you cn directly call the `list()` constructor.
+To create an empty list, you can directly call the `list()` constructor.
 You can also declare an empty list with empty square brackets `[]`.
 
 **Code**
