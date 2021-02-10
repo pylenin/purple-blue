@@ -427,13 +427,79 @@ Write a Python program to build a list containing 5 integer zeros.
                   "Ghana": "Accra"}
 
 
+[Solution - Use the asterisk operator](https://www.pylenin.com/blogs/python-dictionary/#adding-new-key-values-to-a-dictionary)
+
 2. Write a Python program to sort a dictionary by value.
+
+[Solution](https://www.pylenin.com/blogs/python-dictionary/#sorting-a-dictionary)
 
 3. Write a Python script to check whether a given key already exists in a dictionary.
 
+[Solution - Use the get() method](https://www.pylenin.com/blogs/python-dictionary/#accessing-keys)
+
 4. Write a Python program to sum all the items in a dictionary.
 
+**Solution**
+
+```python3
+GDP_2017 = {"India": 6.6, 
+            "Zambia": 4.1, 
+            "Nigeria": 0.8,
+            "Peru":2.5, 
+            "Ghana": 8.5
+           }
+print(sum(GDP_2017.values()))
+
+>>> 22.5
+```
+
 ### Day 9 - Python Tuples
+
+1. [Understanding usage of Python Tuples](https://youtu.be/0lojav6fSjE)
+
+**Further Reading**
+
+2. [Characteristics of Tuples](https://www.pylenin.com/blogs/python-tuples/#characteristics-of-tuples)
+3. [How to create a tuple in Python?](https://www.pylenin.com/blogs/python-tuples/#how-to-create-a-tuple-in-python)
+4. [Concatenating Tuples](https://www.pylenin.com/blogs/python-tuples/#concatenating-tuples)
+5. [Access elements of a tuple](https://www.pylenin.com/blogs/python-tuples/#access-elements-of-a-tuple)
+6. [Slicing of Tuples](https://www.pylenin.com/blogs/python-tuples/#slicing-of-tuples)
+7. [Using steps in slicing Tuples](https://www.pylenin.com/blogs/python-tuples/#using-steps-in-slicing)
+8. [Deleting a tuple](https://www.pylenin.com/blogs/python-tuples/#deleting-a-tuple)
+9. [Commonly used methods with tuples](https://www.pylenin.com/blogs/python-tuples/#commonly-used-methods-with-tuples)
+10. [Tuple Swap](https://www.pylenin.com/blogs/python-tuples/#tuple-swap)
+11. [When to choose Tuples over lists?](https://www.pylenin.com/blogs/python-tuples/#lists-vs-tuples)
+
+**Daily Exercise**
+
+**Qns 1**
+
+Change the values of the below variables without using a 3rd variable.
+
+```python3
+x = "Apple"
+y = "Banana"
+```
+
+**Qns 2**
+
+Sort the below tuple in increasing order of the length of each element.
+
+```python3
+my_tuple = ("Pylenin", "loves", "Python")
+```
+
+**Qns 3**
+
+Convert the keys and values of the dictionary to tuple.
+
+```bash
+my_tuple = {"name" : "Pylenin",
+            "verb" : "loves",
+            "object": "Python"}
+
+Result ==> (("name", "Pylenin"), ("verb", "loves"), ("object", "Python"))
+```
 
 ### Day 10 - Python Sets
 
