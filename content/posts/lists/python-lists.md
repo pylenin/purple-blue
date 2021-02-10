@@ -109,7 +109,7 @@ This is called Positive Indexing(or indexing from the beginning).
 If there are __**n**__ elements in a list, the 1st element will have 
 index of **0** and the last element will have index **n-1**.
 
-Let’s look at the image below for better understanding.
+Let's look at the image below for better understanding.
 
 ![Positive Indexing of Lists in Python](/img/python-lists/positive-indexing-list.png)
 
@@ -159,7 +159,6 @@ my_list[-2] = 4
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
 
 If you try to access an element out of range, it will raise an `IndexError`. 
 
@@ -301,7 +300,7 @@ print(my_list[:])
 #### Slicing Lists with Negative Index
 
 You can also use negative index for slicing. 
-Just use the negative index counterpart of your positive index to sice a list.
+Just use the negative index counterpart of your positive index to slice a list.
 
 ![Slicing Lists with negative index in Python](/img/python-lists/negative-list-slicing.png)
 
