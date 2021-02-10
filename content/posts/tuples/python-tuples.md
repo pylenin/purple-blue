@@ -23,6 +23,18 @@ Tuples in Python are written as a series of items/objects in a parenthesis.
 4. Similar to strings, **Tuples are immutables**. They don't support any in-place change operations.
 5. Because tuples are immutable, **you cannot change the size of a tuple without making a copy**.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### How to create a tuple in Python?
 
 Below are various ways to create different types of tuples in Python.
@@ -71,6 +83,18 @@ print(x)
 ('name', 'language')
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 You can also create tuples **without using parenthesis**.
 
 **Code**
@@ -111,6 +135,18 @@ print(type(x))
 <class 'tuple'>
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Concatenating Tuples
 
 Similar to strings and lists, you can use the `+` or `*` operator to concatenate lists.
@@ -139,6 +175,18 @@ x is now  (1, 2, 3, 1, 2, 3)
 ```
 
 Notice how the ids have changed after both concatenation operations.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal display ad Pylenin -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6088392832221933"
+     data-ad-slot="8875064651"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Access elements of a tuple
 

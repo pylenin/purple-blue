@@ -481,6 +481,8 @@ x = "Apple"
 y = "Banana"
 ```
 
+[Solution](https://www.pylenin.com/blogs/python-tuples/#tuple-swap)
+
 **Qns 2**
 
 Sort the below tuple in increasing order of the length of each element.
@@ -489,19 +491,68 @@ Sort the below tuple in increasing order of the length of each element.
 my_tuple = ("Pylenin", "loves", "Python")
 ```
 
+**Solution**
+
+```python3
+my_tuple = ("Pylenin", "loves", "Python")
+
+my_list = list(my_tuple)
+my_list.sort(key=len)
+
+print(tuple(my_list))
+```
+
 **Qns 3**
 
 Convert the keys and values of the dictionary to tuple.
 
 ```bash
-my_tuple = {"name" : "Pylenin",
+my_dict = {"name" : "Pylenin",
             "verb" : "loves",
             "object": "Python"}
 
 Result ==> (("name", "Pylenin"), ("verb", "loves"), ("object", "Python"))
 ```
 
+**Solution**
+
+```python3
+my_dict = {"name" : "Pylenin",
+            "verb" : "loves",
+            "object": "Python"}
+
+my_tuple = tuple([tuple([k,v]) for k, v in my_dict.items()])
+print(my_tuple)
+```
+
 ### Day 10 - Python Sets
+
+1. [An overview of Python sets](https://www.pylenin.com/blogs/python-sets/)
+2. [Mathematical Operations with Python Sets](https://www.pylenin.com/blogs/python-sets/#mathematical-operations-with-sets)
+3. [Methods to use with Sets](https://www.pylenin.com/blogs/python-sets/#using-methods-with-sets)
+
+**Daily Exercises**
+
+**Qns 1**
+
+Write a Python program to check if a set contains one or more items that are False.
+
+**Qns 2**
+
+Write a Python program to return all the unique elements of a list.
+
+**Qns 3**
+
+Write a Python program to return the common elements between 2 sets.
+
+```python3
+x = {1, 2, 3}
+y = {7, 5, 3}
+```
+
+**Qns 4**
+
+Write a Python program to check if there are any common elements between 2 sets.
 
 ## Control FLows in Python
 
