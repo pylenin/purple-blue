@@ -84,4 +84,4 @@ print(max_number)
 200
 ```
 
-Build your foundation in Python with our [self-paced Python Bootcamp for Beginners](https://www.pylenin.com/python-bootcamp-2021/).
+Build your foundation in Python with our [self-paced Python Bootcamp for Beginners](https://www.pylenin.com/python-bootcamp/).

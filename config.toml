@@ -82,7 +82,7 @@ googleAnalytics = "UA-106768190-2"
         [[languages.en.menu.main]]
         name = "Python Bootcamp 2021"
         weight = 1
-        url = "/python-bootcamp-2021/"
+        url = "/python-bootcamp/"
 
         [[languages.en.menu.main]]
         name = "Blogs"
