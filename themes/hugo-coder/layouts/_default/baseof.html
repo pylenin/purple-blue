@@ -10,7 +10,7 @@
     <meta property="og:site_name" content="{{ .Site.Title }}"/>
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
     <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.avatarurl }}{{ end }}" />
-    <meta property="twitter:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.avatarurl }}{{ end }}" />
+    <meta property="twitter:image" content="https://www.pylenin.com{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.avatarurl }}{{ end }}" />
 
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/google_analytics.html" . }}
