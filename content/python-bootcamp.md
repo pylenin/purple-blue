@@ -537,9 +537,26 @@ print(my_tuple)
 
 Write a Python program to check if a set contains one or more items that are False.
 
+**Solution - Use [any() method](https://www.pylenin.com/blogs/python-any-all/)**
+
+```python3
+x = {1, 0, True, False}
+
+print(any(x))
+```
+
 **Qns 2**
 
 Write a Python program to return all the unique elements of a list.
+
+**Solution - Convert the list to a set**
+
+```python3
+x = [1, 2, 3, 4, 1, 2, 3, 4]
+print(set(x))
+
+>>> {1, 2, 3, 4}
+```
 
 **Qns 3**
 
@@ -550,13 +567,63 @@ x = {1, 2, 3}
 y = {7, 5, 3}
 ```
 
+[Solution](https://www.pylenin.com/blogs/python-sets/#intersection-of-2-sets)
+
 **Qns 4**
 
-Write a Python program to check if there are any common elements between 2 sets.
+Write a Python program to check if there are any common elements between 2 lists.
+
+[Solution - Convert lists to sets](https://www.pylenin.com/blogs/python-sets/#intersection-of-2-sets)
+
+```python3
+x = [1, 2, 3]
+y = [2, 3, 4]
+
+set_x = set(x)
+set_y = set(y)
+
+print(set_x & set_y)
+```
 
 ## Control FLows in Python
 
 ### Day 11 - If else operation
+
+1. [Python Decision Making with if, elif and else](https://youtu.be/LEQNrCdV_Cg)
+
+**Further Reading**
+
+1. [Python If, elif and else (With Examples)](https://www.pylenin.com/blogs/if-else-python/)
+
+**Daily Exercises**
+
+**Qns 1**
+
+Write a Python program to take values of length and breadth of 
+a rectangle from user and check if it is square or not.
+
+**Qns 2**
+
+Write a Python program to take two int values from user 
+and print greatest among them.
+
+**Qns 3**
+
+A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+Write a Python program, asking user for their salary and year of service and print the net bonus amount.
+
+**Qns 4**
+
+A school follows the following grading system:
+
+* Below 25 - F
+* 25 to 45 - E
+* 45 to 50 - D
+* 50 to 60 - C
+* 60 to 80 - B
+* Above 80 - A
+
+Ask user to enter marks and print the corresponding grade.
 
 ### Day 12 - For loops
 
