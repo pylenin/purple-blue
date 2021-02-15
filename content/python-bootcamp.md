@@ -602,15 +602,56 @@ print(set_x & set_y)
 Write a Python program to take values of length and breadth of 
 a rectangle from user and check if it is square or not.
 
+**Solution**
+
+```python3
+length = int(input("Enter length (only positive numbers)==>"))
+breadth = int(input("Enter breadth (only positive numbers)==>"))
+
+if length == breadth:
+    print("It is a square")
+else:
+    print("Its not a square")
+```
+
 **Qns 2**
 
 Write a Python program to take two int values from user 
 and print greatest among them.
 
+**Solution**
+
+```python3
+first = int(input("Enter first number ==> "))
+second = int(input("Enter second number ==> "))
+if first>second:
+  print("Greatest is",first)
+elif second>first:
+  print("Greatest is",second)
+else:
+  print("Both are equal")
+```
+
 **Qns 3**
 
 A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
 Write a Python program, asking user for their salary and year of service and print the net bonus amount.
+
+**Solution**
+
+```python3
+salary = float(input("Enter your salary ==> "))
+experience = float(input("Enter your experience in years ==> "))
+
+bonus_amount = None
+
+if experience > 5:
+    bonus_amount = salary*.05
+else:
+    bonus_amount = 0
+
+print(bonus_amount)
+```
 
 **Qns 4**
 
@@ -625,7 +666,35 @@ A school follows the following grading system:
 
 Ask user to enter marks and print the corresponding grade.
 
+[Similar Solution](https://www.pylenin.com/blogs/if-else-python/#example-3)
+
 ### Day 12 - For loops
+
+1. [Youtube video on For loops](https://youtu.be/m-mdlS4ynis)
+
+**Further Readings**
+
+1. [Python for loops(With Examples)](https://www.pylenin.com/blogs/python-for-loop/)
+2. [Using range() function in Python](https://www.pylenin.com/blogs/python-for-loop/#python-range-function)
+3. [Nested for loops](https://www.pylenin.com/blogs/python-for-loop/#nested-for-loops)
+
+**Daily Exercise**
+
+**Qns1**
+
+Write a Python program to find the largest number in a list.
+
+**Qns 2**
+
+Write a Python program to remove duplicates from a list.
+
+**Qns 3**
+
+From a list containing ints, strings and floats, make three lists to store them separately.
+
+**Qns 4**
+
+Using `range(1,50)`, make two lists, one containing all even numbers and other containing all odd numbers.
 
 ### Day 13 - While Loops
 
