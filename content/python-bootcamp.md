@@ -677,6 +677,7 @@ Ask user to enter marks and print the corresponding grade.
 1. [Python for loops(With Examples)](https://www.pylenin.com/blogs/python-for-loop/)
 2. [Using range() function in Python](https://www.pylenin.com/blogs/python-for-loop/#python-range-function)
 3. [Nested for loops](https://www.pylenin.com/blogs/python-for-loop/#nested-for-loops)
+4. [Usage of zip()](https://www.pylenin.com/blogs/python-zip-function/)
 
 **Daily Exercise**
 
@@ -684,19 +685,77 @@ Ask user to enter marks and print the corresponding grade.
 
 Write a Python program to find the largest number in a list.
 
+[Solution](https://www.pylenin.com/python-examples/largest-number-in-list/)
+
 **Qns 2**
 
 Write a Python program to remove duplicates from a list.
 
+[Solution](https://www.pylenin.com/python-examples/remove-duplicates-from-list/)
+
 **Qns 3**
 
-From a list containing ints, strings and floats, make three lists to store them separately.
+From a list containing ints, strings and floats, make three lists to store them separately. [Reference Article](https://www.pylenin.com/blogs/type-vs-isinstance/)
+
+**Solution**
+
+```python3
+my_list = [1, "Pylenin", 5.6]
+
+int_list = []
+str_list = []
+float_list = []
+
+for elem in my_list:
+    if isinstance(elem, int):
+        int_list.append(elem)
+    elif isinstance(elem, str):
+        str_list.append(elem)
+    elif isinstance(elem, float):
+        float_list.append(elem)
+    else:
+        print("Ignoring other data types")
+
+print(int_list, str_list, float_list, sep="\n")
+```
 
 **Qns 4**
 
 Using `range(1,50)`, make two lists, one containing all even numbers and other containing all odd numbers.
 
+**Solution - Similar to above problem.** [Refer here](https://www.pylenin.com/blogs/python-for-loop/#python-range-function) to learn more about `range()`.
+
 ### Day 13 - While Loops
+
+1. [Youtube video on While loops](https://youtu.be/rWVtBYYIbz0)
+
+**Further readings**
+
+1. [While loops in Python (With Examples)]
+
+**Daily Exercise**
+
+**Qns 1**
+
+Write a Python program to convert the `input_list` to `output_list`.
+
+```python3
+input_lst = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+output_lst = [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+```
+
+**Qns 2**
+
+Write a Python program to solve the [Fizbuzz problem](https://youtu.be/t4I_WOfQn70)
+
+**Qns 3**
+
+Write a program to find the greatest common divisor (GCD) or highest common factor (HCF) of two numbers.
+
+**Qns 4**
+
+Solve this [Goldman Sachs Coding Interview Question](https://youtu.be/kKWV8T6SAvU)
 
 ### Day 14 - Understanding use of break, continue and pass
 
