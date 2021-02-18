@@ -745,19 +745,65 @@ input_lst = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 output_lst = [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 ```
 
+[Solution](https://www.pylenin.com/blogs/python-zip-function/#solve-a-competitive-interview-question)
+
 **Qns 2**
 
 Write a Python program to solve the [Fizbuzz problem](https://youtu.be/t4I_WOfQn70)
 
+[Solution](https://youtu.be/1khdzmUHhC4)
+
 **Qns 3**
 
 Write a program to find the greatest common divisor (GCD) or highest common factor (HCF) of two numbers.
+
+[Solution](https://www.pylenin.com/python-examples/find-hcf-or-gcd/)
 
 **Qns 4**
 
 Solve this [Goldman Sachs Coding Interview Question](https://youtu.be/kKWV8T6SAvU)
 
 ### Day 14 - Understanding use of break, continue and pass
+
+1. [Use of break, continue and pass in for loops - Youtube video starts at 4:32](https://youtu.be/m-mdlS4ynis)
+2. [Use of break, continue and pass in for loops - Youtube video starts at 4:02](https://youtu.be/rWVtBYYIbz0)
+
+**Further Readings**
+
+1. [Use of break statement in Python](https://www.pylenin.com/blogs/break-continue-pass/#break-statement-in-python)
+2. [Use of continue statement in Python](https://www.pylenin.com/blogs/break-continue-pass/#continue-statement-in-python)
+3. [Use of pass statements in Python](https://www.pylenin.com/blogs/break-continue-pass/#pass-statement-in-python)
+
+**Daily Exercises**
+
+**Qns 1**
+
+Place a break statement in the for loop so that it prints from 0 to 7 only (including 7)
+
+```python3
+for i in range(100):
+    print(i)
+```
+
+**Qns 2**
+
+Write a Python program that prints all the numbers from 0 to 10 except multiples of 3 (use continue).
+
+**Qns 3**
+
+Write a Python program to construct the following pattern.
+
+```python3
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+```
 
 ## Iterators and Comprehensions
 
