@@ -521,8 +521,11 @@ my_dict = {"name" : "Pylenin",
             "verb" : "loves",
             "object": "Python"}
 
-my_tuple = tuple([tuple([k,v]) for k, v in my_dict.items()])
-print(my_tuple)
+my_tuple = []
+
+for key, value in my_dict.items():
+    my_tuple.append(tuple([key, value]))
+print(tuple(my_tuple))
 ```
 
 ### Day 10 - Python Sets
