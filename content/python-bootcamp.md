@@ -778,16 +778,36 @@ Solve this [Goldman Sachs Coding Interview Question](https://youtu.be/kKWV8T6SAv
 
 **Qns 1**
 
-Place a break statement in the for loop so that it prints from 0 to 7 only (including 7)
+Place a break statement in the for loop so that it prints from 
+0 to 7 only (including 7)
 
 ```python3
 for i in range(100):
     print(i)
 ```
 
+**Solution**
+
+```python3
+for i in range(100):
+    print(i)
+    if i == 7:
+        break
+```
+
 **Qns 2**
 
-Write a Python program that prints all the numbers from 0 to 10 except multiples of 3 (use continue).
+Write a Python program that prints all the numbers from 0 to 10 
+except multiples of 3 (use continue).
+
+**Solution**
+
+```python3
+for i in range(11):
+    if i%3==0:
+        continue
+    print(i)
+```
 
 **Qns 3**
 
@@ -805,9 +825,47 @@ Write a Python program to construct the following pattern.
 *
 ```
 
+[Solution](https://www.pylenin.com/python-examples/printing-pyramid-patterns/)
+
 ## Iterators and Comprehensions
 
 ### Day 15 - Understanding Manual Iteration - __iter__ and __next__
+
+1. [Sequence vs Iterable vs Iterator](https://www.pylenin.com/blogs/python-iterators/#difference-between-sequence-and-an-iterable)
+2. [next() in Python](https://www.pylenin.com/blogs/python-iterators/#next-in-python)
+3. [for loop - Behind the scenes](https://www.pylenin.com/blogs/python-iterators/#for-loop-behind-the-scenes)
+4. [A file object is an iterator](https://www.pylenin.com/blogs/python-iterators/#is-a-file-object-an-iterator)
+5. [Unpacking an iterable in Python](https://www.pylenin.com/blogs/unpacking-iterables-in-python/)
+
+**Daily Exercise**
+
+**Qns 1**
+
+Write a Python program to convert `range(7)` into an iterator 
+and use the `next()` method to print all its content.
+
+**Qns 2**
+
+What will the following code return?
+
+```python3
+my_info = ["Lenin", "Mishra", 28, "Amsterdam"]
+
+_, value = my_info
+
+print(value)
+```
+
+**Qns 3**
+
+What will the following code return?
+
+```python3
+numbers = [1, 2, 3, 4, 5]
+first, *middle, last = numbers
+
+print(middle)
+```un
 
 ### Day 16 - List Comprehensions
 

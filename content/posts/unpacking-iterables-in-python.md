@@ -160,7 +160,7 @@ Now to get the values for the respective dictionary keys, you have to call the d
 'Lenin'
 >>> my_info[y]
 28
-````
+```
 
 ##### Unpacking arbitrary length iterables
 
