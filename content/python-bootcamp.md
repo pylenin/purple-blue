@@ -847,6 +847,17 @@ Write a Python program to construct the following pattern.
 Write a Python program to convert `range(7)` into an iterator 
 and use the `next()` method to print all its content.
 
+**Solution**
+
+```python3
+n = 7
+my_iter = iter(range(n))
+i = 0
+while i < 7:
+    print(next(my_iter))
+    i+=1
+```
+
 **Qns 2**
 
 What will the following code return?
@@ -859,6 +870,19 @@ _, value = my_info
 print(value)
 ```
 
+**Solution**
+
+It will return an error. The correct way of unpacing would be to use `*value`.
+
+```python3
+my_info = ["Lenin", "Mishra", 28, "Amsterdam"]
+
+_, *value = my_info
+
+print(value)
+>>> ['Mishra', 28, 'Amsterdam']
+```
+
 **Qns 3**
 
 What will the following code return?
@@ -868,25 +892,62 @@ numbers = [1, 2, 3, 4, 5]
 first, *middle, last = numbers
 
 print(middle)
-```un
+```
 
-### Day 16 - List Comprehensions
+[Solution](https://www.pylenin.com/blogs/unpacking-iterables-in-python/#unpacking-arbitrary-length-iterables)
 
-### Day 17 - Map, Filter, Zip and Reduce
+### Day 16 - Python Functions
 
-## Functional Programming with Python
+1. [Youtube video on Python Functions](https://youtu.be/IjsjcJ_5R-g)
 
-### Day 18 - Python Functions
+**Further Readings**
 
-### Day 19 - Understanding Variable Scope and Namespace
+1. [Functions in Python](https://www.pylenin.com/blogs/python-functions/)
+2. [Understand the use of Parameters and Arguments](https://www.pylenin.com/blogs/python-functions/#parameters-in-functions)
+    1. [Positional vs Keyword Arguments](https://www.pylenin.com/blogs/python-functions/#positional-arguments-vs-keyword-arguments)
+    2. [Default Arguments](https://www.pylenin.com/blogs/python-functions/#default-arguments)
+    3. [Variable Length Arguments](https://www.pylenin.com/blogs/python-functions/#variable-length-argument)
+    
+3. [Advantages of Functions](https://www.pylenin.com/blogs/python-functions/#advantages-of-functions)
+    
+**Daily Exercises**
 
-### Day 20 - *args vs **kwargs in Python Functions
+**Qns 1**
 
-### Day 21 - Python Closures
+Write a function to convert minutes into seconds.
 
-### Day 22 - Recursive Functions
+**Qns 2**
 
-### Day 23 - Lambda Functions
+Write a Python function to return the remainder of 2 numbers passed as argument. **Note** - You should divide the bigger with smaller number.
+
+**Qns 3**
+
+Write a Python function that converts age to days.
+
+**Qns 4**
+
+Write a function such that it can accept a variable length of  argument and print all arguments value on different lines
+
+**Qns 5**
+
+Create a function in such a way that it should accept 
+an employee's name, and it’s salary and display both. 
+If the salary is missing in function call, it should show 
+it as 9000.
+
+### Day 17 - Understanding Variable Scope and Namespace
+
+### Day 18 - *args vs **kwargs in Python Functions
+
+### Day 19 - Python Closures
+
+### Day 20 - Recursive Functions
+
+### Day 21 - Lambda Functions
+
+### Day 22 - List Comprehensions
+
+### Day 23 - Map, Filter, Zip and Reduce
 
 ### Day 24 - Python Generators
 
