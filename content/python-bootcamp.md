@@ -916,26 +916,91 @@ print(middle)
 
 Write a function to convert minutes into seconds.
 
+**Solution**
+
+```python3
+def mins_to_secs(min):
+    return min*60
+```
+
 **Qns 2**
 
-Write a Python function to return the remainder of 2 numbers passed as argument. **Note** - You should divide the bigger with smaller number.
+Write a Python function to return the remainder of 2 numbers 
+passed as argument. **Note** - You should divide the bigger with smaller number.
+
+**Solution**
+
+```python3
+def remainder(x, y):
+    if x > y:
+        return x%y
+    return y%x
+```
 
 **Qns 3**
 
-Write a Python function that converts age to days.
+Write a function such that it can accept a variable length of 
+argument and print all arguments value on different lines
+
+[Solution](https://www.pylenin.com/blogs/python-functions/#variable-length-argument)
 
 **Qns 4**
-
-Write a function such that it can accept a variable length of  argument and print all arguments value on different lines
-
-**Qns 5**
 
 Create a function in such a way that it should accept 
 an employee's name, and it’s salary and display both. 
 If the salary is missing in function call, it should show 
 it as 9000.
 
+**Solution**
+
+```python3
+def employee_salary(employee, salary=9000):
+    print(employee, salary)
+
+employee_salary("Pylenin", 1800000)
+employee_salary("Lenin")
+```
+
 ### Day 17 - Understanding Variable Scope and Namespace
+
+1. [Youtube Video on Variable Scope and Namespace](https://www.pylenin.com/blogs/variable-scope-namespace-python/#youtube-video)
+
+**Further Reading**
+
+1. [What is Namespace?](https://www.pylenin.com/blogs/variable-scope-namespace-python/#python-namespace/)
+2. [Global vs Local vs Nonlocal](https://www.pylenin.com/blogs/variable-scope-namespace-python/#global-vs-local-vs-nonlocal-scope)
+3. [global keyword](https://www.pylenin.com/blogs/variable-scope-namespace-python/#global-statement)
+4. [nonlocal keyword](https://www.pylenin.com/blogs/variable-scope-namespace-python/#nonlocal-scope)
+5. [Use of globals() and locals() built-in function](https://www.pylenin.com/blogs/variable-scope-namespace-python/#built-in-functions---globals-and-locals)
+
+**Daily Exercise**
+
+**Qns 1**
+
+What is the output of the following code and why?
+
+```python3
+X = 'Spam'
+def func():
+    X = 'NI!'
+
+func()
+print(X)
+```
+
+**Qns 2**
+
+What is the output of the following code and why?
+
+```python3
+X = 'Spam'
+def func():
+    global X
+    X = 'NI!'
+
+func()
+print(X)
+```
 
 ### Day 18 - *args vs **kwargs in Python Functions
 

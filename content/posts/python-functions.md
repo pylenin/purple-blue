@@ -4,7 +4,7 @@ description: "Learn to define functions in Python and their use with examples."
 date: 2021-02-20T11:56:11+05:30
 draft: false
 image: /img/pylenin_logo.png
-categories: ['iterators and comprehensions']
+categories: ['Python functions']
 categories_weight: 1
 ---
 <div class="sharethis-inline-follow-buttons"></div>
