@@ -988,6 +988,13 @@ func()
 print(X)
 ```
 
+**Solution**
+
+```bash
+Spam
+```
+Python will refer to `X` in the global namespace.
+
 **Qns 2**
 
 What is the output of the following code and why?
@@ -1002,7 +1009,47 @@ func()
 print(X)
 ```
 
+**Solution**
+
+```bash
+NI!
+```
+By using the `global` keyword, 
+Python now uses the `X` in the global namespace.
+
 ### Day 18 - *args vs **kwargs in Python Functions
+
+1. [Youtube video on *args vs **kwargs](https://www.pylenin.com/blogs/args-vs-kwargs-python/#youtube-video)
+
+**Further Readings**
+
+1. [*args vs **kwargs](https://www.pylenin.com/blogs/args-vs-kwargs-python/)
+
+**Daily Exercise**
+
+**Qns 1**
+
+What is the output of the below code?
+
+```python3
+def pretty_printing(x, *args, **kwargs):
+        print(x)
+        print(args)
+        print(kwargs)
+
+    pretty_printing("Lenin", "Mishra", "Pylenin", "Python", country="India")
+```
+
+**Qns 2**
+
+Print all the keys and values passed to the below function
+
+```python3
+def random_person(**kwargs):
+    <write your code here>
+
+random_person(name="Lenin", age=28, sex="Male")
+```
 
 ### Day 19 - Python Closures
 
