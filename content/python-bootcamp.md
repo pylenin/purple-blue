@@ -1053,6 +1053,32 @@ random_person(name="Lenin", age=28, sex="Male")
 
 ### Day 19 - Python Closures
 
+1. [Youtube video on Python CLosures](https://www.pylenin.com/blogs/python-closures/#youtube-video)
+
+**Further Reading**
+
+1. [Python Closures - Explanation](https://www.pylenin.com/blogs/python-closures/)
+
+**Daily Exercises**
+
+**Qns 1**
+
+What is the output of the below code?
+
+```python3
+def outerFunction(msg):  
+    text = msg  
+  
+    def innerFunction():  
+        print(text)  
+
+    return innerFunction   
+  
+if __name__ == '__main__':  
+    myFunction = outerFunction('Pylenin')  
+    myFunction() 
+```
+
 ### Day 20 - Recursive Functions
 
 ### Day 21 - Lambda Functions

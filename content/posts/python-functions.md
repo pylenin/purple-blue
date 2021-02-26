@@ -11,6 +11,12 @@ categories_weight: 1
 
 *By [Lenin Mishra](https://www.pylenin.com/authors/#lenin-mishra)*
 
+## Youtube Video
+
+<br>
+{{< youtube id="IjsjcJ_5R-g" >}}
+<br>
+
 ## What are Python functions?
 
 Functions in Python are a group of statements that are meant 
