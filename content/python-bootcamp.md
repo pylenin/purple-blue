@@ -1079,7 +1079,38 @@ if __name__ == '__main__':
     myFunction() 
 ```
 
+**Solution**
+
+```bash
+Pylenin
+```
+
 ### Day 20 - Recursive Functions
+
+1. [Youtube video on Recursion](https://www.pylenin.com/blogs/recursive-function-python/#youtube-video)
+
+**Further Reading**
+
+1. [What is Recursion?](https://www.pylenin.com/blogs/recursive-function-python/#what-is-recursion)
+2. [Advantages and Disadvantages of Recursion](https://www.pylenin.com/blogs/recursive-function-python/#advantages-of-recursion)
+
+**Daily Exercises**
+
+**Qns 1**
+
+Find the sum of the below list using Recursion.
+
+```python3
+x = [1, 2, 3, 4, 5, 6]
+```
+
+**Qns 2**
+
+Find the sum of the below arbitrarily structured list.
+
+```python3
+x = [[1, 2], [[3], 4, [5, 6], 7, [8,9]]]
+```
 
 ### Day 21 - Lambda Functions
 
