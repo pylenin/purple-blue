@@ -1104,6 +1104,18 @@ Find the sum of the below list using Recursion.
 x = [1, 2, 3, 4, 5, 6]
 ```
 
+**Solution**
+
+```bash
+def addition(lst):
+    if len(lst) > 1:
+        return lst[0] + addition(lst[1:])
+    else:
+        return lst[0]
+
+print(addition([1, 2, 3, 4, 5]))
+```
+
 **Qns 2**
 
 Find the sum of the below arbitrarily structured list.
@@ -1112,7 +1124,40 @@ Find the sum of the below arbitrarily structured list.
 x = [[1, 2], [[3], 4, [5, 6], 7, [8,9]]]
 ```
 
+**Solution**
+
+```python3
+def addition(lst):
+    total = 0
+    for num in lst:
+        if type(num) != list:
+            total += num
+        else:
+            total += addition(num)
+
+    return total
+
+print(addition([[1, 2], [[3], 4, [5, 6], 7, [8,9]]]))
+```
+
 ### Day 21 - Lambda Functions
+
+1. [Youtube video on Lambda Functions](https://www.pylenin.com/blogs/lambda-function-python/#youtube-video)
+
+**Further Readings**
+
+1. [Syntax of Lambda Function](https://www.pylenin.com/blogs/lambda-function-python/#syntax-of-lambda-functions)
+2. [Multiple arguments with lambda function](https://www.pylenin.com/blogs/lambda-function-python/#multiple-arguments-with-lambda-function)
+
+**Daily Exercises**
+
+1. Write a lambda function that adds 15 to a given number passed in as an argument.
+2. Write a lambda function that takes one argument multiplied with an unknown given number.
+3. Sort the below list of tuples using lambda.
+    
+    ```python3
+    subject_marks = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+    ```
 
 ### Day 22 - List Comprehensions
 
