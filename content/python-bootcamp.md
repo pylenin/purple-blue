@@ -1152,14 +1152,60 @@ print(addition([[1, 2], [[3], 4, [5, 6], 7, [8,9]]]))
 **Daily Exercises**
 
 1. Write a lambda function that adds 15 to a given number passed in as an argument.
+   
+    **Solution**
+    ```python3
+    my_func = lambda x: x+15
+    print(my_func(15))
+    ```
+
 2. Write a lambda function that takes one argument multiplied with an unknown given number.
+   
+    **Solution**
+    ```python3
+    def my_func(n):
+        return lambda x: x*n
+
+    print(my_func(5)(8))
+    ```   
+
+
 3. Sort the below list of tuples using lambda.
     
     ```python3
     subject_marks = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
     ```
+   
+    **Solution**
+    ```python3
+    subject_marks = [('English', 88),
+                 ('Science', 90),
+                 ('Maths', 97),
+                 ('Social sciences', 82)]
+
+    subject_marks.sort(key=lambda x:x[1]) # Sort based on 2nd element
+    print(subject_marks)
+    ```
 
 ### Day 22 - List Comprehensions
+
+1. [Youtube Video on List Comprehensions](https://www.pylenin.com/blogs/python-list-comprehension/#youtube-video)
+
+**Further Reading**
+
+1. [Using List Comprehensions in Python](https://www.pylenin.com/blogs/python-list-comprehension/)
+2. [Using conditions in List comprehension](https://www.pylenin.com/blogs/python-list-comprehension/#using-conditions-in-list-comprehensions)
+3. [Nested if condition in List Comprehensions](https://www.pylenin.com/blogs/python-list-comprehension/#example-5---nested-if-with-list-comprehension)
+
+**Daily Exercises**
+
+1. Using list comprehensions, create a list containing tuples of every 
+   word and its length from this given sentence - `Pylenin writes blogs on Python`
+2. Using list comprehensions, create a new list `newlist` from the given list `numbers`, which contains only the positive numbers.
+    ```python3
+    numbers = [-9, 10.2, 11, 14, -5, -0.00001]
+    ```
+
 
 ### Day 23 - Map, Filter, Zip and Reduce
 
