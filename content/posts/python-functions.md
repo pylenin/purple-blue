@@ -45,17 +45,7 @@ def function_name(params):
 6. One or more valid python statements that make up the function body. Indented by 4 spaces.
 7. A return statement to return a value from the function. **It is optional.**
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Example of a function
 
@@ -73,17 +63,7 @@ In this example, the function is taking in 2 parameters - `x` and `y`.
 It is storing the sum of `x` and `y` in a variable called `total`. 
 It is then returning the `total` variable.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Calling a function
 
@@ -108,17 +88,7 @@ print(result)
 15
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Parameters in Functions
 
@@ -146,17 +116,7 @@ TypeError: addition() missing
 2 required positional arguments: 'x' and 'y'
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Positional arguments vs Keyword arguments
 
@@ -210,17 +170,7 @@ Here, you are **explicitly telling Python** that argument
 `10` refers to parameter `x` and argument `5` refers to 
 parameter `y`. This is an example of **Keyword argument**.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 Let's now switch the position of the parameters
 
@@ -259,17 +209,7 @@ However, with keyword arguments, since we are explicitly mentioning the paramete
 
 In a way, this shows why using **keyword arguments** have an advantage over positional arguments.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Default arguments
 
@@ -315,17 +255,7 @@ print(greet)
 Namaste Pylenin
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 **Also remember,** default arguments have to be the last thing in the list of parameters in the function.
 They should follow **non-default** arguments. Otherwise, they will throw an error.
@@ -346,17 +276,7 @@ print(greet)
 SyntaxError: non-default argument follows default argument
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Variable Length Argument
 
@@ -405,17 +325,7 @@ print(result)
 15
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 In case you are using both a non-default argument and a variable length argument in your function definition, 
 make sure to pass in the non-default argument as a keyword argument. Else you will get unexpected results.
@@ -438,17 +348,7 @@ print(greet)
 Hello Pylenin,Ashish,Shishir,
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Advantages of functions
 
@@ -471,15 +371,5 @@ Hello Pylenin,Ashish,Shishir,
 
     Functions allow users to split their codes into various pieces that have well defined roles. This enhances clarity of the program.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
     

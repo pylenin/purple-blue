@@ -35,17 +35,7 @@ list comprehensions are one of the most useful contexts in which the iteration p
 With the help of list comprehensions, you can write code that is shorter 
 and more efficient.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 1
 
@@ -77,17 +67,7 @@ single expression that produces the desired result list.
 **Note:-** List comprehensions aren't exactly same as 
 the for loop statement version because it makes a new list object.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 2
 
@@ -113,17 +93,7 @@ print(new_squares_list)
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## Understanding list comprehensions syntax
 
@@ -157,17 +127,7 @@ a backwards for loop**.
 Similar to using `if-elif-else` conditions in for loops, 
 list comprehensions can also use conditionals.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 3
 
@@ -195,17 +155,7 @@ print(my_list)
 [0, 2, 4, 6, 8]
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 4 - if else in a list comprehension
 
@@ -242,17 +192,7 @@ print(new_list)
 
 Notice how `if x < 10 else x+1` comes before `for x in my_list`.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 5 - Nested if with List comprehension
 
@@ -290,14 +230,3 @@ If `i` is divisible by both, it is appended to the `my_list` variable.
 
 Build your foundation in Python with our [self-paced Python Bootcamp for Beginners](https://www.pylenin.com/python-bootcamp/).
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>

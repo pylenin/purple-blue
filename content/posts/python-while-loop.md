@@ -27,17 +27,7 @@ else: # Optional else
     <code block> # Run if didn't exit loop with break
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 1 - Printing a statement forever
 
@@ -71,17 +61,7 @@ KeyboardInterrupt
 The above code will run forever as long as it is not interrupted. From the article on [booleans](https://www.pylenin.com/blogs/booleans-in-python/), you should know that `True` is the boolean representation of integer 1. 
 Similarly, `False` is the boolean representation of 0.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 You can also use integer representations of booleans in `while` loops.
 
@@ -111,17 +91,7 @@ Traceback (most recent call last):
 KeyboardInterrupt
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 2 - Remove elements from a list until empty
 
@@ -161,17 +131,7 @@ As long as `len(x)` is greater than 0, the while block is executed. Once all the
 **Note:-** The empty `print()` statement within the `while` loop is used to create an empty line for better readability of results. 
 To learn more about different variations of print statements, [check out this article](https://www.pylenin.com/blogs/python-print/).
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 3 - Taking user inputs
 
@@ -181,17 +141,7 @@ with `while` loops to execute a certain task.
 For e.g., the current example demonstrates, asking user to enter the names of their friends and terminate when the user presses `q`. 
 Ultimately, show the list of friends entered by the user.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 **Code**
 
@@ -230,14 +180,3 @@ Check out the linked article to learn what it does.
 
 Build your foundation in Python with our [self-paced Python Bootcamp for Beginners](https://www.pylenin.com/python-bootcamp/).
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>

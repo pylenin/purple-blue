@@ -30,17 +30,7 @@ Keywords like `break`, `continue` and `pass` prove useful in such situations.
 
 **pass** - Empty placeholder. Does nothing at all.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## break statement in Python
 
@@ -107,17 +97,7 @@ use of `break`. In programming, you will be faced with other
 complicated situations where `break` will provide you with a 
 cleaner and more efficient code.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 2
 
@@ -125,17 +105,7 @@ Let's try to redo the example from the article on [while loops](https://www.pyle
 In that example, a temporary variable `user_will_input` is used to check if the user wants to enter a friend's name. If the user enters `q`, the variable is set to `False` and the loop is terminated. 
 This time, let's make use of the `break` statement when the same condition is met **but without using a temporary variable**.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 **Code**
 
@@ -201,17 +171,7 @@ Enter your friend's name ==> q
 As you can see, the code within the `else` block isn't executed 
 as your `while` loop has a break statement in it.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 3 - Using break in for loops
 
@@ -239,34 +199,14 @@ I found Nemo!
 
 Without the use of `break` statement, you would unnecessarily iterate over every fish in the list. This is very inefficient. By using the `break` statement, you **terminate the iteration, once Nemo is found!**.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## continue statement in Python
 
 The `continue` causes an immediate jump to the next iteration in the loop. 
 You can use it to skip code executions for certain conditions.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 1
 
@@ -298,17 +238,7 @@ you don't need to nest the `print` statement within an `else` block.
 The `print` statement is only reached, if `continue` statement 
 isn't executed. 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 2 - Using continue with for loops
 
@@ -358,17 +288,7 @@ for elem in my_list:
 Fish no. 2 is Nemo
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ## pass statement in Python
 
@@ -384,17 +304,7 @@ you can use `pass` statements to ignore exceptions
 caught during [exception handling](https://www.pylenin.com/blogs/python-try-except-else-finally/) 
 and to define empty class objects and functions.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 1 - Infinite while loop 
 
@@ -407,17 +317,7 @@ while True:
 
 The above code does nothing other than **warming up your computer.**
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Example 2 - Empty functions and classes
 
@@ -444,14 +344,4 @@ later.
 
 Build your foundation in Python with our [self-paced Python Bootcamp for Beginners](https://www.pylenin.com/python-bootcamp/).
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+

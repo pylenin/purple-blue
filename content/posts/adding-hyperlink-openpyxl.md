@@ -46,17 +46,7 @@ wb.save("hyperlink_example.xlsx")
 
 ![Add Hyperlink with Openpyxl](/img/excel-with-python/hyperlink1.png)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Method 2 - Using `hyperlink` attribute
 
@@ -84,17 +74,7 @@ wb.save("hyperlink_example.xlsx")
 
 You can see the difference between the 1st and 2nd Method. Setting the `style` attribute to `Hyperlink` has styled the cell in a way that **it appears like a link**.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Method 3 - Hyperlinking to a different Excel sheet in same Workbook
 
@@ -127,17 +107,7 @@ wb.save(file_name)
 
 ![Add Hyperlink to another sheet with Openpyxl](/img/excel-with-python/hyperlink3.png)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Related Reading
 

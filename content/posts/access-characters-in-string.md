@@ -132,7 +132,6 @@ print('str[2:] =', str[2:])
 str[2:] = LENIN
 ```
 
-You can also use negative index for slicing. Just use the negative index counterpart of your positive index.
 
 ```python3
 str = 'PYLENIN'

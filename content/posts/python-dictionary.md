@@ -23,17 +23,7 @@ Simillarly, a dictionary is a collection of `key: value` pairs.
 2. Items are separated from each other by a **comma (,)**. 
 3. Different items are enclosed within a curly brace **({})** and all this forms a dictionary. 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 Syntax of a Python dictionary:
 ```python3

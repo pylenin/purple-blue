@@ -24,17 +24,7 @@ Consider the data shown in the below image.
 For plotting a Bar Chart on an Excel sheet, 
 you have to use `BarChart` class from `openpyxl.chart` submodule.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Example 1 - Vertical Bar Charts
 
@@ -128,17 +118,7 @@ sheet.add_chart(chart,"F2")
 wb.save("wb1.xlsx")
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ![Bar Chat with Openpyxl](/img/excel-with-python/bar-chart-2.png)
 
@@ -194,17 +174,7 @@ wb.save("wb1.xlsx")
 
 ![Horizontal Bar Chat with Openpyxl](/img/excel-with-python/bar-chart-3.png)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Example 3 - Stacked Bar Chart
 
@@ -262,17 +232,7 @@ wb.save("wb1.xlsx")
 
 ![Stacked Bar Chat with Openpyxl](/img/excel-with-python/bar-chart-5.png)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Example 4 - Percent Stacked Bar Chart
 
@@ -326,17 +286,7 @@ wb.save("wb1.xlsx")
 
 ![Percentage Stacked Bar Chat with Openpyxl](/img/excel-with-python/bar-chart-6.png)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Example 5 - 3D Bar Charts
 

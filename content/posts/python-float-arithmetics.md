@@ -41,17 +41,7 @@ For example, **prime factors of 10 are 2 and 5.**
 
 So fractions like `1/2`, `1/4`, `1/5`, `1/8` and `1/10` can all be expressed with finite digits as the denominator uses the prime factor of 10.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 **But what about `1/3` or `1/6` or `1/7`?** 
 Each of them have repeating decimals as the prime factor of denominator is 3 or 7.
@@ -77,17 +67,7 @@ and it continues!
 
 Therefore, **1/3 cannot be measured in Base 10.**
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### How do computers deal with floats?
 
@@ -109,17 +89,7 @@ Binary value of `0.2 ==> (1/5)` is `0.001100110011001100110011001100110011001100
 
 Let's prove the above by learning how to convert floats to binary.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 #### Convert floating point numbers to binary numbers
 
@@ -127,17 +97,7 @@ In a floating point number, there is an **integral part** and **fractional part*
 
 To convert the integral part to binary, follow the instructions provided in [Bitwise operation](https://www.pylenin.com/blogs/python-assignment-operators/#what-are-bitwise-operators). **The binary representation of 0 is `0`.**
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 **Let's learn to convert the fractional part to binary.**
 
@@ -165,17 +125,7 @@ The binary value is 001
 
 So the combined binary value of integral and fractional part of 0.125 is **0.001**
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 **Example 2 - Convert 0.1 to binary**
 
@@ -206,17 +156,7 @@ Now, when you add `0.1 + 0.2` in Python(or in some other programming language), 
 
 Then it performs the addition. **The result will never be equal to 0.3 exact.** It will always tend to 0.3.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Horizontal display ad Pylenin -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6088392832221933"
-     data-ad-slot="8875064651"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 ### Is this a problem?
 
