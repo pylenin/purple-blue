@@ -1202,12 +1202,12 @@ print(addition([[1, 2], [[3], 4, [5, 6], 7, [8,9]]]))
 1. Using list comprehensions, create a list containing tuples of every 
    word and its length from this given sentence - `Pylenin writes blogs on Python`
 
-   **Solution**
+    **Solution**
    
-   There are 2 steps in the solution.
+    There are 2 steps in the solution.
    
-   1. [Separate the sentence into words and strip the white space](https://www.pylenin.com/blogs/python-string-split/)
-   2. [Use `len()` function to find the length of each word](https://www.pylenin.com/python-examples/python-string-length/#method-2-using-len-built-in-function)
+    1. [Separate the sentence into words and strip the white space](https://www.pylenin.com/blogs/python-string-split/)
+    2. [Use `len()` function to find the length of each word](https://www.pylenin.com/python-examples/python-string-length/#method-2-using-len-built-in-function)
 
     ```python3
     some_str = "Pylenin writes blogs on Python"
@@ -1220,7 +1220,7 @@ print(addition([[1, 2], [[3], 4, [5, 6], 7, [8,9]]]))
     numbers = [-9, 10.2, 11, 14, -5, -0.00001]
     ```
    
-   **Solution**
+    **Solution**
 
     ```python3
     numbers = [-9, 10.2, 11, 14, -5, -0.00001]
