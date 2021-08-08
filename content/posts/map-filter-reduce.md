@@ -25,10 +25,10 @@ categories_weight: 8
 ## Introduction
 
 Map, filter and reduce functions are the pillars of 
-**functional programming**. While Python isn’t a purely 
+**functional programming**. While Python isn't a purely 
 functional programming language, it boasts many features that 
 allow it to be used as such. This article covers the usage of 
-Python’s map, filter and reduce functions and how they conform to 
+Python's map, filter and reduce functions and how they conform to 
 the ideas of functional programming.
 
 ## map()
