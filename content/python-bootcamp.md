@@ -1201,13 +1201,54 @@ print(addition([[1, 2], [[3], 4, [5, 6], 7, [8,9]]]))
 
 1. Using list comprehensions, create a list containing tuples of every 
    word and its length from this given sentence - `Pylenin writes blogs on Python`
+
+   **Solution**
+   
+   There are 2 steps in the solution.
+   
+   1. [Separate the sentence into words and strip the white space](https://www.pylenin.com/blogs/python-string-split/)
+   2. [Use `len()` function to find the length of each word](https://www.pylenin.com/python-examples/python-string-length/#method-2-using-len-built-in-function)
+
+    ```python3
+    some_str = "Pylenin writes blogs on Python"
+    words = some_str.split(" ")
+    result = [(word.strip(), len(word.strip())) for word in words]
+    ```
+
 2. Using list comprehensions, create a new list `newlist` from the given list `numbers`, which contains only the positive numbers.
     ```python3
     numbers = [-9, 10.2, 11, 14, -5, -0.00001]
     ```
+   
+   **Solution**
 
+    ```python3
+    numbers = [-9, 10.2, 11, 14, -5, -0.00001]
+    newlist = [number for number in numbers if number > 0]
+    ```
 
 ### Day 23 - Map, Filter, Zip and Reduce
+
+1. [Youtube video on Map, Filter and Reduce](https://www.pylenin.com/blogs/map-filter-reduce/#youtube-video)
+
+**Further Reading**
+
+2. [How to use map() in Python](https://www.pylenin.com/blogs/map-filter-reduce/#map)
+3. [Using Lambda functions instead of regular functions in map()](https://www.pylenin.com/blogs/map-filter-reduce/#example-2-using-lambda-function)
+4. [Using filter() function](https://www.pylenin.com/blogs/map-filter-reduce/#filter)
+5. [Using reduce() function](https://www.pylenin.com/blogs/map-filter-reduce/#reduce)
+
+**Daily Exercises**
+
+1. What does the following code print?
+
+    ```python3
+    multiply_by_two = lambda x: x * 2
+    numbers = [1, 2, 3, 4]
+    doubled = map(multiply_by_two, numbers)
+    doubled_list = list(doubled)
+    print(doubled_list)
+    ```
 
 ### Day 24 - Python Generators
 
