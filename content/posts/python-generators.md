@@ -15,6 +15,12 @@ categories: []
 1. [Python Iterators - iter() and next()](https://www.pylenin.com/blogs/python-iterators/)
 2. [Build a simple iterator class in Python](https://www.pylenin.com/python-examples/build-iterator-class/)
 
+## Youtube video
+
+<br>
+{{< youtube id="nvaIaz3F3K8" >}}
+<br>
+
 ## Generators in Python
 
 Generators are simple ways of creating **iterators**. It is a function 
