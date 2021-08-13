@@ -1249,8 +1249,45 @@ print(addition([[1, 2], [[3], 4, [5, 6], 7, [8,9]]]))
     doubled_list = list(doubled)
     print(doubled_list)
     ```
+   
+    **Solution**
+
+    [2, 4, 6, 8]
 
 ### Day 24 - Python Generators
+
+1. [Youtube video on Python Generators](https://www.pylenin.com/blogs/python-generators/#youtube-video)
+
+**Further Reading**
+
+2. [Why use a generator?](https://www.pylenin.com/blogs/python-generators/#why-use-a-generator)
+3. [How to create a generator?](https://www.pylenin.com/blogs/python-generators/#how-to-create-a-generator-in-python)
+4. [Using loops with Python Generators](https://www.pylenin.com/blogs/python-generators/#using-loops-with-python-generators)
+5. [Python Generator Expressions](https://www.pylenin.com/blogs/python-generators/#python-generator-expression)
+6. [Advantages of Python Generators](https://www.pylenin.com/blogs/python-generators/#advantages-of-python-generators)
+
+**Questions**
+
+1. What is the answer?
+
+    **Code**
+    
+    ```python3
+    def simpleGenerator():
+       yield "a"
+       yield "b"
+       yield "c"
+       yield "d"
+       
+    object = simpleGenerator()
+   
+    print(object)
+   
+    for value in simpleGenerator():
+        print(value)
+    ```
+   
+2. Write a Python generator that returns all the vowels.
 
 ### Day 25 - Python Decorators
 
